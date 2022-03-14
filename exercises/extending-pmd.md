@@ -23,3 +23,72 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Voici la règle :
+
+```
+<?xml version="1.0"?>
+
+<ruleset name="my rule"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        The rules prevent complex code in Java programs
+    </description>
+
+	<rule name="nestedIf"
+          language="java"
+          since="1.4"
+          deprecated="true"
+          message="three or more nested if statements is deprecated"
+	  class="net.sourceforge.pmd.lang.rule.XPathRule">
+		<description>
+			The rule should detect the use of three or more nested if statements in Java programs
+        	</description>
+		<priority>1</priority>
+        <properties>
+            <property name="version" value="2.0"/>
+            <property name="xpath">
+	    <value>
+//IfStatement/Statement
+ /Block[count(BlockStatement)=1]/BlockStatement
+  /Statement/IfStatement/Statement
+ /Block[count(BlockStatement)=1]/BlockStatement
+  /Statement/IfStatement
+
+	    </value>
+            </property>
+        </properties>
+        <example>
+<![CDATA[
+if (cond1) {
+    ...
+    if (cond2) {
+        ...
+        if (cond3) {
+            ....
+        }
+    }
+
+}
+
+//can be 
+
+if (cond1 && cond2 && cond3) {
+    ...
+}
+]]>
+        </example>
+    </rule>
+</ruleset>
+```
+
+En lançant pmd sur le projet common-lang on obtient :
+
+commons-lang\src\main\java\org\apache\commons\lang3\CharRange.java:290:   nestedIf:       three or more nested if statements is deprecated
+commons-lang\src\main\java\org\apache\commons\lang3\time\DateUtils.java:993:      nestedIf:       three or more nested if statements is deprecated
+
+Alors qu'avec le projet common-math il y a de nombreux cas d'imbriquation de if, par exemple :
+
+commons-math\commons-math-core\src\main\java\org\apache\commons\math4\core\jdkmath\AccurateMath.java:1721:        nestedIf:       three or more nested if statements is deprecated
