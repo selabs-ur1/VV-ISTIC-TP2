@@ -23,3 +23,51 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```
+<ruleset name="my rule"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+	<rule name="if"
+          language="java"
+          since="1.4"
+          deprecated="true"
+          message="3 imbriquations de if n'est pas recommandé"
+	  class="net.sourceforge.pmd.lang.rule.XPathRule">
+		<priority>3</priority>
+        <properties>
+            <property name="version" value="2.0"/>
+            <property name="xpath">
+	    <value>
+//IfStatement[@Else= false()]/Statement
+ /IfStatement[@Else= false()]/Statement
+ /IfStatement
+ |
+//IfStatement[@Else= false()]/Statement
+ /Block[count(BlockStatement)=1]/BlockStatement
+  /Statement/IfStatement[@Else= false()]/Statement
+ /Block[count(BlockStatement)=1]/BlockStatement
+  /Statement/IfStatement[@Else= false()]
+
+	    </value>
+            </property>
+        </properties>
+    </rule>
+</ruleset>
+```
+
+Aucun projet n’a 3 if imbriqué avec la forme 
+
+```
+if (...) {
+    ...
+    if (...) {
+        ...
+        if (...) {
+            ....
+        }
+    }
+
+}
+```

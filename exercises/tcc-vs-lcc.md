@@ -4,3 +4,29 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+TCC et LCC seront toujours égal dans une classe bean :
+```
+Class Test{
+	private int a ;
+	private int b ;
+
+	public int getA(){
+		return a ;
+	}
+
+	public void setA(int a){
+		this.a = a ;
+	}
+
+	public int getB(){
+		return b ;
+	}
+
+	public void setB(int b){
+		this.b = b ;
+	}
+}
+```
+Ici on a TCC = LCC avec 2/6.
+
+Il est impossible d’avoir LCC < TCC car les relations directs sont présentes dans les 2 formules
