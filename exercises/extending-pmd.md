@@ -23,3 +23,28 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+````xml
+<?xml version="1.0"?>
+<ruleset name="nestedIf"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    <description>
+        Detect three nested if
+    </description>
+    <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+        <properties>
+            <property name="problemDepth" value="3" />
+        </properties>
+    </rule>
+</ruleset>
+````
+
+````
+>>pmd.bat -d commons-math-master -R ruleIf.xml
+
+commons-math-master\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\jdkmath\AccurateMathStrictComparisonTest.java:118:     AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+commons-math-master\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:130:        AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+commons-math-master\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:136:        AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+commons-math-master\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:142:        AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+commons-math-master\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:148:        AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+commons-math-master\commons-math-legacy\src\test\maxima\special\RealFunctionValidation\RealFunctionValidation.java:110:     AvoidDeeplyNestedIfStmts:  Deeply nested if..then statements are hard to read
+````
