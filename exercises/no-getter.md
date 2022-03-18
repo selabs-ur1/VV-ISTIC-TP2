@@ -27,3 +27,7 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+# Answer
+
+Vous pouvez retrouver le code de cette question à [ce lien](../code/Exercise4/), et la commande pour lancer le code ``java -jar <path-to-javaparser.jar> fr.istic.vv.Main <path-to-directory-where-is-code-to-analyze>``.
