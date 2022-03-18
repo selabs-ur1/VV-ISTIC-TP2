@@ -22,4 +22,5 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
-
+(Designer would not open the window to export the rule, so I added screenshots and the code)  
+![screenshot designer](../code/Exercise3/pmd-designer.png)
