@@ -8,7 +8,9 @@ import com.github.javaparser.ast.visitor.VoidVisitor;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -22,17 +24,28 @@ public class Main {
         }
 
         File file = new File(args[0]);
+       
         if(!file.exists() || !file.isDirectory() || !file.canRead()) {
             System.err.println("Provide a path to an existing readable directory");
             System.exit(2);
         }
+        BufferedWriter writer;
+        try {
+        writer = new BufferedWriter(new FileWriter("result.html"));
+        writer.append("<table><tr><th>Package</th><th>Class Name</th><th>Field Name</th></tr>");
+
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        NoGetterVariablePrinter printer = new NoGetterVariablePrinter(writer);
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        writer.append("</table>");
+    } catch (IOException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+    }
     }
 
 

@@ -23,3 +23,49 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+The rule we add is : 
+```
+<rule name="CustomRule3If"
+      language="java"
+      message="Ifs go three deep"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
+To the ruleset : 
+```
+<?xml version="1.0"?>
+
+<ruleset name="Custom Rules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        My custom rules
+    </description>
+	<rule ref="~/VV/rule.xml/CustomRule3If" />
+</ruleset>
+```
+
+and with :
+```
+$PMDBIN/run.sh pmd -d . -f summaryhtml -R ~/VV/customruleset.xml > report.html
+```
+in the commons/collections project, we have 82 violations of the rule.
+
+
+
