@@ -22,4 +22,58 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
+Nous pouvons introduire la règle suivante pour détecter les if imbriqués :
+````xml
+<rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+    <properties>
+        <property name="problemDepth" value="3" />
+    </properties>
+</rule>
+````
+```
+pmd.bat -d C:\Users\ethomas\IdeaProjects\commons-math -R C:\Users\ethomas\IdeaProjects\VV-ISTIC-TP2\code\Exercise3\custom-rule.xml -f text
+```
+Pmd a détecté 5 cas de if imbriqués dans le module common-math :
+```C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy-core\src\test\java\org\apache\commons\math4\legacy\core\jdkmath\AccurateMathStrictComparisonTest.java:118:    AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:130:       AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:136:       AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:142:       AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\optim\BaseMultivariateOptimizer.java:148:       AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+C:\Users\ethomas\IdeaProjects\commons-math\commons-math-legacy\src\test\maxima\special\RealFunctionValidation\RealFunctionValidation.java:110:       AvoidDeeplyNestedIfStmts:       Deeply nested if..then statements are hard to read
+```
+Dont voici un exemple :
+````java
+/**
+     * Check parameters consistency.
+     */
+    private void checkParameters() {
+        if (start != null) {
+            final int dim = start.length;
+            if (lowerBound != null) {
+                if (lowerBound.length != dim) {
+                    throw new DimensionMismatchException(lowerBound.length, dim);
+                }
+                for (int i = 0; i < dim; i++) {
+                    final double v = start[i];
+                    final double lo = lowerBound[i];
+                    if (v < lo) {
+                        throw new NumberIsTooSmallException(v, lo, true);
+                    }
+                }
+            }
+            if (upperBound != null) {
+                if (upperBound.length != dim) {
+                    throw new DimensionMismatchException(upperBound.length, dim);
+                }
+                for (int i = 0; i < dim; i++) {
+                    final double v = start[i];
+                    final double hi = upperBound[i];
+                    if (v > hi) {
+                        throw new NumberIsTooLargeException(v, hi, true);
+                    }
+                }
+            }
+        }
+    }
 
+````
