@@ -23,3 +23,61 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+#### Définition XML de la règle
+```xml
+<rule name="au_moins_trois_if_imbriques"
+      language="java"
+      message="contenir au moins trois ifs imbriqués"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+    <description>
+
+    </description>
+    <priority>3</priority>
+    <properties>
+        <property name="version" value="2.0"/>
+        <property name="xpath">
+            <value>
+                <![CDATA[//IfStatement//IfStatement//IfStatement]]>
+            </value>
+        </property>
+    </properties>
+</rule>
+```
+#### Exemple d'application 
+```Java
+class Foo {
+  void baseCyclo() {                
+    highCyclo();
+  }
+
+  void highCyclo() {              
+    int x = 0, y = 2;
+    boolean a = false, b = true;
+
+    if (a && (y == 1 ? b : true)) { 
+      if (y == x) {               
+        while (true) {             
+          if (x++ < 20) {           
+            break;                  
+          }
+        }
+      } else if (y == t && !d) {    
+        x = a ? y : x;              
+      } else {
+        x = 2;
+      }
+    }
+  }
+}
+````
+L'expression XPATH (``//IfStatement//IfStatement//IfStatement``) retourne ici 2 noeuds :
+
+``if (x++ < 20) {           
+...              
+}
+``
+
+``if (y == t && !d) {    
+...        
+}
+``
