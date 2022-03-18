@@ -1,5 +1,3 @@
-# Code of your exercise
-```java
 public class QuestionUn{
 
     private String x = "truc";
@@ -25,4 +23,3 @@ public class QuestionUn{
 
     // Evidement on a une loop infinit
 }
-```

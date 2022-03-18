@@ -1,10 +1,12 @@
-# Code of your exercise
-```java
-public class QuestionUn{
+public class Question4Test{
 
     private String x = "truc";
     private String y = "Machin";
     private String z = "chose";
+
+    public String getX() {
+        return x;
+    }
 
     public void methodeX(){
         syteme.out.println(this.x);
@@ -25,4 +27,3 @@ public class QuestionUn{
 
     // Evidement on a une loop infinit
 }
-```
