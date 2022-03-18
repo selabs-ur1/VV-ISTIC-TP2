@@ -1,0 +1,21 @@
+<ruleset>
+	<rule name="TripleNestedIf"
+		  language="java"
+		  message="Triple nested if is deprecated, try call an external method"
+		  class="net.sourceforge.pmd.lang.rule.XPathRule">
+	   <description>
+
+	   </description>
+	   <priority>3</priority>
+	   <properties>
+		  <property name="version" value="2.0"/>
+		  <property name="xpath">
+			 <value>
+	<![CDATA[
+	//IfStatement//IfStatement//IfStatement
+	]]>
+			 </value>
+		  </property>
+	   </properties>
+	</rule>
+</ruleset>

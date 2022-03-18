@@ -4,3 +4,15 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+We know that : 
+
+TCC = NDC / NP 
+and LCC = NDC + NIC / NP
+
+with NDC is the number of direct connections in the connection graph, NIC the number of indirect connections and NP the maximum number of possible connections.
+
+In order to have TCC = LCC, we need to have no indirect connections, in order to have this, we need each public method to reach an exit node without passing through another public method
+
+Example : //TODO: example method
+
+LCC > TCC is impossible for every class as we cannot have a negative number of indirect connections.

@@ -17,7 +17,7 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
     }
 
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
-        if(!declaration.isPublic()) return;
+        if(!declaration.isPrivate()) return;
         System.out.println(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
         for(MethodDeclaration method : declaration.getMethods()) {
             method.accept(this, arg);
