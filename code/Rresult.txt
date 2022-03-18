@@ -1,0 +1,756 @@
+key = "name"
+value = "duke"
+EQUALS_TWO = input -> input.intValue() == 2
+collectionA = null
+collectionB = null
+collectionC = null
+collectionD = null
+collectionE = null
+collectionA2 = null
+collectionB2 = null
+collectionC2 = null
+iterableA = null
+iterableB = null
+iterableC = null
+iterableA2 = null
+iterableB2 = null
+emptyCollection = new ArrayList<>(1)
+ZERO = Integer.valueOf(0)
+ONE = Integer.valueOf(1)
+TWO = Integer.valueOf(2)
+THREE = Integer.valueOf(3)
+m_Type
+m_LowBound
+m_HighBound
+m_FullElements
+m_OtherElements
+ZERO = Integer.valueOf(0)
+ONE = Integer.valueOf(1)
+TWO = Integer.valueOf(2)
+THREE = Integer.valueOf(3)
+type
+lowBound
+highBound
+m_Inclusive
+intToString = String::valueOf
+objectToClass = input -> input == null ? null : input.getClass()
+stringToInt = Integer::valueOf
+iVal
+serialVersionUID = 4899282162482588924L
+iVal
+cCounter = 0
+iVal
+outer
+list
+mockPredicatesToVerify
+testValue
+FALSE_OBJECT = new EqualsTestObject(false)
+TRUE_OBJECT = new EqualsTestObject(true)
+b
+oneFactory = FactoryUtils.constantFactory(1)
+ONE = Integer.valueOf(1)
+TWO = Integer.valueOf(2)
+TEN = "10"
+I1A = new Integer(1)
+I1B = new Integer(1)
+I2A = new Integer(2)
+I2B = new Integer(2)
+pass = false
+serialVersionUID = 2028493495224302329L
+oneFactory = FactoryUtils.constantFactory(1)
+ONE = Integer.valueOf(1)
+TWO = Integer.valueOf(2)
+THREE = Integer.valueOf(3)
+TEN = "10"
+TWENTY = "20"
+THIRTY = "30"
+JDK12
+iterableA = null
+iterableB = null
+emptyIterable = null
+EQUALS_TWO = input -> input.intValue() == 2
+EVEN = input -> input.intValue() % 2 == 0
+collectionA = null
+collectionEven = null
+collectionOdd = null
+emptyCollection = new ArrayList<>(1)
+iterableA = null
+comparator = null
+evens = null
+odds = null
+fib = null
+array
+list
+iterator
+testArray = { "a", "b", "c" }
+testList
+testArray = { "a", "b", "c" }
+testList
+testValue = "foo"
+evens = null
+odds = null
+fib = null
+testArray = { "a", "b", "c", "d", "e", "f", "g" }
+testList
+testArray = { "a", "b", "c", "d", "e", "f", "g" }
+testList
+nodes
+createIteratorWithStandardConstr = true
+list = null
+odds = null
+evens = null
+threes = null
+fours = null
+sixes = null
+truePred = null
+falsePred = null
+evenPred = null
+oddPred = null
+threePred = null
+fourPred = null
+random = new Random()
+testValue = "foo"
+testValue = "foo"
+shape = new Shape(new HashFunctionIdentityImpl("Apache Commons Collections", "Dummy", Signedness.SIGNED, ProcessType.CYCLIC, 0L), 50, 3000, 4)
+testFunction = new HashFunctionIdentity() {
+
+    @Override
+    public String getName() {
+        return "Test Function";
+    }
+
+    @Override
+    public ProcessType getProcessType() {
+        return ProcessType.CYCLIC;
+    }
+
+    @Override
+    public String getProvider() {
+        return "Apache Commons Collection Tests";
+    }
+
+    @Override
+    public long getSignature() {
+        return 0;
+    }
+
+    @Override
+    public Signedness getSignedness() {
+        return Signedness.SIGNED;
+    }
+}
+shape = new Shape(testFunction, 3, 72, 17)
+converter = counts -> {
+    final BloomFilter testingFilter = new BitSetBloomFilter(shape);
+    testingFilter.merge(new FixedIndexesTestHasher(shape, counts));
+    return testingFilter;
+}
+testFunction = new HashFunctionIdentity() {
+
+    @Override
+    public String getName() {
+        return "Test Function";
+    }
+
+    @Override
+    public ProcessType getProcessType() {
+        return ProcessType.CYCLIC;
+    }
+
+    @Override
+    public String getProvider() {
+        return "Apache Commons Collection Tests";
+    }
+
+    @Override
+    public long getSignature() {
+        return 0;
+    }
+
+    @Override
+    public Signedness getSignedness() {
+        return Signedness.SIGNED;
+    }
+}
+testFunctionX = new HashFunctionIdentity() {
+
+    @Override
+    public String getName() {
+        return "Test FunctionX";
+    }
+
+    @Override
+    public ProcessType getProcessType() {
+        return ProcessType.CYCLIC;
+    }
+
+    @Override
+    public String getProvider() {
+        return "Apache Commons Collection Tests";
+    }
+
+    @Override
+    public long getSignature() {
+        return 0;
+    }
+
+    @Override
+    public Signedness getSignedness() {
+        return Signedness.SIGNED;
+    }
+}
+shape = new Shape(testFunction, 3, 72, 17)
+builder
+hf = new MD5Cyclic()
+shape = new Shape(hf, 1, 345, 1)
+testString = HasherBuilderTest.getExtendedString()
+testFunction = new HashFunctionIdentity() {
+
+    @Override
+    public String getName() {
+        return "Test Function";
+    }
+
+    @Override
+    public ProcessType getProcessType() {
+        return ProcessType.CYCLIC;
+    }
+
+    @Override
+    public String getProvider() {
+        return "Apache Commons Collection Tests";
+    }
+
+    @Override
+    public long getSignature() {
+        return 0;
+    }
+
+    @Override
+    public Signedness getSignedness() {
+        return Signedness.SIGNED;
+    }
+}
+shape = new Shape(testFunction, 5, 0.1)
+builder
+shape
+testFunction = new HashFunctionIdentity() {
+
+    @Override
+    public String getName() {
+        return "Test Function";
+    }
+
+    @Override
+    public ProcessType getProcessType() {
+        return ProcessType.CYCLIC;
+    }
+
+    @Override
+    public String getProvider() {
+        return "Apache Commons Collection Tests";
+    }
+
+    @Override
+    public long getSignature() {
+        return 0;
+    }
+
+    @Override
+    public Signedness getSignedness() {
+        return Signedness.SIGNED;
+    }
+}
+cObject = new Object()
+cString = "Hello"
+cInteger = Integer.valueOf(6)
+topCities = { "Tokyo", "Mexico City", "Mumbai", "Sao Paulo", "New York", "Shanghai", "Lagos", "Los Angeles", "Calcutta", "Buenos Aires" }
+serialVersionUID = 8085570439751032499L
+serialVersionUID = -2284880866328872105L
+cString = "Hello"
+nullBag = null
+fullArray
+multiSet
+RUNS = 20000000
+THREE = "Three"
+TWO = "Two"
+iterableA = null
+iterableB = null
+iterableEven = null
+iterableOdd = null
+emptyIterable = null
+EVEN = input -> input.intValue() % 2 == 0
+factory
+pathString
+fileExtension
+backingMap
+transformedMap
+stringToInt = Integer::valueOf
+serialVersionUID = 1L
+a = "a"
+b = "b"
+c = "c"
+d = "d"
+e = "e"
+x = "x"
+EQUALS_TWO = input -> input.intValue() == 2
+fullArray
+fullList
+before
+after
+length
+setA
+setB
+mockObjects = new ArrayList<>()
+serialVersionUID = 4465448607415788805L
+keys
+hashCode
+entry
+serialVersionUID = -8453869361373831205L
+map
+serialVersionUID = -4678668309576958546L
+serialVersionUID = 306127383500410386L
+serialVersionUID = 20150528L
+serialVersionUID = -684521469108685117L
+serialVersionUID = -3462240946294214398L
+serialVersionUID = 6723912213766056587L
+map
+dummyValue
+serialVersionUID = 1229469966212206107L
+serialVersionUID = -725356885467962424L
+serialVersionUID = 20150528L
+serialVersionUID = 20150528L
+serialVersionUID = 6499119872185240161L
+serialVersionUID = -1675486811351124386L
+serialVersionUID = 20150528L
+serialVersionUID = 5185069727540378940L
+mutator
+all = new ArrayList<>()
+serialVersionUID = -9110948148132275052L
+serialVersionUID = -228664372470420141L
+setOrder
+serialVersionUID = 5966875321133456994L
+keyTransformer
+valueTransformer
+serialVersionUID = 20151118L
+DEFAULT_INITIAL_MAP_CAPACITY = 16
+DEFAULT_INITIAL_LIST_CAPACITY = 3
+initialListCapacity
+serialVersionUID = 20150612L
+map
+serialVersionUID = 20150612L
+keyTransformer
+valueTransformer
+valuesView
+entryValuesView
+keysMultiSetView
+asMapView
+map
+serialVersionUID = 20150612L
+serialVersionUID = 20151118L
+DEFAULT_INITIAL_MAP_CAPACITY = 16
+DEFAULT_INITIAL_SET_CAPACITY = 3
+initialSetCapacity
+serialVersionUID = 721969328361808L
+inverse
+serialVersionUID = 721969328361807L
+rootNode
+nodeCount
+modifications
+keySet
+valuesSet
+entrySet
+inverse
+serialVersionUID = 721969328361809L
+comparator
+valueComparator
+inverse
+inverse
+serialVersionUID = 721969328361810L
+DEFAULT_TOSTRING_DELIMITER = ", "
+root
+size
+serialVersionUID = -3620001881672L
+serialVersionUID = 6897789178562232073L
+DEFAULT_MAXIMUM_CACHE_SIZE = 20
+firstCachedNode
+cacheSize
+maximumCacheSize
+serialVersionUID = -3677737457567429713L
+factory
+transformer
+serialVersionUID = -2218010673611160319L
+serialVersionUID = 1077193035000013141L
+serialVersionUID = 4500739654952315623L
+serialVersionUID = 7196982186153478694L
+set
+serialVersionUID = -5722039223898659102L
+serialVersionUID = 6595182819922443652L
+serialVersionUID = 8836393098519411393L
+cursors
+serialVersionUID = 2684959196747496299L
+iterable
+iClassToInstantiate
+iParamTypes
+iArgs
+iConstructor
+serialVersionUID = 3518477308466486130L
+iPredicates
+iClosures
+iDefault
+serialVersionUID = -3094696765038308799L
+NO_ARG_INSTANCE = new InstantiateTransformer<>()
+iParamTypes
+iArgs
+serialVersionUID = 2133891748318574490L
+serialVersionUID = 3374767158756189740L
+serialVersionUID = 7179106032121985545L
+serialVersionUID = 478466901448617286L
+iClosure
+serialVersionUID = 8069309411242014252L
+iPredicate
+iTrueTransformer
+iFalseTransformer
+serialVersionUID = -2654603322338049674L
+iPredicate
+serialVersionUID = 862391807045468939L
+iMap
+serialVersionUID = 7429999530934647542L
+serialVersionUID = 3243449850504576071L
+iPredicate
+serialVersionUID = -3520677225766901240L
+iClosures
+serialVersionUID = 7533784454832764388L
+serialVersionUID = 6374440726369055124L
+iConstant
+serialVersionUID = 7179106032121985545L
+serialVersionUID = -3094696765038308799L
+iCount
+iClosure
+serialVersionUID = -6817674502475353160L
+iFactory
+serialVersionUID = -89901658494523293L
+iValue
+serialVersionUID = -6404460890903469332L
+iPredicates
+iTransformers
+iDefault
+serialVersionUID = 7179106032121985545L
+iMethodName
+iParamTypes
+iArgs
+serialVersionUID = 4189014213763186912L
+iPredicate1
+iPredicate2
+EMPTY_TRANSFORMER_ARRAY = {}
+serialVersionUID = 3514945074733160196L
+iTransformers
+serialVersionUID = -3520677225766901240L
+iConstant
+serialVersionUID = 2007613066565892961L
+serialVersionUID = -8125389089924745785L
+serialVersionUID = 5633766978029907089L
+iValue
+equator
+serialVersionUID = 7533784454832764388L
+serialVersionUID = 825802648423525485L
+serialVersionUID = -8791518325735182855L
+iPredicate1
+iPredicate2
+serialVersionUID = -3319417438027438040L
+iSet = new HashSet<>()
+serialVersionUID = 7511110693171758606L
+INSTANCE = new StringValueTransformer<>()
+serialVersionUID = 7179106032121985545L
+serialVersionUID = 3518477308466486130L
+iPredicate
+iTrueClosure
+iFalseClosure
+serialVersionUID = 3518477308466486130L
+serialVersionUID = -5596090919668315834L
+iTransformer
+iPredicate
+serialVersionUID = 5278818408044349346L
+iPredicate
+serialVersionUID = -5194992589193388969L
+iTransformer
+iPredicate
+iClosure
+iDoLoop
+serialVersionUID = -7625133768987126273L
+iPredicate
+serialVersionUID = -2407966402920578741L
+iTransformer
+serialVersionUID = -1863209236504077399L
+object
+comparator
+criterion
+serialVersionUID = -2997501534564735525L
+iPredicate
+serialVersionUID = -6682656911025165584L
+iType
+serialVersionUID = 7533784454832764388L
+serialVersionUID = -7074655917369299456L
+serialVersionUID = -1266190134568365852L
+serialVersionUID = -8751771676410385778L
+serialVersionUID = -8931271118676803261L
+DEFAULT_BUCKETS = 255
+buckets
+locks
+serialVersionUID = 1L
+expirationMap = new HashMap<>()
+expiringPolicy
+serialVersionUID = 1L
+timeToLiveMillis
+serialVersionUID = 5805344239827376360L
+serialVersionUID = 2737023427269031941L
+EMPTY_MAP_ARRAY = {}
+serialVersionUID = -6096931280583808322L
+composite
+mutator
+serialVersionUID = 7990956402564206740L
+serialVersionUID = -6701087419741928296L
+size
+hash1
+hash2
+hash3
+key1
+key2
+key3
+value1
+value2
+value3
+delegateMap
+serialVersionUID = 1555089888138299607L
+serialVersionUID = -1788199231038721040L
+keyType
+valueType
+purgeValues
+queue
+serialVersionUID = 7450927208116179316L
+serialVersionUID = 2715322183617658933L
+serialVersionUID = 3359846175935304332L
+serialVersionUID = 1678353579659253473L
+serialVersionUID = 3126019624511683653L
+serialVersionUID = 2728177751851003750L
+insertOrder = new ArrayList<>()
+serialVersionUID = 7412622456128415156L
+serialVersionUID = 8136428161720526266L
+serialVersionUID = -612114643488955218L
+maxSize
+scanUntilRemovable
+serialVersionUID = -2214159910087182007L
+collectionFactory
+valuesView
+serialVersionUID = 9077234323521161066L
+serialVersionUID = -1788199231038721040L
+serialVersionUID = 7023152376788900464L
+serialVersionUID = 19698628745827L
+value
+iterators
+values
+valueSet
+lastReturned = -1
+nextObject
+nextObjectSet
+callCounter
+chainExhausted
+currentIterator
+lastUsedIterator
+collection
+last
+iterator
+keys
+objectMap
+direction
+nextPermutation
+iterator
+iterator
+typeSafeIterator
+iterator
+stack = new ArrayDeque<>(8)
+root
+transformer
+hasNext
+currentIterator
+currentValue
+lastUsedIterator
+list
+iterator
+UNSUPPORTED_OPERATION_MESSAGE = "ListIteratorWrapper does not support optional operations of ListIterator."
+CANNOT_REMOVE_MESSAGE = "Cannot remove element at index {0}."
+iterator
+list = new ArrayList<>()
+currentIndex
+wrappedIteratorIndex
+removeState
+iterator
+offset
+max
+pos
+beforeFirst = true
+nextCalled
+removed
+object
+map
+iterator
+last
+canRemove
+collection
+iterator
+nodeList
+index
+offset
+pos
+iterator
+iterator
+exhausted
+slotFilled
+slot
+iterators
+nextIterator
+lastReturned
+iterator
+removeAllowed
+beforeFirst = true
+removed
+object
+iterator
+list
+iterator
+validForUpdate = true
+iterator
+items = new ArrayDeque<>()
+iterator
+lastItemIndex = -1
+iterator
+iteratorChain = new LinkedList<>()
+currentIterator
+lastUsedIterator
+isLocked
+iterator
+nextObject
+nextObjectSet
+previousObject
+previousObjectSet
+nextIndex
+lastItemIndex = -1
+bitSet
+DIVIDE_BY_64 = 6
+counts
+state
+EMPTY = {}
+buffers
+function
+values
+LN_2 = Math.log(2.0)
+DENOMINATOR = -LN_2 * LN_2
+hashCode
+process
+parts
+messageDigest
+result = new long[2]
+last
+serialVersionUID = 82794675842863201L
+map = new HashMap<>()
+counter
+isLocked
+serialVersionUID = -721644942746081630L
+comparatorChain
+orderingBits
+isLocked
+serialVersionUID = 3456940356043606220L
+decorated
+transformer
+serialVersionUID = 2858887242028539265L
+comparator
+serialVersionUID = 1830042991606340609L
+TRUE_FIRST = new BooleanComparator(true)
+FALSE_FIRST = new BooleanComparator(false)
+trueFirst
+serialVersionUID = -5820772575483504339L
+nonNullComparator
+nullsAreHigh
+serialVersionUID = -291439688585137865L
+serialVersionUID = 722374056718497858L
+serialVersionUID = 5421170911299074185L
+serialVersionUID = -2560033712679053143L
+serialVersionUID = -3190437252665717841L
+serialVersionUID = -251737742649401930L
+serialVersionUID = -7740146511091606676L
+serialVersionUID = -2560033712679053143L
+map
+size
+modCount
+uniqueSet
+serialVersionUID = 3448581314086406616L
+serialVersionUID = -1873799975157099624L
+serialVersionUID = -3768146017343785417L
+serialVersionUID = -8223473624050467718L
+serialVersionUID = -6561115435802554013L
+serialVersionUID = -2575833140344736876L
+serialVersionUID = 8084674570753837109L
+serialVersionUID = -7032449491269434877L
+MSB = 0x8000
+serialVersionUID = 5826987063535505652L
+keyAnalyzer
+serialVersionUID = -7156426030315945159L
+delegate
+serialVersionUID = -20497563720380683L
+serialVersionUID = 4446367780901817838L
+serialVersionUID = 2130079159931574599L
+serialVersionUID = 1L
+EMPTY_COMPARATOR_ARRAY = {}
+serialVersionUID = -4704772662059351193L
+serialVersionUID = 2412805092710877986L
+collection
+serialVersionUID = 6249888059822088500L
+collection
+serialVersionUID = -5259182142076705162L
+predicate
+accepted = new ArrayList<>()
+rejected = new ArrayList<>()
+serialVersionUID = 8692300188161871514L
+serialVersionUID = -7112672385450340330L
+serialVersionUID = 8417515734108306801L
+mutator
+all = new ArrayList<>()
+serialVersionUID = -5512610452568370038L
+keyTransformer
+index
+uniqueIndex
+serialVersionUID = -239892006883819945L
+uniqueSet
+entrySet
+serialVersionUID = 20150611L
+serialVersionUID = 20150610L
+serialVersionUID = 20150629L
+map
+size
+modCount
+serialVersionUID = 20150629L
+serialVersionUID = 20150610L
+INDENT_STRING = "    "
+commands
+lcsLength
+object
+pendingInsertions
+pendingDeletions
+skipped
+handler
+sequence1
+sequence2
+equator
+vDown
+vUp
+serialVersionUID = -7901091318986132033L
+serialVersionUID = -8423413834657610406L
+elements
+start
+end
+full
+maxElements
+serialVersionUID = 2307609000539943581L
+serialVersionUID = 1L
+serialVersionUID = -2629815475789577029L
+serialVersionUID = 1832948656215393357L

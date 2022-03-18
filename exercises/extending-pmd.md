@@ -23,3 +23,35 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```
+<rule name="NoMoreThreeIfs"
+      language="java"
+      message="More than 3 nested if !"
+      class="net.sourceforge.pmd.lang.rule.XPathRule" >
+    <description>
+        Check if there is 3 if at a time
+    </description>
+    <priority>3</priority>
+    <properties>
+        <property name="xpath">
+            <value>
+            <![CDATA[
+            //IfStatement/Statement
+            /Block[count(BlockStatement)=1]
+            /BlockStatement/Statement/IfStatement/Statement
+            /Block[count(BlockStatement)=1]
+            /BlockStatement/Statement/IfStatement
+            ]]>
+            </value>
+        </property>
+    </properties>
+ </rule>
+ ```
+
+
+There is no result for commons-collections, but when we shrink it to two, there are some : 
+
+/home/tanguy/Téléchargements/commons-collections/src/main/java/org/apache/commons/collections4/map/Flat3Map.java:522:	NoMoreThreeIfs:	More than 3 if in one another!
+/home/tanguy/Téléchargements/commons-collections/src/main/java/org/apache/commons/collections4/sequence/SequencesComparator.java:267:	NoMoreThreeIfs:	More than 3 if in one another!
+/home/tanguy/Téléchargements/commons-collections/src/main/java/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java:356:	NoMoreThreeIfs:	More than 3 if in one another!
+
