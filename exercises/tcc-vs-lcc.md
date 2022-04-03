@@ -4,3 +4,25 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+```
+public class Op {
+	private int Opg;
+	private int Opd;
+	
+	public Op(int g, int d) {
+		Opg=g;
+		Opd=d;
+	}
+	
+	public int somme() {
+		return Opg+Opd;
+	}
+	
+	public int soustraction() {
+		return Opg-Opd;
+	}
+}
+```
+
+No it's not possible TCC being the number or direct arc appearing getwen our node in the graph and LCC being the number of max N length path between two node in the graph.
+We can say that LCC = TCC + not directed connected node.
