@@ -4,6 +4,29 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
+---
+**Student**  
+<table align="left">
+<tr>
+  <th> First Name </th>
+  <th> Last Name </th>
+  <th> @Mail adress </th>
+</tr>
+<tr>
+  <td> Léo </td>
+  <td> Thuillier </td>
+  <td> leo.thuillier@etudiant.univ-rennes1.fr </td>
+</tr>
+<tr>
+  <td> Thibaut </td>
+  <td> Le Marre </td>
+  <td> thibaut.le-marre@etudiant.univ-rennes1.fr </td>
+</tr>
+</table>
+<br><br><br><br><br><br>
+
+---
+
 ```
 lthuillier@e206m03:~$ run.sh pmd -d Documents/VV-ESIR-TP2-main/code/javaparser-starter/ -f text -R rulesets/java/quickstart.xml
 mars 25, 2022 11:35:36 AM net.sourceforge.pmd.PMD encourageToUseIncrementalAnalysis
