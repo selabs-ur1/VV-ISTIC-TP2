@@ -6,3 +6,38 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+According to [aivosto.com](https://www.aivosto.com/project/help/pm-oo-cohesion.html):
+
+> TCC and LCC definitions
+>
+> NP = maximum number of possible connections
+> = N * (N − 1) / 2 where N is the number of methods
+>
+> NDC = number of direct connections (number of edges in the connection graph)
+>
+> NIC = number of indirect connections
+>
+> Tight class cohesion TCC = NDC / NP
+>
+> Loose class cohesion LCC = (NDC + NIC) / NP
+
+Thus, one class where `TCC == LCC == 1`:
+
+```
+class Logger
+{
+	public String test = "";
+
+	public void setTest(String s)
+	{
+		this.test = s;
+	}
+
+	public String getTest()
+	{
+		return this.test;
+	}
+}
+```
+
+According to the documentation linked above, since `LCC = TCC + (NIC / NP)` and `NIC / NP >= 0`, then `LCC >= TCC`.
