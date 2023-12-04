@@ -23,3 +23,16 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Nous avons détecté le code suivant : 
+
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/7a143325-62a2-47ff-8429-bc9236301d4e)
+
+Avec l'ajout de la règle suivante :
+
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/2da8520f-860e-4bed-bc5d-7b9715fdf826)
+
+Nous obtenons bien :
+
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/bfdd53c0-ad1f-4874-9c0a-126298ebdc04)
+
+
