@@ -1,7 +1,3 @@
-# Code of your exercise
-
-## The code is available in the 'java-parser'
-
 package fr.istic.vv;
 
 import com.github.javaparser.ast.CompilationUnit;
