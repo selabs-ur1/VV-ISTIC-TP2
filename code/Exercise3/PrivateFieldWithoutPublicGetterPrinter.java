@@ -1,57 +1,5 @@
-# Code of your exercise
+package com.vv;
 
-Put here all the code created for this exercise
-
-Le main est légèrement modifié pour permettre l'écriture sur un fichier de sortie (n'ayant pas testé le packaging en jar j'ai laissé des chemins en dur dans le main)
-Les 3 fichiers sont inclus, l'affichage ne montre pas certaines fin de ligne chez moi.
-```
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
-
-import com.github.javaparser.utils.SourceRoot;
-
-public class Main {
-
-	public static void main(String[] args) throws IOException {
-		/*
-		 * if (args.length == 0) {
-		 * System.err.println("Should provide the path to the source code");
-		 * System.exit(1); }
-		 * 
-		 * File file = new File(args[0]); if (!file.exists() || !file.isDirectory() ||
-		 * !file.canRead()) {
-		 * System.err.println("Provide a path to an existing readable directory");
-		 * System.exit(2); }
-		 */
-		String outPath = "/home/gaby/VV/repoTP2/VV-ISTIC-TP2/noGetter.txt";
-		File file = new File("/home/gaby/eclipse-workspace/VV_TP2_JP/src/main/java/com/vv/testClasse");
-		PrintWriter out = new PrintWriter(new FileOutputStream(new File(outPath)));
-		SourceRoot root = new SourceRoot(file.toPath());
-		try {
-			// PublicElementsPrinter printer = new PublicElementsPrinter();
-			PrivateFieldWithoutPublicGetterPrinter visiteur = new PrivateFieldWithoutPublicGetterPrinter(out);
-			root.parse("", (localPath, absolutePath, result) -> {
-				result.ifSuccessful(unit -> unit.accept(visiteur, null));
-				return SourceRoot.Callback.Result.DONT_SAVE;
-			});
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (out != null) {
-				out.flush();// probablement redondant, le close fait sans doute un flush
-				out.close();
-			}
-
-		}
-	}
-
-}
-```
-
-La nouvelle classe :
-```
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -226,33 +174,3 @@ public class PrivateFieldWithoutPublicGetterPrinter extends VoidVisitorWithDefau
 	}
 
 }
-```
-
-Classe de test exemple :
-```
-public class ExempleClass {
-
-	private int a,bb;
-	private ExempleClass ec;
-	public int zozo;
-	//private int bb;
-	public String b;
-	
-	public int getA() {
-		return this.a;
-	}
-	
-	public void getAA(int n) {
-		
-	}
-	
-	public ExempleClass getec(int i) {
-		return null;
-	}
-}
-```
-Exemple de sortie pour une classe comportant des champs privés sans getters :
-```
-from package : com.vv.testClasse , in class : ExempleClass , field bb does not have a getter
-from package : com.vv.testClasse , in class : ExempleClass , field ec does not have a getter
-```
