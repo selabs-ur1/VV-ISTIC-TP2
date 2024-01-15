@@ -23,3 +23,16 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```xml
+<rule name="AvoidDeeplyNestedIfStatements"
+      language="java"
+      message="Avoid three or more nested if statements">
+    <description>
+        Detects the use of three or more nested if statements.
+    </description>
+    <priority>3</priority>
+    <properties>
+        <property name="XPath" value="//IfStatement[count(.//IfStatement) >= 3]" />
+    </properties>
+</rule>
+```
