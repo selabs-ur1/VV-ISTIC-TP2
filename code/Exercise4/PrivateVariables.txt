@@ -1,0 +1,10 @@
+Variable: privateInt | Class: Class1 | Package: main
+Variable: privateString | Class: Class1 | Package: main
+Variable: y | Class: Class2 | Package: main
+Variable: z | Class: Class2 | Package: main
+Variable: x | Class: Class6 | Package: test
+Variable: y | Class: Class6 | Package: test
+Variable: z | Class: Class6 | Package: test
+Variable: a | Class: Class6 | Package: test
+Variable: b | Class: Class6 | Package: test
+Variable: c | Class: Class6 | Package: test

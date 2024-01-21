@@ -11,7 +11,6 @@ if (...) {
             ....
         }
     }
-
 }
 ```
 Notice that the nested `if`s may not be direct children of the outer `if`s. They may be written, for example, inside a `for` loop or any other statement.
@@ -23,3 +22,4 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+The produced XPath rule can be found in the .xml and the 'README' files in the 'code' directory. Sadly, I did not manage to create a rule that would avoid flagging cases where other constructs like loops could be found inbetween the 3 nested 'if' statements.
