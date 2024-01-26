@@ -6,3 +6,22 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+### true positive
+Sorry but every bad smell reviewing was justify. I lost a lot of time on it so I move forward to another exercice. 
+
+### false positive
+`commons-math\commons-math-legacy\src\main\java\org\apache\commons\math4\legacy\ode\nonstiff\AdamsNordsieckTransformer.java:194: SingletonClassReturningNewInstance:     getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review`
+
+```java
+public static AdamsNordsieckTransformer getInstance(final int nSteps) {
+  synchronized(CACHE) {
+    AdamsNordsieckTransformer t = CACHE.get(nSteps);
+    if (t == null) {
+      t = new AdamsNordsieckTransformer(nSteps);
+      CACHE.put(nSteps, t);
+    }
+    return t;
+  }
+}
+```
+This false positive explain that the Singleton Design Pattern isn't respected. However, there is a check on t. So it's a false positive.
