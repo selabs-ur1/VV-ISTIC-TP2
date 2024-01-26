@@ -23,3 +23,41 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Voici notre rule XML :
+
+    <rule name="AvoidNestedIf"
+          language="java"
+          maximumLanguageVersion="17"
+          message="There are three or more nested ifs in your method"
+          class="net.sourceforge.pmd.lang.rule.XPathRule">
+        <description>
+            <![CDATA[Detects three or more nested if statements in a method.]]>
+        </description>
+        <priority>1</priority>
+        <properties>
+            <property name="version" value="2.0"/>
+            <property name="xpath">
+                <value>
+                    <![CDATA[
+               //IfStatement[count(.//IfStatement) >= 2]                ]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+
+Le soucis, c'est que ici les ifs qui sont suivis par des else ifs sont remontés car ils appartiennent au même if statement.
+
+Exemple : 
+
+if (radius > 0.019 && radius <= 0.076) {
+            hashSize = "z";
+        } else if (radius > 0.076 && radius <= 0.61){
+            hashSize = "zz";
+        } else if (radius > 0.61 && radius <= 2.4){
+            hashSize = "zzz";
+        }
+est détecté par PMD.
+
+Nous n'avons pas trouvé la rule exact permettant d'empecher cela :(
+
+

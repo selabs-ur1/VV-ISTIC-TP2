@@ -6,3 +6,12 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+Dans notre code nous avons : byte[] image.
+
+La ligne this.image = image est noté comme incorrect par PMD avec le ruleset bestpractices.xml.
+
+Le message d'avertissement dit : ArrayIsStoredDirectly 	The user-supplied array 'image' is stored directly.
+Ce que PMD nous demande de faire est d'uiliser la méthode clone() (ou autres méthodes) pour cloner l'adresse du tableau et eviter de l'overwrite. 
+
+Un faux positif pourrait être des méthodes avancées d'ingénierie logicielle, non adaptées à certaines situations. Par exemple sur un projet perso, nous avons testé un ruleset orienté API REST, PMD nous proposait des méthodes de développement que nous ne connaissions pas mais après recherche, ces dernières faisaient exactement la même chose que notre code actuel. 
+PMD s'avère pratique pour nettoyer le code, enlever les variables/ imports non utilisés, et en fonction des rulesets, definir des bonnes pratiques pour un projet.
