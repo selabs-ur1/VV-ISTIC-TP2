@@ -1,0 +1,2 @@
+Package: fr.istic.vv.exercice5.example  Class: Optional[IFIFIF]  Method: max  Parameters: int a, int b, int c,   Total Control Flow Nodes: 4
+
