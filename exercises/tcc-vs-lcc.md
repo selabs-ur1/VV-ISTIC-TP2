@@ -6,3 +6,22 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+TCC is defined as the ratio of directly connected pairs of node in the graph to the number or all pairs of nodes
+LCC is the number of pairs of connected (directly or indirectly) nodes to all pairs of node
+
+TCC et LCC produisent la même valeure lorsque 
+le graph est complet ou composé seulement de sous-graph complet.
+
+par exemple :
+class A {
+    methode1(int i);
+    methode2(int i);
+    methode3(double d);
+    methode4(double d);
+}
+le graph associé : methode1   --i--   methode2
+                
+                   methode3   --d--   methode4
+
+TCC = 2 edges directement reliés / 4 noeuds = 1/2
+LCC = 2 edges directement ou indirectement reliés / 4 noeuds = 1/2

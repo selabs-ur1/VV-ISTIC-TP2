@@ -23,3 +23,5 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+La régle XPath permettant de détecter la présence de trois ou plus if imbriqués est la suivante :
+//IfStatement[descendant::IfStatement[descendant::IfStatement]]
