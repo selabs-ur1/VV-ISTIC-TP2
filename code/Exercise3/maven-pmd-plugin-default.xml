@@ -79,4 +79,20 @@ under the License.
     <rule ref="category/java/multithreading.xml/DoubleCheckedLocking" />
 
     <rule ref="category/java/performance.xml/BigIntegerInstantiation" />
+    
+    <rule name="PreventNestedIfs"
+          language="java"
+          message="Too many nested Ifs"
+          class="net.sourceforge.pmd.lang.rule.XPathRule">
+        <description>
+          This rule detects ifs nested 3 times over.
+        </description>
+        <priority>3</priority>
+        <properties>
+          <property name="xpath">
+            <value><![CDATA[//IfStatement//IfStatement//IfStatement]]></value>
+          </property>
+        </properties>
+    </rule>
+
 </ruleset>
