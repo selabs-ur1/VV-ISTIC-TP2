@@ -23,3 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+The following request test the nested `if` :
+//IfStatement//IfStatement//IfStatement
+
+the results on a project show that there is many nested `if` in the code.   

@@ -6,3 +6,7 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+A bug returned is the following : src\main\java\org\apache\commons\collections4\BagUtils.java:36:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+
+we should change the constructor of the class to final to check this bug.
+

@@ -6,3 +6,27 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+class Example {
+    int n;
+
+    int Method1(int p){
+        n += p;
+        return n;
+    }
+
+    int Method2(int p){
+        n *= p;
+        return n;
+    }
+
+    int Method3(int p){
+        n -=p;
+        return n;
+    }
+
+    int Method4(int p){
+            n /= p;
+    }
+}
+
+No he can't be lower because LCC is depedent of TCC.
