@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fd4c3d5-d118-4986-8a01-41ed72916766" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/istic/vv/CFGNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/istic/vv/CFGNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/istic/vv/CyclomaticComplexityCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/istic/vv/CyclomaticComplexityCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/istic/vv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/istic/vv/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/istic/vv/TCCCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/istic/vv/TCCCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode$NodeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode$NodeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/CFGNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/CyclomaticComplexityCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/CyclomaticComplexityCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/istic/vv/TCCCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/istic/vv/TCCCalculator.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RealHephaistos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b14324e7-6ad1-4534-9ef7-e60e79d23173" />
+        <option name="url" value="https://github.com/MorvanH/VV-ISTIC-TP2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YrFLqdPG8jy7HAKPrhqNSoaSn1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/issam/git/VV-ISTIC-TP2/code/javaparser-starter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.istic.vv.Main" />
+      <module name="javaparser-starter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd4c3d5-d118-4986-8a01-41ed72916766" name="Changes" comment="" />
+      <created>1701275739248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701275739248</updated>
+      <workItem from="1701275740639" duration="784000" />
+      <workItem from="1701276537293" duration="61000" />
+      <workItem from="1701685747073" duration="4422000" />
+      <workItem from="1702283108856" duration="9982000" />
+      <workItem from="1703496963828" duration="13127000" />
+      <workItem from="1703584249398" duration="8773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/istic/vv/CFGNode.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="fr.istic.vv.ControlFlowGraphGenerator$Node" memberName="children" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((CFGNode)this).left" custom="fr.istic.vv.CFGNode" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaparser_starter$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1703500469084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

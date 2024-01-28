@@ -1,27 +1,18 @@
-# Code of your exercise
+package fr.istic.vv;
 
-```java
-// TCC class
-public class TCCNode {
-    List<String> instanceVariable;
+import com.github.javaparser.ast.CompilationUnit;
+import com.github.javaparser.ast.body.*;
+import com.github.javaparser.ast.expr.FieldAccessExpr;
+import com.github.javaparser.ast.stmt.BlockStmt;
+import com.github.javaparser.ast.stmt.IfStmt;
+import com.github.javaparser.ast.stmt.ReturnStmt;
+import com.github.javaparser.ast.stmt.Statement;
+import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
+import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
-    public TCCNode(List<String> instanceVariable) {
-        this.instanceVariable = instanceVariable;
-    }
+import java.util.ArrayList;
+import java.util.List;
 
-    public boolean sharesInstanceVariable(TCCNode other) {
-        for(String variable : instanceVariable) {
-            if(other.instanceVariable.contains(variable)) {
-                return true;
-            }
-        }
-        return false;
-    }
-}
-```
-
-```java
-// TCC Calculator class
 public class TCCCalculator extends VoidVisitorAdapter<Void> {
     private List<String> instanceVariable;
     private List<String> methodInstanceVariable;
@@ -81,38 +72,3 @@ public class TCCCalculator extends VoidVisitorAdapter<Void> {
         return (float) nbEdges / nbPairs;
     }
 }
-```
-
-```java
-// Test class
-public class Point {
-    private double x, y;
-
-    public Point(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public double getX() {
-        return this.x;
-    }
-
-    public double getY() {
-        return this.y;
-    }
-
-    public double dot(Point p) {
-        return x*p.x + y*p.y;
-    }
-
-    public Point sub(Point p) {
-        return new Point(x - p.x, y - p.y);
-    }
-}
-```
-
-## Output
-
-```text
-Class: Test.Point - TCC: 0.8333333
-```
