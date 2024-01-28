@@ -23,3 +23,21 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```
+<rule name="PreventNestedIfs"
+      language="java"
+      message="Too many nested Ifs"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+    <description>
+      This rule detects ifs nested 3 times over.
+    </description>
+    <priority>3</priority>
+    <properties>
+      <property name="xpath">
+        <value><![CDATA[//IfStatement//IfStatement//IfStatement]]></value>
+      </property>
+    </properties>
+</rule>
+```
+
+We find that while this rule discovers ifs nested in ifs in infs, it also flags if else if else if else structures as problematic. Maybe we should specialize this rule in order to exclude this construct in projects where this is allowed.
