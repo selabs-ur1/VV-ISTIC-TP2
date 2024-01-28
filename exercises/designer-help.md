@@ -28,6 +28,10 @@ $ set JAVAFX_HOME=path\to\javafx-sdk-{version}
 $ run.sh designer
 ```
 
+```shell
+$ pmd designer
+```
+
 #### Windows
 ```shell
 $ pmd.bat designer
