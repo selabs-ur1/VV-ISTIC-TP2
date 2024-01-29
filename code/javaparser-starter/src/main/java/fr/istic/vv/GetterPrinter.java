@@ -1,6 +1,3 @@
-# Code of your exercise
-
-```java
 package fr.istic.vv;
 
 import com.github.javaparser.ast.CompilationUnit;
@@ -69,5 +66,3 @@ public class GetterPrinter extends VoidVisitorAdapter<Void> {
         }
     }
 }
-
-```

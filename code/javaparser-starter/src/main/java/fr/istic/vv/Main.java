@@ -9,6 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -33,7 +34,20 @@ public class Main {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        GetterPrinter getterPrinter = new GetterPrinter(new FileWriter("results.txt"));
+        root.parse("", (localPath, absolutePath, result) -> {
+            result.ifSuccessful(unit -> unit.accept(getterPrinter, null));
+            return SourceRoot.Callback.Result.DONT_SAVE;
+        });
+
+        CyclomaticComplexityCalculator calculator = new CyclomaticComplexityCalculator();
+        root.parse("", (localPath, absolutePath, result) -> {
+            result.ifSuccessful(unit -> unit.accept(calculator, null));
+            return SourceRoot.Callback.Result.DONT_SAVE;
+        });
+
+        calculator.generateReport(".");
+        calculator.generateHistogram(".");
     }
-
-
 }

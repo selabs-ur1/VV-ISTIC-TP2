@@ -1,0 +1,1820 @@
+Field without public getter:
+  Field: serialVersionUID
+  Class: DualTreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: comparator
+  Class: DualTreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: valueComparator
+  Class: DualTreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: rootNode
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: nodeCount
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: modifications
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: keySet
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: valuesSet
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: entrySet
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: inverse
+  Class: TreeBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: DualLinkedHashBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: inverse
+  Class: UnmodifiableOrderedBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: inverse
+  Class: UnmodifiableBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: inverse
+  Class: UnmodifiableSortedBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: DualHashBidiMap
+  Package: org.apache.commons.collections4.bidimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: KeyAnalyzer
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: serialVersionUID
+  Class: StringKeyAnalyzer
+  Package: org.apache.commons.collections4.trie.analyzer
+Field without public getter:
+  Field: MSB
+  Class: StringKeyAnalyzer
+  Package: org.apache.commons.collections4.trie.analyzer
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractBitwiseTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: keyAnalyzer
+  Class: AbstractBitwiseTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: delegate
+  Class: UnmodifiableTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: root
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: keySet
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: values
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: entrySet
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: size
+  Class: AbstractPatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: serialVersionUID
+  Class: PatriciaTrie
+  Package: org.apache.commons.collections4.trie
+Field without public getter:
+  Field: EMPTY_COMPARATOR_ARRAY
+  Class: ComparatorUtils
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: serialVersionUID
+  Class: FunctorException
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableNavigableSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: CompositeSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: mutator
+  Class: CompositeSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: all
+  Class: CompositeSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: ListOrderedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: setOrder
+  Class: ListOrderedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractSerializableSetDecorator
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractSetDecorator
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: MapBackedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: map
+  Class: MapBackedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: dummyValue
+  Class: MapBackedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedNavigableSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedSortedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedSortedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractNavigableSetDecorator
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedNavigableSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractSortedSetDecorator
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableSortedSet
+  Package: org.apache.commons.collections4.set
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractSerializableListDecorator
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: root
+  Class: TreeList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: size
+  Class: TreeList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractListDecorator
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: CursorableLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: cursors
+  Class: CursorableLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: SetUniqueList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: set
+  Class: SetUniqueList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: GrowthList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: NodeCachingLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: DEFAULT_MAXIMUM_CACHE_SIZE
+  Class: NodeCachingLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: firstCachedNode
+  Class: NodeCachingLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: cacheSize
+  Class: NodeCachingLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: maximumCacheSize
+  Class: NodeCachingLinkedList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: LazyList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: factory
+  Class: LazyList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: transformer
+  Class: LazyList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: FixedSizeList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableList
+  Package: org.apache.commons.collections4.list
+Field without public getter:
+  Field: serialVersionUID
+  Class: HashSetValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: DEFAULT_INITIAL_MAP_CAPACITY
+  Class: HashSetValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: DEFAULT_INITIAL_SET_CAPACITY
+  Class: HashSetValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: initialSetCapacity
+  Class: HashSetValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: keyTransformer
+  Class: TransformedMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: valueTransformer
+  Class: TransformedMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractMultiValuedMapDecorator
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: map
+  Class: AbstractMultiValuedMapDecorator
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: ArrayListValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: DEFAULT_INITIAL_MAP_CAPACITY
+  Class: ArrayListValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: DEFAULT_INITIAL_LIST_CAPACITY
+  Class: ArrayListValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: initialListCapacity
+  Class: ArrayListValuedHashMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: valuesView
+  Class: AbstractMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: entryValuesView
+  Class: AbstractMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: keysMultiSetView
+  Class: AbstractMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: asMapView
+  Class: AbstractMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: map
+  Class: AbstractMultiValuedMap
+  Package: org.apache.commons.collections4.multimap
+Field without public getter:
+  Field: serialVersionUID
+  Class: SynchronizedSortedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: TreeBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: CollectionBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: SynchronizedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: map
+  Class: AbstractMapBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: size
+  Class: AbstractMapBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: modCount
+  Class: AbstractMapBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: uniqueSet
+  Class: AbstractMapBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedSortedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractBagDecorator
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedSortedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableSortedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: HashBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: CollectionSortedBag
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractSortedBagDecorator
+  Package: org.apache.commons.collections4.bag
+Field without public getter:
+  Field: iterable
+  Class: FluentIterable
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: serialVersionUID
+  Class: HashMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: serialVersionUID
+  Class: SynchronizedMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: map
+  Class: AbstractMapMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: size
+  Class: AbstractMapMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: modCount
+  Class: AbstractMapMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractMultiSetDecorator
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: uniqueSet
+  Class: AbstractMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: entrySet
+  Class: AbstractMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedMultiSet
+  Package: org.apache.commons.collections4.multiset
+Field without public getter:
+  Field: serialVersionUID
+  Class: SortedProperties
+  Package: org.apache.commons.collections4.properties
+Field without public getter:
+  Field: serialVersionUID
+  Class: OrderedProperties
+  Package: org.apache.commons.collections4.properties
+Field without public getter:
+  Field: orderedKeys
+  Class: OrderedProperties
+  Package: org.apache.commons.collections4.properties
+Field without public getter:
+  Field: serialVersionUID
+  Class: TiedMapEntry
+  Package: org.apache.commons.collections4.keyvalue
+Field without public getter:
+  Field: map
+  Class: TiedMapEntry
+  Package: org.apache.commons.collections4.keyvalue
+Field without public getter:
+  Field: entry
+  Class: AbstractMapEntryDecorator
+  Package: org.apache.commons.collections4.keyvalue
+Field without public getter:
+  Field: serialVersionUID
+  Class: MultiKey
+  Package: org.apache.commons.collections4.keyvalue
+Field without public getter:
+  Field: hashCode
+  Class: MultiKey
+  Package: org.apache.commons.collections4.keyvalue
+Field without public getter:
+  Field: EMPTY_MAP_ARRAY
+  Class: CompositeMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: CompositeMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: composite
+  Class: CompositeMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: mutator
+  Class: CompositeMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: LinkedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedSortedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: ReferenceMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: FixedSizeMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: MultiValueMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: collectionFactory
+  Class: MultiValueMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: valuesView
+  Class: MultiValueMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: PassiveExpiringMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: expirationMap
+  Class: PassiveExpiringMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: expiringPolicy
+  Class: PassiveExpiringMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: ConstantTimeToLiveExpirationPolicy
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: timeToLiveMillis
+  Class: ConstantTimeToLiveExpirationPolicy
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: CaseInsensitiveMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: LRUMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: maxSize
+  Class: LRUMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: scanUntilRemovable
+  Class: LRUMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableEntrySet
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: DEFAULT_BUCKETS
+  Class: StaticBucketMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: buckets
+  Class: StaticBucketMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: locks
+  Class: StaticBucketMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: ListOrderedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: insertOrder
+  Class: ListOrderedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableOrderedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: LazySortedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedSortedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: FixedSizeSortedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: HashedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: MultiKeyMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: SingletonMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: LazyMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableSortedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: ReferenceIdentityMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: DefaultedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: value
+  Class: DefaultedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: keyType
+  Class: AbstractReferenceMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: valueType
+  Class: AbstractReferenceMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: purgeValues
+  Class: AbstractReferenceMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: queue
+  Class: AbstractReferenceMap
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: serialVersionUID
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: size
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: hash1
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: hash2
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: hash3
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: key1
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: key2
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: key3
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: value1
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: value2
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: value3
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: delegateMap
+  Class: Flat3Map
+  Package: org.apache.commons.collections4.map
+Field without public getter:
+  Field: object
+  Class: EditCommand
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: pendingInsertions
+  Class: ReplacementsFinder
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: pendingDeletions
+  Class: ReplacementsFinder
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: skipped
+  Class: ReplacementsFinder
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: handler
+  Class: ReplacementsFinder
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: commands
+  Class: EditScript
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: lcsLength
+  Class: EditScript
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: sequence1
+  Class: SequencesComparator
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: sequence2
+  Class: SequencesComparator
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: equator
+  Class: SequencesComparator
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: vDown
+  Class: SequencesComparator
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: vUp
+  Class: SequencesComparator
+  Package: org.apache.commons.collections4.sequence
+Field without public getter:
+  Field: serialVersionUID
+  Class: FixedOrderComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: map
+  Class: FixedOrderComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: counter
+  Class: FixedOrderComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: isLocked
+  Class: FixedOrderComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: ComparatorChain
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: comparatorChain
+  Class: ComparatorChain
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: orderingBits
+  Class: ComparatorChain
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: isLocked
+  Class: ComparatorChain
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: NullComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: nonNullComparator
+  Class: NullComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: nullsAreHigh
+  Class: NullComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: ComparableComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: ReverseComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: comparator
+  Class: ReverseComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformingComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: decorated
+  Class: TransformingComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: transformer
+  Class: TransformingComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: serialVersionUID
+  Class: BooleanComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: TRUE_FIRST
+  Class: BooleanComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: FALSE_FIRST
+  Class: BooleanComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: trueFirst
+  Class: BooleanComparator
+  Package: org.apache.commons.collections4.comparators
+Field without public getter:
+  Field: DEFAULT_TOSTRING_DELIMITER
+  Class: IteratorUtils
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableBoundedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: CompositeCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: mutator
+  Class: CompositeCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: all
+  Class: CompositeCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractCollectionDecorator
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: collection
+  Class: AbstractCollectionDecorator
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: predicate
+  Class: Builder
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: accepted
+  Class: Builder
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: rejected
+  Class: Builder
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: IndexedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: keyTransformer
+  Class: IndexedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: index
+  Class: IndexedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: uniqueIndex
+  Class: IndexedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: serialVersionUID
+  Class: SynchronizedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: collection
+  Class: SynchronizedCollection
+  Package: org.apache.commons.collections4.collection
+Field without public getter:
+  Field: LN_2
+  Class: Shape
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: DENOMINATOR
+  Class: Shape
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: initial
+  Class: EnhancedDoubleHasher
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: increment
+  Class: EnhancedDoubleHasher
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: DIVIDE_BY_64
+  Class: BitMap
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: tracker
+  Class: IndexFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: size
+  Class: IndexFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: consumer
+  Class: IndexFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: cells
+  Class: ArrayCountingBloomFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: state
+  Class: ArrayCountingBloomFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: bitMap
+  Class: SimpleBloomFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: cardinality
+  Class: SimpleBloomFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: indices
+  Class: SparseBloomFilter
+  Package: org.apache.commons.collections4.bloomfilter
+Field without public getter:
+  Field: serialVersionUID
+  Class: SynchronizedQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: serialVersionUID
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: elements
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: start
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: end
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: full
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: maxElements
+  Class: CircularFifoQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: serialVersionUID
+  Class: UnmodifiableQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicatedQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedQueue
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractQueueDecorator
+  Package: org.apache.commons.collections4.queue
+Field without public getter:
+  Field: EMPTY_TRANSFORMER_ARRAY
+  Class: ChainedTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ChainedTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTransformers
+  Class: ChainedTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: AndPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate1
+  Class: AndPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate2
+  Class: AndPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: UniquePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iSet
+  Class: UniquePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NotNullPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NullIsExceptionPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: NullIsExceptionPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ConstantFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iConstant
+  Class: ConstantFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: IfTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: IfTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTrueTransformer
+  Class: IfTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iFalseTransformer
+  Class: IfTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: InstanceofPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iType
+  Class: InstanceofPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ChainedClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClosures
+  Class: ChainedClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NOPTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: OrPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate1
+  Class: OrPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate2
+  Class: OrPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClassToInstantiate
+  Class: InstantiateFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iParamTypes
+  Class: InstantiateFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iArgs
+  Class: InstantiateFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iConstructor
+  Class: InstantiateFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NOPClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iCount
+  Class: ForClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClosure
+  Class: ForClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: DefaultEquator
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: AnyPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: AllPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NonePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTransformer
+  Class: TransformedPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: TransformedPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: IfClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: IfClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTrueClosure
+  Class: IfClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iFalseClosure
+  Class: IfClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: EqualPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iValue
+  Class: EqualPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: equator
+  Class: EqualPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ConstantTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iConstant
+  Class: ConstantTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: WhileClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClosure
+  Class: WhileClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iDoLoop
+  Class: WhileClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iMethodName
+  Class: InvokerTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iParamTypes
+  Class: InvokerTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iArgs
+  Class: InvokerTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ExceptionClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: FalsePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NullIsTruePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: NullIsTruePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NotPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: NotPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ExceptionPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: PredicateTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: PredicateTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ExceptionFactory
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NullPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: NO_ARG_INSTANCE
+  Class: InstantiateTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iParamTypes
+  Class: InstantiateTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iArgs
+  Class: InstantiateTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformerClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTransformer
+  Class: TransformerClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformerPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTransformer
+  Class: TransformerPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: IdentityPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iValue
+  Class: IdentityPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: SwitchTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicates
+  Class: SwitchTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iTransformers
+  Class: SwitchTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iDefault
+  Class: SwitchTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: StringValueTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: INSTANCE
+  Class: StringValueTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: FactoryTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iFactory
+  Class: FactoryTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ClosureTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClosure
+  Class: ClosureTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: MapTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iMap
+  Class: MapTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: NullIsFalsePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicate
+  Class: NullIsFalsePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: SwitchClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iPredicates
+  Class: SwitchClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iClosures
+  Class: SwitchClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: iDefault
+  Class: SwitchClosure
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: OnePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: AbstractQuantifierPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: TruePredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ExceptionTransformer
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: ComparatorPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: object
+  Class: ComparatorPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: comparator
+  Class: ComparatorPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: criterion
+  Class: ComparatorPredicate
+  Package: org.apache.commons.collections4.functors
+Field without public getter:
+  Field: serialVersionUID
+  Class: TransformedSplitMap
+  Package: org.apache.commons.collections4.splitmap
+Field without public getter:
+  Field: keyTransformer
+  Class: TransformedSplitMap
+  Package: org.apache.commons.collections4.splitmap
+Field without public getter:
+  Field: valueTransformer
+  Class: TransformedSplitMap
+  Package: org.apache.commons.collections4.splitmap
+Field without public getter:
+  Field: serialVersionUID
+  Class: ArrayStack
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: INDENT_STRING
+  Class: MapUtils
+  Package: org.apache.commons.collections4
+Field without public getter:
+  Field: iterator
+  Class: UnmodifiableMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: BoundedIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: offset
+  Class: BoundedIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: max
+  Class: BoundedIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: pos
+  Class: BoundedIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: collection
+  Class: LoopingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: LoopingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: UnmodifiableListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextObject
+  Class: FilterIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextObjectSet
+  Class: FilterIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: stack
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: root
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: transformer
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: hasNext
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: currentIterator
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: currentValue
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastUsedIterator
+  Class: ObjectGraphIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iteratorChain
+  Class: IteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: currentIterator
+  Class: IteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastUsedIterator
+  Class: IteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: isLocked
+  Class: IteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: AbstractOrderedMapIteratorDecorator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextObject
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextObjectSet
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: previousObject
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: previousObjectSet
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextIndex
+  Class: FilterListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: UnmodifiableIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nodeList
+  Class: NodeListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: index
+  Class: NodeListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: values
+  Class: CollatingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: valueSet
+  Class: CollatingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastReturned
+  Class: CollatingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastItemIndex
+  Class: ArrayListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: AbstractUntypedIteratorDecorator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: AbstractListIteratorDecorator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: PeekingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: exhausted
+  Class: PeekingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: slotFilled
+  Class: PeekingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: slot
+  Class: PeekingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: beforeFirst
+  Class: SingletonListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextCalled
+  Class: SingletonListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: removed
+  Class: SingletonListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: object
+  Class: SingletonListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: map
+  Class: EntrySetMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: EntrySetMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: last
+  Class: EntrySetMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: canRemove
+  Class: EntrySetMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: collection
+  Class: EnumerationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: last
+  Class: EnumerationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: removeAllowed
+  Class: SingletonIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: beforeFirst
+  Class: SingletonIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: removed
+  Class: SingletonIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: object
+  Class: SingletonIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: AbstractMapIteratorDecorator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: list
+  Class: LoopingListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: LoopingListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: UNSUPPORTED_OPERATION_MESSAGE
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: CANNOT_REMOVE_MESSAGE
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: list
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: currentIndex
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: wrappedIteratorIndex
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: removeState
+  Class: ListIteratorWrapper
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: IteratorIterable
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: typeSafeIterator
+  Class: IteratorIterable
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: list
+  Class: ReverseListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: ReverseListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: validForUpdate
+  Class: ReverseListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: PushbackIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: items
+  Class: PushbackIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: callCounter
+  Class: LazyIteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: chainExhausted
+  Class: LazyIteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: currentIterator
+  Class: LazyIteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastUsedIterator
+  Class: LazyIteratorChain
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: keys
+  Class: PermutationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: objectMap
+  Class: PermutationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: direction
+  Class: PermutationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextPermutation
+  Class: PermutationIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterator
+  Class: UnmodifiableOrderedMapIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastItemIndex
+  Class: ObjectArrayListIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: iterators
+  Class: ZippingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: nextIterator
+  Class: ZippingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: lastReturned
+  Class: ZippingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: offset
+  Class: SkippingIterator
+  Package: org.apache.commons.collections4.iterators
+Field without public getter:
+  Field: pos
+  Class: SkippingIterator
+  Package: org.apache.commons.collections4.iterators

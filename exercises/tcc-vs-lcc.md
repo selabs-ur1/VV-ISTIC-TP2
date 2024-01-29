@@ -6,3 +6,29 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+TCC and LCC produce the same value for a given Java class when **all the methods of a class use all the attributes** of the class. Here is an example of such a class:
+
+```java
+public class Calcul {
+    private int a;
+    private int b;
+
+    public int add() {
+        return a + b;
+    }
+
+    public int sub() {
+        return a - b;
+    }
+
+    public int mul() {
+        return a * b;
+    }
+
+    public int div() {
+        return a / b;
+    }
+}
+```
+
+LCC can't be lower than TCC because LCC measures the relationships between methods of a class **without considering** the common attributes of the class compare to TCC which measures the relationships between methods of a class **considering** the common attributes of the class.

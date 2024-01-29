@@ -23,3 +23,33 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Here is the rule
+```xml
+<rule name="AvoidDeeplyNestedIfStatements"
+    language="java"
+    message="Avoid three or more nested if statements"
+    class="net.sourceforge.pmd.lang.rule.XPathRule">
+
+    <description>
+        Detects the use of three or more nested if statements in Java code.
+    </description>
+
+    <priority>3</priority>
+
+    <properties>
+        <property name="xpath">
+            <value>
+                <![CDATA[
+                //IfStatement[descendant::IfStatement][count(ancestor::IfStatement) = 2]
+                ]]>
+            </value>
+        </property>
+    </properties>
+</rule>
+```
+
+By using the rule, here is an example of warning we can get:
+```
+commons-collections/src/main/java/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java:2122:  AvoidDeeplyNestedIfStatements:        Avoid three or more nested if statements
+```
+

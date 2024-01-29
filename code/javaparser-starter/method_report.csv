@@ -1,0 +1,857 @@
+Package,Class,Method,Parameters,Cyclomatic Complexity
+org.apache.commons.collections4,IteratorUtils,asEnumeration,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4,MultiSetUtils,emptyMultiSet,[],1
+org.apache.commons.collections4.set,PredicatedSortedSet,predicatedSortedSet,[final SortedSet<E> set, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.functors,FalsePredicate,falsePredicate,[],1
+org.apache.commons.collections4.iterators,FilterListIterator,setPredicate,[final Predicate<? super E> predicate],1
+org.apache.commons.collections4.list,AVLNode,setOffset,[final AVLNode<E> node, final int newOffset],2
+org.apache.commons.collections4,MapUtils,lazySortedMap,[final SortedMap<K, V> map, final Transformer<? super K, ? extends V> transformerFactory],1
+org.apache.commons.collections4.bloomfilter,BitMapProducer,fromBitMapArray,[final long... bitMaps],5
+org.apache.commons.collections4,ComparatorUtils,chainedComparator,[final Collection<Comparator<E>> comparators],1
+org.apache.commons.collections4.iterators,EmptyOrderedIterator,emptyOrderedIterator,[],1
+org.apache.commons.collections4,CollectionUtils,sizeIsEmpty,[final Object object],11
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,contains,[final BitMapProducer bitMapProducer],1
+org.apache.commons.collections4.list,CursorableLinkedList,updateNode,[final Node<E> node, final E value],1
+org.apache.commons.collections4.iterators,LoopingListIterator,size,[],1
+org.apache.commons.collections4,IteratorUtils,matchesAny,[final Iterator<E> iterator, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.map,LinkedMapList,listIterator,[final int fromIndex],1
+org.apache.commons.collections4.collection,TransformedCollection,transformedCollection,[final Collection<E> collection, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4.collection,AbstractCollectionDecorator,setCollection,[final Collection<E> coll],1
+org.apache.commons.collections4,CollectionUtils,emptyCollection,[],1
+org.apache.commons.collections4,SetUtils,emptySet,[],1
+org.apache.commons.collections4.iterators,CollatingIterator,addIterator,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4.iterators,CollatingIterator,least,[],7
+org.apache.commons.collections4,LcsVisitor,getSubSequence,[],1
+org.apache.commons.collections4.functors,ExceptionClosure,exceptionClosure,[],1
+org.apache.commons.collections4,IteratorUtils,filteredListIterator,[final ListIterator<? extends E> listIterator, final Predicate<? super E> predicate],1
+org.apache.commons.collections4,CollectionUtils,addIgnoreNull,[final Collection<T> collection, final T object],2
+org.apache.commons.collections4.list,AVLNode,getHeight,[final AVLNode<E> node],3
+org.apache.commons.collections4.bloomfilter,SetOperations,jaccardDistance,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4.bloomfilter,BitMapProducer,forEachBitMapPair,[final BitMapProducer other, final LongBiPredicate func],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,doToString,[final DataElement dataElement],8
+org.apache.commons.collections4,BagUtils,emptySortedBag,[],1
+org.apache.commons.collections4.list,Cursor,close,[],2
+org.apache.commons.collections4,MapUtils,synchronizedMap,[final Map<K, V> map],1
+org.apache.commons.collections4.bloomfilter,IndexProducer,fromBitMapProducer,[final BitMapProducer producer],5
+org.apache.commons.collections4.map,ReferenceBaseIterator,currentEntry,[],1
+org.apache.commons.collections4.list,Cursor,nodeInserted,[final Node<E> node],3
+org.apache.commons.collections4,CollectionUtils,union,[final Iterable<? extends O> a, final Iterable<? extends O> b],2
+org.apache.commons.collections4.functors,FactoryTransformer,getFactory,[],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,followLeft,[TrieEntry<K, V> node],4
+org.apache.commons.collections4.bloomfilter,Hasher,indices,[Shape shape],1
+org.apache.commons.collections4.list,NodeCachingLinkedList,getMaximumCacheSize,[],1
+org.apache.commons.collections4,Entry,getElement,[],1
+org.apache.commons.collections4.set,UnmodifiableSortedSet,unmodifiableSortedSet,[final SortedSet<E> set],2
+org.apache.commons.collections4,CollectionUtils,retainAll,[final Iterable<E> collection, final Iterable<? extends E> retain, final Equator<? super E> equator],3
+org.apache.commons.collections4.trie,PrefixRangeMap,getFromKey,[],1
+org.apache.commons.collections4.iterators,EmptyIterator,emptyIterator,[],1
+org.apache.commons.collections4,OrderedBidiMap,inverseBidiMap,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,resolve,[final int value],5
+org.apache.commons.collections4.list,AVLNode,removeSelf,[],14
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,higherEntry,[final K key],12
+org.apache.commons.collections4,ListUtils,getLast,[final List<T> list],1
+org.apache.commons.collections4.multiset,AbstractMultiSet,uniqueElements,[],1
+org.apache.commons.collections4,ArrayStack,empty,[],1
+org.apache.commons.collections4,MultiValuedMap,mapIterator,[],1
+org.apache.commons.collections4.properties,EmptyProperties,compute,[final Object key, final BiFunction<? super Object, ? super Object, ? extends Object> remappingFunction],1
+org.apache.commons.collections4.splitmap,TransformedSplitMap,checkSetValue,[final U value],1
+org.apache.commons.collections4,CollectionUtils,intersection,[final Iterable<? extends O> a, final Iterable<? extends O> b],2
+org.apache.commons.collections4.functors,ChainedTransformer,chainedTransformer,[final Collection<? extends Transformer<? super T, ? extends T>> transformers],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,getGrandParent,[final Node<K, V> node, final DataElement dataElement],1
+org.apache.commons.collections4.sequence,Snake,getDiag,[],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,add,[final E obj],1
+org.apache.commons.collections4,IteratorUtils,singletonIterator,[final E object],1
+org.apache.commons.collections4,SetOperationCardinalityHelper,list,[],1
+org.apache.commons.collections4,FluentIterable,eval,[],1
+org.apache.commons.collections4.map,AbstractHashedMap,addEntry,[final HashEntry<K, V> entry, final int hashIndex],1
+org.apache.commons.collections4.functors,IfTransformer,getFalseTransformer,[],1
+org.apache.commons.collections4.comparators,ComparatorChain,checkChainIntegrity,[],2
+org.apache.commons.collections4,MapUtils,isNotEmpty,[final Map<?, ?> map],2
+org.apache.commons.collections4.collection,Builder,createPredicatedMultiSet,[final MultiSet<E> multiset],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,lengthInBits,[final K key],2
+org.apache.commons.collections4.iterators,LoopingListIterator,_reset,[],1
+org.apache.commons.collections4.functors,NOPTransformer,nopTransformer,[],1
+org.apache.commons.collections4,MapUtils,getIntValue,[final Map<? super K, ?> map, final K key, final int defaultValue],1
+org.apache.commons.collections4.bloomfilter,ArrayCountingBloomFilter,asIndexArray,[],1
+org.apache.commons.collections4.iterators,IteratorIterable,createTypesafeIterator,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,getShape,[],1
+org.apache.commons.collections4,MapUtils,getDouble,[final Map<? super K, ?> map, final K key, final Function<K, Double> defaultFunction],1
+org.apache.commons.collections4.bloomfilter,Shape,getNumberOfHashFunctions,[],1
+org.apache.commons.collections4.iterators,SkippingIterator,remove,[],2
+org.apache.commons.collections4.multimap,UnmodifiableMultiValuedMap,unmodifiableMultiValuedMap,[final MultiValuedMap<? extends K, ? extends V> map],2
+org.apache.commons.collections4,CollectionUtils,checkIndexBounds,[final int index],2
+org.apache.commons.collections4.map,AbstractLinkedMap,entryBefore,[final LinkEntry<K, V> entry],1
+org.apache.commons.collections4.iterators,CollatingIterator,setComparator,[final Comparator<? super E> comp],1
+org.apache.commons.collections4.map,ReferenceEntry,toReference,[final ReferenceStrength type, final T referent, final int hash],4
+org.apache.commons.collections4.iterators,FilterListIterator,clearNextObject,[],1
+org.apache.commons.collections4,BagUtils,unmodifiableSortedBag,[final SortedBag<E> bag],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,hasPrevious,[],1
+org.apache.commons.collections4,MapUtils,lazyMap,[final Map<K, V> map, final Transformer<? super K, ? extends V> transformerFactory],1
+org.apache.commons.collections4.bidimap,Node,copyColor,[final Node<K, V> node, final DataElement dataElement],1
+org.apache.commons.collections4.map,MultiValueMap,getCollection,[final Object key],1
+org.apache.commons.collections4,IteratorUtils,transformedIterator,[final Iterator<? extends I> iterator, final Transformer<? super I, ? extends O> transformer],1
+org.apache.commons.collections4,MultiValuedMap,containsMapping,[Object key, Object value],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,floorEntry,[final K key],10
+org.apache.commons.collections4,MapUtils,isEmpty,[final Map<?, ?> map],2
+org.apache.commons.collections4,MapUtils,populateMap,[final MultiMap<K, V> map, final Iterable<? extends V> elements, final Transformer<V, K> keyTransformer],1
+org.apache.commons.collections4,BagUtils,emptyBag,[],1
+org.apache.commons.collections4.iterators,UnmodifiableMapIterator,unmodifiableMapIterator,[final MapIterator<? extends K, ? extends V> iterator],2
+org.apache.commons.collections4,CollectionUtils,matchesAll,[final Iterable<C> input, final Predicate<? super C> predicate],2
+org.apache.commons.collections4.collection,CompositeCollection,addComposited,[final Collection<E>... compositeCollections],3
+org.apache.commons.collections4.bidimap,TreeBidiMap,modify,[],1
+org.apache.commons.collections4.properties,EmptyProperties,computeIfPresent,[final Object key, final BiFunction<? super Object, ? super Object, ? extends Object> remappingFunction],1
+org.apache.commons.collections4.map,MultiValueMap,totalSize,[],2
+org.apache.commons.collections4.bloomfilter,CellProducer,populate,[],3
+org.apache.commons.collections4.functors,IfClosure,ifClosure,[final Predicate<? super E> predicate, final Closure<? super E> trueClosure, final Closure<? super E> falseClosure],1
+org.apache.commons.collections4.map,Flat3Map,clone,[],3
+org.apache.commons.collections4,IteratorUtils,arrayListIterator,[final Object array, final int start, final int end],1
+org.apache.commons.collections4,SetUtils,emptySortedSet,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,nextGreater,[final Node<K, V> node, final DataElement dataElement],5
+org.apache.commons.collections4,MapUtils,fixedSizeSortedMap,[final SortedMap<K, V> map],1
+org.apache.commons.collections4.trie,KeyAnalyzer,isOutOfBoundsIndex,[final int bitIndex],1
+org.apache.commons.collections4.map,AbstractReferenceMap,hashEntry,[final Object key, final Object value],5
+org.apache.commons.collections4.map,AbstractReferenceMap,createKeySetIterator,[],1
+org.apache.commons.collections4.splitmap,TransformedSplitMap,transformingMap,[final Map<K, V> map, final Transformer<? super J, ? extends K> keyTransformer, final Transformer<? super U, ? extends V> valueTransformer],1
+org.apache.commons.collections4.map,LinkIterator,previousEntry,[],3
+org.apache.commons.collections4.bloomfilter,Bits,toArray,[],3
+org.apache.commons.collections4.collection,CompositeCollection,setMutator,[final CollectionMutator<E> mutator],1
+org.apache.commons.collections4,FluentIterable,anyMatch,[final Predicate<? super E> predicate],1
+org.apache.commons.collections4,MapUtils,multiValueMap,[final Map<K, C> map, final Factory<C> collectionFactory],1
+org.apache.commons.collections4,MultiMapUtils,getValuesAsSet,[final MultiValuedMap<K, V> map, final K key],3
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,removeInternalEntry,[final TrieEntry<K, V> h],15
+org.apache.commons.collections4.bloomfilter,CountingBloomFilter,getMaxInsert,[final BitMapProducer bitMapProducer],6
+org.apache.commons.collections4.functors,DefaultEquator,defaultEquator,[],1
+org.apache.commons.collections4.functors,ForClosure,forClosure,[final int count, final Closure<? super E> closure],4
+org.apache.commons.collections4.bloomfilter,Shape,isSparse,[final int cardinality],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,getPrefixMapByBits,[final K key, final int offsetInBits, final int lengthInBits],3
+org.apache.commons.collections4.sequence,SequencesComparator,getMiddleSnake,[final int start1, final int end1, final int start2, final int end2],28
+org.apache.commons.collections4.functors,DefaultEquator,hash,[final T o],3
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,ceilingEntry,[final K key],10
+org.apache.commons.collections4.iterators,TransformIterator,getTransformer,[],1
+org.apache.commons.collections4.properties,EmptyProperties,save,[final OutputStream out, final String comments],1
+org.apache.commons.collections4.map,AbstractHashedMap,updateEntry,[final HashEntry<K, V> entry, final V newValue],1
+org.apache.commons.collections4,MapUtils,toProperties,[final Map<K, V> map],3
+org.apache.commons.collections4,MapUtils,getNumber,[final Map<? super K, ?> map, final K key, final Number defaultValue],1
+org.apache.commons.collections4.iterators,BoundedIterator,checkBounds,[],2
+org.apache.commons.collections4.bag,SynchronizedBag,getBag,[],1
+org.apache.commons.collections4,MapUtils,getShortValue,[final Map<? super K, ?> map, final K key, final short defaultValue],1
+org.apache.commons.collections4.map,AbstractHashedMap,hashIndex,[final int hashCode, final int dataSize],1
+org.apache.commons.collections4.bidimap,AbstractViewIterator,navigateNext,[],3
+org.apache.commons.collections4.list,Node,setNextNode,[final Node<E> next],1
+org.apache.commons.collections4,SetUtils,synchronizedSet,[final Set<E> set],1
+org.apache.commons.collections4,MapUtils,debugPrint,[final PrintStream out, final Object label, final Map<?, ?> map],1
+org.apache.commons.collections4,MultiMapUtils,transformedMultiValuedMap,[final MultiValuedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer],1
+org.apache.commons.collections4,IteratorUtils,zippingIterator,[final Iterator<? extends E>... iterators],1
+org.apache.commons.collections4.iterators,PeekingIterator,peek,[],3
+org.apache.commons.collections4,SortedBag,comparator,[],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,subtree,[final K prefix, final int offsetInBits, final int lengthInBits],14
+org.apache.commons.collections4.trie,TrieEntry,isInternalNode,[],2
+org.apache.commons.collections4.set,CompositeSet,toSet,[],1
+org.apache.commons.collections4,MapUtils,unmodifiableSortedMap,[final SortedMap<K, ? extends V> map],1
+org.apache.commons.collections4,ComparatorUtils,reversedComparator,[final Comparator<E> comparator],1
+org.apache.commons.collections4,MapUtils,getFloatValue,[final Map<? super K, ?> map, final K key, final Function<K, Float> defaultFunction],1
+org.apache.commons.collections4,ComparatorUtils,naturalComparator,[],1
+org.apache.commons.collections4.list,AVLNode,setRight,[final AVLNode<E> node, final AVLNode<E> next],3
+org.apache.commons.collections4.map,AbstractReferenceMap,createValuesIterator,[],1
+org.apache.commons.collections4,PredicateUtils,neitherPredicate,[final Predicate<? super T> predicate1, final Predicate<? super T> predicate2],1
+org.apache.commons.collections4,MultiMapUtils,getValuesAsBag,[final MultiValuedMap<K, V> map, final K key],3
+org.apache.commons.collections4,IteratorUtils,toList,[final Iterator<? extends E> iterator, final int estimatedSize],3
+org.apache.commons.collections4.bloomfilter,CounterCell,compareTo,[final CounterCell other],1
+org.apache.commons.collections4.splitmap,AbstractIterableGetMapDecorator,decorated,[],1
+org.apache.commons.collections4.map,ReferenceIdentityMap,isEqualValue,[final Object value1, final Object value2],1
+org.apache.commons.collections4,FluentIterable,unmodifiable,[],1
+org.apache.commons.collections4.list,AbstractLinkedList,removeFirst,[],2
+org.apache.commons.collections4.trie.analyzer,StringKeyAnalyzer,isPrefix,[final String prefix, final int offsetInBits, final int lengthInBits, final String key],3
+org.apache.commons.collections4,BagUtils,synchronizedBag,[final Bag<E> bag],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,greatestNode,[final Node<K, V> node, final DataElement dataElement],3
+org.apache.commons.collections4,BagUtils,predicatedSortedBag,[final SortedBag<E> bag, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.iterators,AbstractListIteratorDecorator,getListIterator,[],1
+org.apache.commons.collections4.map,FixedSizeSortedMap,getSortedMap,[],1
+org.apache.commons.collections4.queue,UnmodifiableQueue,removeIf,[final Predicate<? super E> filter],1
+org.apache.commons.collections4.list,Node,getNextNode,[],1
+org.apache.commons.collections4,CollectionUtils,isProperSubCollection,[final Collection<?> a, final Collection<?> b],2
+org.apache.commons.collections4,CollectionUtils,collect,[final Iterator<? extends I> inputIterator, final Transformer<? super I, ? extends O> transformer, final R outputCollection],4
+org.apache.commons.collections4.trie,KeyAnalyzer,isNullBitKey,[final int bitIndex],1
+org.apache.commons.collections4.collection,Builder,createPredicatedList,[final List<E> list],1
+org.apache.commons.collections4,MultiSetUtils,predicatedMultiSet,[final MultiSet<E> multiset, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.list,CursorableLinkedList,addNode,[final Node<E> nodeToInsert, final Node<E> insertBeforeNode],1
+org.apache.commons.collections4.list,AVLNode,setLeft,[final AVLNode<E> node, final AVLNode<E> previous],3
+org.apache.commons.collections4.bloomfilter,SetOperations,cosineDistance,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4.iterators,EmptyIterator,resettableEmptyIterator,[],1
+org.apache.commons.collections4.bloomfilter,ArrayCountingBloomFilter,forEachCell,[final CellProducer.CellConsumer consumer],5
+org.apache.commons.collections4.trie,PrefixRangeMap,inRange,[final K key],1
+org.apache.commons.collections4,IterableUtils,collatedIterable,[final Comparator<? super E> comparator, final Iterable<? extends E> a, final Iterable<? extends E> b],1
+org.apache.commons.collections4,LcsVisitor,visitKeepCommand,[final E object],1
+org.apache.commons.collections4.queue,CircularFifoQueue,isAtFullCapacity,[],1
+org.apache.commons.collections4.comparators,FixedOrderComparator,setUnknownObjectBehavior,[final UnknownObjectBehavior unknownObjectBehavior],1
+org.apache.commons.collections4,IteratorUtils,forEachButLast,[final Iterator<E> iterator, final Closure<? super E> closure],5
+org.apache.commons.collections4.collection,CompositeCollection,toCollection,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,checkValue,[final Object value],1
+org.apache.commons.collections4.set,TransformedNavigableSet,floor,[final E e],1
+org.apache.commons.collections4,MultiValuedMap,keySet,[],1
+org.apache.commons.collections4.list,NodeCachingLinkedList,removeNode,[final Node<E> node],1
+org.apache.commons.collections4,IteratorUtils,forEach,[final Iterator<E> iterator, final Closure<? super E> closure],3
+org.apache.commons.collections4,SetUtils,hashSet,[final E... items],2
+org.apache.commons.collections4.functors,ConstantTransformer,constantTransformer,[final O constantToReturn],2
+org.apache.commons.collections4.trie,PrefixRangeMap,createRangeMap,[final K fromKey, final boolean fromInclusive, final K toKey, final boolean toInclusive],1
+org.apache.commons.collections4.iterators,UnmodifiableOrderedMapIterator,setValue,[final V value],1
+org.apache.commons.collections4.functors,NotPredicate,notPredicate,[final Predicate<? super T> predicate],1
+org.apache.commons.collections4.map,PassiveExpiringMap,isExpired,[final long now, final Long expirationTimeObject],3
+org.apache.commons.collections4.functors,AndPredicate,andPredicate,[final Predicate<? super T> predicate1, final Predicate<? super T> predicate2],1
+org.apache.commons.collections4.iterators,IteratorEnumeration,nextElement,[],1
+org.apache.commons.collections4.bidimap,UnmodifiableBidiMap,unmodifiableBidiMap,[final BidiMap<? extends K, ? extends V> map],2
+org.apache.commons.collections4,SplitMapUtils,readableMap,[final Get<K, V> get],4
+org.apache.commons.collections4,IterableUtils,reversedIterable,[final Iterable<E> iterable],3
+org.apache.commons.collections4.set,ListOrderedSet,listOrderedSet,[final List<E> list],1
+org.apache.commons.collections4,MapUtils,getByte,[final Map<? super K, ?> map, final K key, final Function<K, Byte> defaultFunction],1
+org.apache.commons.collections4.splitmap,TransformedSplitMap,transformKey,[final J object],1
+org.apache.commons.collections4.map,StaticBucketMap,getHash,[final Object key],4
+org.apache.commons.collections4.map,AbstractHashedMap,_putAll,[final Map<? extends K, ? extends V> map],3
+org.apache.commons.collections4.bloomfilter,Shape,fromKM,[final int numberOfHashFunctions, final int numberOfBits],1
+org.apache.commons.collections4.map,AbstractReferenceMap,createEntrySetIterator,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,nextSmaller,[final Node<K, V> node, final DataElement dataElement],5
+org.apache.commons.collections4.list,NodeCachingLinkedList,isCacheFull,[],1
+org.apache.commons.collections4,CollectionUtils,countMatches,[final Iterable<C> input, final Predicate<? super C> predicate],3
+org.apache.commons.collections4.bloomfilter,Shape,fromNMK,[final int numberOfItems, final int numberOfBits, final int numberOfHashFunctions],1
+org.apache.commons.collections4.bloomfilter,Shape,getProbability,[final int numberOfItems],3
+org.apache.commons.collections4.bloomfilter,CountingBloomFilter,merge,[final BitMapProducer bitMapProducer],1
+org.apache.commons.collections4.iterators,IteratorChain,isLocked,[],1
+org.apache.commons.collections4,MultiMapUtils,newListValuedHashMap,[],1
+org.apache.commons.collections4,MapUtils,getBooleanValue,[final Map<? super K, ?> map, final K key, final Function<K, Boolean> defaultFunction],1
+org.apache.commons.collections4.iterators,PeekingIterator,element,[],2
+org.apache.commons.collections4.bloomfilter,IndexProducer,fromIndexArray,[final int... values],4
+org.apache.commons.collections4.map,EntryIterator,nextEntry,[],3
+org.apache.commons.collections4.map,Flat3Map,createDelegateMap,[],1
+org.apache.commons.collections4,IteratorUtils,asIterator,[final Enumeration<? extends E> enumeration, final Collection<? super E> removeCollection],1
+org.apache.commons.collections4.bloomfilter,BitMap,getLongBit,[final int bitIndex],1
+org.apache.commons.collections4,IterableUtils,loopingIterable,[final Iterable<E> iterable],2
+org.apache.commons.collections4.splitmap,TransformedSplitMap,readObject,[final ObjectInputStream in],1
+org.apache.commons.collections4.list,AVLNode,removeMax,[],3
+org.apache.commons.collections4.functors,ClosureTransformer,closureTransformer,[final Closure<? super T> closure],1
+org.apache.commons.collections4.map,ExpirationPolicy,expirationTime,[K key, V value],1
+org.apache.commons.collections4.map,StaticBucketMap,atomic,[final Runnable r, final int bucket],2
+org.apache.commons.collections4,MapUtils,getByteValue,[final Map<? super K, ?> map, final K key, final Function<K, Byte> defaultFunction],1
+org.apache.commons.collections4,SetUtils,difference,[final Set<? extends E> setA, final Set<? extends E> setB],4
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,incrementSize,[],1
+org.apache.commons.collections4,SetUtils,hashCodeForSet,[final Collection<T> set],4
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,lowerEntry,[final K key],6
+org.apache.commons.collections4.set,TransformedNavigableSet,descendingIterator,[],1
+org.apache.commons.collections4.map,AbstractHashedMap,entryValue,[final HashEntry<K, V> entry],1
+org.apache.commons.collections4.iterators,CollatingIterator,anyHasNext,[final List<Iterator<? extends E>> iterators],3
+org.apache.commons.collections4,ArrayStack,pop,[],2
+org.apache.commons.collections4.bag,TransformedSortedBag,getSortedBag,[],1
+org.apache.commons.collections4.queue,TransformedQueue,getQueue,[],1
+org.apache.commons.collections4.list,Node,getPreviousNode,[],1
+org.apache.commons.collections4.collection,PredicatedCollection,builder,[final Predicate<? super E> predicate],1
+org.apache.commons.collections4.iterators,CollatingIterator,getIteratorIndex,[],2
+org.apache.commons.collections4.functors,FunctorUtils,validate,[final Transformer<?, ?>... transformers],3
+org.apache.commons.collections4.functors,DefaultEquator,equate,[final T o1, final T o2],1
+org.apache.commons.collections4.bloomfilter,Shape,fromNM,[final int numberOfItems, final int numberOfBits],1
+org.apache.commons.collections4,MapUtils,invertMap,[final Map<K, V> map],2
+org.apache.commons.collections4.bidimap,Node,getParent,[final DataElement dataElement],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,isValidUplink,[final TrieEntry<?, ?> next, final TrieEntry<?, ?> from],4
+org.apache.commons.collections4.map,LinkedMapList,subList,[final int fromIndexInclusive, final int toIndexExclusive],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,makeRed,[final Node<?, ?> node, final DataElement dataElement],2
+org.apache.commons.collections4.bloomfilter,Shape,fromNP,[final int numberOfItems, final double probability],2
+org.apache.commons.collections4,ListUtils,transformedList,[final List<E> list, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.bag,TransformedBag,transformedBag,[final Bag<E> bag, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4,IteratorUtils,chainedIterator,[final Collection<Iterator<? extends E>> iterators],1
+org.apache.commons.collections4,Trie,prefixMap,[K key],1
+org.apache.commons.collections4,CollectionUtils,addAll,[final Collection<C> collection, final C... elements],2
+org.apache.commons.collections4.map,TransformedSortedMap,transformingSortedMap,[final SortedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer],1
+org.apache.commons.collections4.bidimap,Node,setBlack,[final DataElement dataElement],1
+org.apache.commons.collections4.list,AbstractLinkedList,addFirst,[final E o],1
+org.apache.commons.collections4.list,TransformedList,transformingList,[final List<E> list, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.map,AbstractReferenceMap,doWriteObject,[final ObjectOutputStream out],2
+org.apache.commons.collections4.collection,Builder,createPredicatedBag,[final Bag<E> bag],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,followRight,[TrieEntry<K, V> node],3
+org.apache.commons.collections4,MultiValuedMap,removeMapping,[Object key, Object item],1
+org.apache.commons.collections4.functors,WhileClosure,isDoLoop,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,isEqualKey,[final Object key1, Object key2],4
+org.apache.commons.collections4.comparators,ComparatorChain,addComparator,[final Comparator<E> comparator, final boolean reverse],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,swapPosition,[final Node<K, V> x, final Node<K, V> y, final DataElement dataElement],17
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,incrementModCount,[],1
+org.apache.commons.collections4.list,TransformedList,getList,[],1
+org.apache.commons.collections4.bloomfilter,Shape,fromPMK,[final double probability, final int numberOfBits, final int numberOfHashFunctions],1
+org.apache.commons.collections4,CollectionUtils,isEqualCollection,[final Collection<? extends E> a, final Collection<? extends E> b, final Equator<? super E> equator],2
+org.apache.commons.collections4.bloomfilter,CountingLongPredicate,forEachRemaining,[],3
+org.apache.commons.collections4.bidimap,Node,swapColors,[final Node<K, V> node, final DataElement dataElement],1
+org.apache.commons.collections4.set,UnmodifiableNavigableSet,unmodifiableNavigableSet,[final NavigableSet<E> set],2
+org.apache.commons.collections4.iterators,PeekingIterator,peekingIterator,[final Iterator<? extends E> iterator],2
+org.apache.commons.collections4.iterators,UnmodifiableOrderedMapIterator,getKey,[],1
+org.apache.commons.collections4,IteratorUtils,filteredIterator,[final Iterator<? extends E> iterator, final Predicate<? super E> predicate],1
+org.apache.commons.collections4,SortedBag,last,[],1
+org.apache.commons.collections4.splitmap,TransformedSplitMap,transformValue,[final U object],1
+org.apache.commons.collections4.collection,IndexedCollection,reindex,[],2
+org.apache.commons.collections4.comparators,BooleanComparator,booleanComparator,[final boolean trueFirst],3
+org.apache.commons.collections4.functors,IdentityPredicate,identityPredicate,[final T object],2
+org.apache.commons.collections4.iterators,ObjectGraphIterator,findNextByIterator,[final Iterator<? extends E> iterator],11
+org.apache.commons.collections4.map,AbstractReferenceMap,purgeBeforeWrite,[],1
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,forEachIndex,[final IntPredicate consumer],4
+org.apache.commons.collections4.bloomfilter,BitMapProducer,fromIndexProducer,[final IndexProducer producer, final int numberOfBits],1
+org.apache.commons.collections4.set,TransformedSortedSet,getSortedSet,[],1
+org.apache.commons.collections4,MapUtils,unmodifiableMap,[final Map<? extends K, ? extends V> map],1
+org.apache.commons.collections4.list,AVLNode,getLeftSubTree,[],3
+org.apache.commons.collections4.bloomfilter,Shape,getNumberOfBits,[],1
+org.apache.commons.collections4.set,TransformedNavigableSet,transformingNavigableSet,[final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4,PredicateUtils,invokerPredicate,[final String methodName, final Class<?>[] paramTypes, final Object[] args],1
+org.apache.commons.collections4.list,CursorableLinkedList,unregisterCursor,[final Cursor<E> cursor],4
+org.apache.commons.collections4.map,LRUMap,moveToMRU,[final LinkEntry<K, V> entry],4
+org.apache.commons.collections4,OrderedMap,firstKey,[],1
+org.apache.commons.collections4.trie,TrieEntry,isExternalNode,[],2
+org.apache.commons.collections4.functors,SwitchTransformer,getTransformers,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,leastNode,[final Node<K, V> node, final DataElement dataElement],3
+org.apache.commons.collections4.iterators,AbstractOrderedMapIteratorDecorator,getOrderedMapIterator,[],1
+org.apache.commons.collections4.iterators,SkippingIterator,next,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,doHashCode,[final DataElement dataElement],3
+org.apache.commons.collections4.comparators,BooleanComparator,getTrueFirstComparator,[],1
+org.apache.commons.collections4.set,TransformedNavigableSet,descendingSet,[],1
+org.apache.commons.collections4.sequence,EditScript,getModifications,[],1
+org.apache.commons.collections4,CollectionUtils,synchronizedCollection,[final Collection<C> collection],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,nextIndex,[],1
+org.apache.commons.collections4,ListUtils,predicatedList,[final List<E> list, final Predicate<E> predicate],1
+org.apache.commons.collections4.bidimap,Node,setRed,[final DataElement dataElement],1
+org.apache.commons.collections4.properties,PropertiesFactory,createProperties,[],1
+org.apache.commons.collections4.list,CursorableLinkedList,broadcastNodeChanged,[final Node<E> node],3
+org.apache.commons.collections4.map,PassiveExpiringMap,now,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,getEntry,[final Object key],2
+org.apache.commons.collections4.list,AbstractLinkedList,createHeaderNode,[],1
+org.apache.commons.collections4.map,UnmodifiableEntrySet,unmodifiableEntrySet,[final Set<Map.Entry<K, V>> set],2
+org.apache.commons.collections4.bloomfilter,EnhancedDoubleHasher,getInitial,[],1
+org.apache.commons.collections4.collection,Builder,createPredicatedSet,[final Set<E> set],1
+org.apache.commons.collections4.iterators,CollatingIterator,start,[],3
+org.apache.commons.collections4,IteratorUtils,boundedIterator,[final Iterator<? extends E> iterator, final long offset, final long max],1
+org.apache.commons.collections4.iterators,UnmodifiableOrderedMapIterator,getValue,[],1
+org.apache.commons.collections4.map,LinkedMapList,lastIndexOf,[final Object obj],1
+org.apache.commons.collections4.functors,NOPClosure,nopClosure,[],1
+org.apache.commons.collections4.bloomfilter,BloomFilter,estimateN,[],5
+org.apache.commons.collections4.properties,EmptyProperties,putIfAbsent,[final Object key, final Object value],1
+org.apache.commons.collections4.iterators,FilterListIterator,setListIterator,[final ListIterator<? extends E> iterator],1
+org.apache.commons.collections4.functors,TransformerPredicate,transformerPredicate,[final Transformer<? super T, Boolean> transformer],1
+org.apache.commons.collections4.list,Cursor,nodeRemoved,[final Node<E> node],5
+org.apache.commons.collections4,ListUtils,lazyList,[final List<E> list, final Transformer<Integer, ? extends E> transformer],1
+org.apache.commons.collections4.splitmap,TransformedSplitMap,transformMap,[final Map<? extends J, ? extends U> map],3
+org.apache.commons.collections4.map,EntrySetView,getEntrySet,[],2
+org.apache.commons.collections4.comparators,BooleanComparator,getFalseFirstComparator,[],1
+org.apache.commons.collections4.bloomfilter,Shape,checkCalculatedProbability,[final double probability],2
+org.apache.commons.collections4,MultiValuedMap,put,[K key, V value],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,bitIndex,[final K key, final K foundKey],1
+org.apache.commons.collections4,MapUtils,predicatedSortedMap,[final SortedMap<K, V> map, final Predicate<? super K> keyPred, final Predicate<? super V> valuePred],1
+org.apache.commons.collections4,MapUtils,printIndent,[final PrintStream out, final int indent],2
+org.apache.commons.collections4.bidimap,UnmodifiableSortedBidiMap,unmodifiableSortedBidiMap,[final SortedBidiMap<K, ? extends V> map],2
+org.apache.commons.collections4,MapUtils,transformedSortedMap,[final SortedMap<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer],1
+org.apache.commons.collections4.map,DefaultedMap,defaultedMap,[final Map<K, V> map, final Transformer<? super K, ? extends V> transformer],1
+org.apache.commons.collections4.functors,ConstantTransformer,getConstant,[],1
+org.apache.commons.collections4.map,LRUMap,reuseMapping,[final LinkEntry<K, V> entry, final int hashIndex, final int hashCode, final K key, final V value],5
+org.apache.commons.collections4.functors,MapTransformer,mapTransformer,[final Map<? super I, ? extends O> map],2
+org.apache.commons.collections4,PredicateUtils,asPredicate,[final Transformer<? super T, Boolean> transformer],1
+org.apache.commons.collections4.functors,ForClosure,getCount,[],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,compareKeys,[final K key, final K other],3
+org.apache.commons.collections4,MultiSet,setCount,[E object, int count],1
+org.apache.commons.collections4.map,MultiKeyMap,multiKeyMap,[final AbstractHashedMap<MultiKey<? extends K>, V> map],2
+org.apache.commons.collections4.multimap,WrappedCollection,getMapping,[],1
+org.apache.commons.collections4.map,TransformedMap,isSetValueChecking,[],1
+org.apache.commons.collections4.bloomfilter,EnhancedDoubleHasher,getIncrement,[],1
+org.apache.commons.collections4.list,NodeCachingLinkedList,shrinkCacheToMaximumSize,[],2
+org.apache.commons.collections4,IteratorUtils,singletonListIterator,[final E object],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,doPut,[final K key, final V value],7
+org.apache.commons.collections4.list,AbstractLinkedList,createSubListIterator,[final LinkedSubList<E> subList],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,reset,[],1
+org.apache.commons.collections4,TrieUtils,unmodifiableTrie,[final Trie<K, ? extends V> trie],1
+org.apache.commons.collections4.bloomfilter,SetOperations,cosineSimilarity,[final BloomFilter first, final BloomFilter second],3
+org.apache.commons.collections4.functors,InstantiateTransformer,instantiateTransformer,[final Class<?>[] paramTypes, final Object[] args],10
+org.apache.commons.collections4.list,AVLNode,removeMin,[],3
+org.apache.commons.collections4.set,CompositeSet,getSets,[],1
+org.apache.commons.collections4.list,AVLNode,insertOnRight,[final int indexRelativeToMe, final E obj],3
+org.apache.commons.collections4.map,AbstractHashedMap,addMapping,[final int hashIndex, final int hashCode, final K key, final V value],1
+org.apache.commons.collections4.bloomfilter,SetOperations,jaccardSimilarity,[final BitMapProducer first, final BitMapProducer second],3
+org.apache.commons.collections4.functors,AnyPredicate,anyPredicate,[final Collection<? extends Predicate<? super T>> predicates],3
+org.apache.commons.collections4.queue,CircularFifoQueue,increment,[int index],2
+org.apache.commons.collections4,BagUtils,predicatedBag,[final Bag<E> bag, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.functors,InvokerTransformer,invokerTransformer,[final String methodName, final Class<?>[] paramTypes, final Object[] args],10
+org.apache.commons.collections4.bidimap,DualTreeBidiMap,inverseSortedBidiMap,[],1
+org.apache.commons.collections4.list,CursorableLinkedList,broadcastNodeInserted,[final Node<E> node],3
+org.apache.commons.collections4.iterators,IteratorChain,lockChain,[],3
+org.apache.commons.collections4.bidimap,TreeBidiMap,doRemoveValue,[final Object value],2
+org.apache.commons.collections4.bidimap,Node,setParent,[final Node<K, V> node, final DataElement dataElement],1
+org.apache.commons.collections4.bidimap,Node,getData,[final DataElement dataElement],4
+org.apache.commons.collections4.bidimap,TreeBidiMap,insertValue,[final Node<K, V> newNode],6
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,decrementSize,[],1
+org.apache.commons.collections4,LcsVisitor,visitDeleteCommand,[final E object],1
+org.apache.commons.collections4,FluentIterable,reverse,[],1
+org.apache.commons.collections4,MultiMapUtils,newSetValuedHashMap,[],1
+org.apache.commons.collections4.bloomfilter,SetOperations,hammingDistance,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4,BagUtils,unmodifiableBag,[final Bag<? extends E> bag],1
+org.apache.commons.collections4.set,TransformedSortedSet,transformingSortedSet,[final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.functors,IfTransformer,ifTransformer,[final Predicate<? super T> predicate, final Transformer<? super T, ? extends T> trueTransformer],1
+org.apache.commons.collections4,ComparatorUtils,nullLowComparator,[Comparator<E> comparator],2
+org.apache.commons.collections4.sequence,EditScript,getLCSLength,[],1
+org.apache.commons.collections4.keyvalue,MultiKey,getClass,[final T value],3
+org.apache.commons.collections4,IteratorUtils,skippingIterator,[final Iterator<E> iterator, final long offset],1
+org.apache.commons.collections4.properties,EmptyProperties,replace,[final Object key, final Object oldValue, final Object newValue],1
+org.apache.commons.collections4.iterators,LazyIteratorChain,updateCurrentIterator,[],8
+org.apache.commons.collections4.bidimap,TreeBidiMap,doRedBlackDelete,[final Node<K, V> deletedNode],14
+org.apache.commons.collections4,ListUtils,isEqualList,[final Collection<?> list1, final Collection<?> list2],11
+org.apache.commons.collections4.bloomfilter,SetOperations,xorCardinality,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4.list,AVLNode,heightRightMinusLeft,[],1
+org.apache.commons.collections4,MultiValuedMap,containsKey,[Object key],1
+org.apache.commons.collections4.functors,FactoryTransformer,factoryTransformer,[final Factory<? extends O> factory],1
+org.apache.commons.collections4.queue,PredicatedQueue,predicatedQueue,[final Queue<E> Queue, final Predicate<? super E> predicate],1
+org.apache.commons.collections4,MapUtils,getMap,[final Map<? super K, ?> map, final K key, final Map<?, ?> defaultValue],1
+org.apache.commons.collections4.functors,IfTransformer,getTrueTransformer,[],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,nextEntryInSubtree,[final TrieEntry<K, V> node, final TrieEntry<K, V> parentOfSubtree],2
+org.apache.commons.collections4.map,AbstractHashedMap,entryKey,[final HashEntry<K, V> entry],1
+org.apache.commons.collections4.list,Node,setPreviousNode,[final Node<E> previous],1
+org.apache.commons.collections4,CollectionUtils,filterInverse,[final Iterable<T> collection, final Predicate<? super T> predicate],3
+org.apache.commons.collections4.set,TransformedSet,transformedSet,[final Set<E> set, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4,MultiValuedMap,values,[],1
+org.apache.commons.collections4.list,AVLNode,insert,[final int index, final E obj],2
+org.apache.commons.collections4.map,FlatMapEntry,setRemoved,[final boolean flag],1
+org.apache.commons.collections4.bloomfilter,Shape,checkNumberOfHashFunctions,[final int numberOfHashFunctions],2
+org.apache.commons.collections4.functors,InstanceofPredicate,instanceOfPredicate,[final Class<?> type],1
+org.apache.commons.collections4.set,UnmodifiableSet,unmodifiableSet,[final Set<? extends E> set],2
+org.apache.commons.collections4,IterableUtils,unmodifiableIterable,[final Iterable<E> iterable],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,doEquals,[final Object obj, final DataElement dataElement],10
+org.apache.commons.collections4,QueueUtils,emptyQueue,[],1
+org.apache.commons.collections4.functors,NullIsExceptionPredicate,nullIsExceptionPredicate,[final Predicate<? super T> predicate],1
+org.apache.commons.collections4.set,TransformedNavigableSet,ceiling,[final E e],1
+org.apache.commons.collections4.properties,EmptyProperties,getProperty,[final String key, final String defaultValue],1
+org.apache.commons.collections4.list,AVLNode,rotateRight,[],1
+org.apache.commons.collections4.iterators,AbstractMapIteratorDecorator,getMapIterator,[],1
+org.apache.commons.collections4.set,PredicatedNavigableSet,predicatedNavigableSet,[final NavigableSet<E> set, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.iterators,CollatingIterator,clear,[final int i],1
+org.apache.commons.collections4.functors,SwitchTransformer,getDefaultTransformer,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,checkNonNullComparable,[final Object obj, final DataElement dataElement],3
+org.apache.commons.collections4.list,LinkedSubList,rangeCheck,[final int index, final int beyond],3
+org.apache.commons.collections4,CollectionUtils,forAllButLastDo,[final Iterator<T> iterator, final C closure],3
+org.apache.commons.collections4.functors,InstantiateFactory,instantiateFactory,[final Class<T> classToInstantiate, final Class<?>[] paramTypes, final Object[] args],10
+org.apache.commons.collections4.sequence,EditScript,visit,[final CommandVisitor<T> visitor],2
+org.apache.commons.collections4.set,PredicatedSet,predicatedSet,[final Set<E> set, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.iterators,TransformIterator,setIterator,[final Iterator<? extends I> iterator],1
+org.apache.commons.collections4.bidimap,Node,getLeft,[final DataElement dataElement],1
+org.apache.commons.collections4.set,MapBackedSet,mapBackedSet,[final Map<E, ? super V> map, final V dummyValue],1
+org.apache.commons.collections4.list,TreeList,checkInterval,[final int index, final int startIndex, final int endIndex],3
+org.apache.commons.collections4.functors,SwitchClosure,getDefaultClosure,[],1
+org.apache.commons.collections4.collection,CompositeCollection,getCollections,[],1
+org.apache.commons.collections4.functors,ConstantTransformer,nullTransformer,[],1
+org.apache.commons.collections4.map,ListOrderedMap,asList,[],1
+org.apache.commons.collections4.bidimap,Node,isRightChild,[final DataElement dataElement],2
+org.apache.commons.collections4,CollectionUtils,unmodifiableCollection,[final Collection<? extends C> collection],1
+org.apache.commons.collections4.queue,AbstractQueueDecorator,offer,[final E obj],1
+org.apache.commons.collections4.functors,ExceptionPredicate,exceptionPredicate,[],1
+org.apache.commons.collections4.iterators,FilterListIterator,getPredicate,[],1
+org.apache.commons.collections4.keyvalue,DefaultKeyValue,toMapEntry,[],1
+org.apache.commons.collections4.set,TransformedSortedSet,transformedSortedSet,[final SortedSet<E> set, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4.list,AVLNode,recalcHeight,[],5
+org.apache.commons.collections4.functors,PredicateTransformer,predicateTransformer,[final Predicate<? super T> predicate],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,grow,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,shrink,[],1
+org.apache.commons.collections4.map,AbstractSortedMapDecorator,subMap,[final K fromKey, final K toKey],1
+org.apache.commons.collections4,SplitMapUtils,writableMap,[final Put<K, V> put],2
+org.apache.commons.collections4.sequence,Snake,getEnd,[],1
+org.apache.commons.collections4,ListUtils,hashCodeForList,[final Collection<?> list],5
+org.apache.commons.collections4.functors,SwitchClosure,switchClosure,[final Map<Predicate<E>, Closure<E>> predicatesAndClosures],5
+org.apache.commons.collections4.list,AbstractLinkedList,addNodeBefore,[final Node<E> node, final E value],1
+org.apache.commons.collections4.functors,InstanceofPredicate,getType,[],1
+org.apache.commons.collections4.properties,EmptyProperties,propertyNames,[],1
+org.apache.commons.collections4.sequence,SequencesComparator,buildSnake,[final int start, final int diag, final int end1, final int end2],4
+org.apache.commons.collections4.set,TransformedNavigableSet,pollFirst,[],1
+org.apache.commons.collections4.map,AbstractSortedMapDecorator,headMap,[final K toKey],1
+org.apache.commons.collections4.comparators,BooleanComparator,compare,[final Boolean b1, final Boolean b2],5
+org.apache.commons.collections4.list,AbstractLinkedList,removeLast,[],2
+org.apache.commons.collections4,MultiMapUtils,getValuesAsList,[final MultiValuedMap<K, V> map, final K key],3
+org.apache.commons.collections4.bloomfilter,BloomFilter,estimateIntersection,[final BloomFilter other],10
+org.apache.commons.collections4,ArrayStack,search,[final Object object],6
+org.apache.commons.collections4,FactoryUtils,nullFactory,[],1
+org.apache.commons.collections4.functors,ExceptionFactory,exceptionFactory,[],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,set,[final E obj],2
+org.apache.commons.collections4,LcsVisitor,visitInsertCommand,[final E object],1
+org.apache.commons.collections4.iterators,EntrySetMapIterator,toString,[],2
+org.apache.commons.collections4,OrderedMap,nextKey,[K key],1
+org.apache.commons.collections4.set,TransformedNavigableSet,transformedNavigableSet,[final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4.iterators,CollatingIterator,checkNotStarted,[],2
+org.apache.commons.collections4.collection,IndexedCollection,addToIndex,[final C object],3
+org.apache.commons.collections4,SetUtils,isEqualSet,[final Collection<?> set1, final Collection<?> set2],5
+org.apache.commons.collections4,IterableUtils,emptyIterable,[],1
+org.apache.commons.collections4.list,NodeCachingLinkedList,createNode,[final E value],2
+org.apache.commons.collections4.list,AbstractLinkedList,addNodeAfter,[final Node<E> node, final E value],1
+org.apache.commons.collections4,IteratorUtils,objectGraphIterator,[final E root, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.iterators,ArrayIterator,getArray,[],1
+org.apache.commons.collections4.list,NodeCachingLinkedList,addNodeToCache,[final Node<E> node],2
+org.apache.commons.collections4.comparators,FixedOrderComparator,getUnknownObjectBehavior,[],1
+org.apache.commons.collections4.functors,NullIsFalsePredicate,nullIsFalsePredicate,[final Predicate<? super T> predicate],1
+org.apache.commons.collections4,ListUtils,getFirst,[final List<T> list],1
+org.apache.commons.collections4,ClosureUtils,doWhileClosure,[final Closure<? super E> closure, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.keyvalue,DefaultKeyValue,setKey,[final K key],2
+org.apache.commons.collections4.bloomfilter,IndexProducer,test,[long word],5
+org.apache.commons.collections4.bloomfilter,CountingBloomFilter,getMaxCell,[],1
+org.apache.commons.collections4.map,AbstractHashedMap,destroyEntry,[final HashEntry<K, V> entry],1
+org.apache.commons.collections4,IterableUtils,emptyIteratorIfNull,[final Iterable<E> iterable],3
+org.apache.commons.collections4.queue,TransformedQueue,transformedQueue,[final Queue<E> queue, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4,CollectionUtils,collate,[final Iterable<? extends O> iterableA, final Iterable<? extends O> iterableB, final Comparator<? super O> comparator, final boolean includeDuplicates],9
+org.apache.commons.collections4.functors,UniquePredicate,uniquePredicate,[],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,isBitSet,[final K key, final int bitIndex, final int lengthInBits],2
+org.apache.commons.collections4.trie,PrefixRangeMap,fixup,[],15
+org.apache.commons.collections4.list,CursorableLinkedList,cursor,[final int fromIndex],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,checkKeyAndValue,[final Object key, final Object value],1
+org.apache.commons.collections4,MapUtils,transformedMap,[final Map<K, V> map, final Transformer<? super K, ? extends K> keyTransformer, final Transformer<? super V, ? extends V> valueTransformer],1
+org.apache.commons.collections4.bag,TransformedSortedBag,transformedSortedBag,[final SortedBag<E> bag, final Transformer<? super E, ? extends E> transformer],4
+org.apache.commons.collections4,BagUtils,transformingSortedBag,[final SortedBag<E> bag, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4,MapUtils,getFloat,[final Map<? super K, ?> map, final K key, final Function<K, Float> defaultFunction],1
+org.apache.commons.collections4.properties,EmptyProperties,replaceAll,[final BiFunction<? super Object, ? super Object, ? extends Object> function],1
+org.apache.commons.collections4,MapUtils,orderedMap,[final Map<K, V> map],1
+org.apache.commons.collections4.trie,PrefixRangeMap,inFromRange,[final K key, final boolean forceInclusive],1
+org.apache.commons.collections4.iterators,LazyIteratorChain,nextIterator,[int count],1
+org.apache.commons.collections4.properties,EmptyProperties,load,[final Reader reader],1
+org.apache.commons.collections4,EquatorWrapper,hashCode,[],1
+org.apache.commons.collections4.bloomfilter,BitMap,getLongIndex,[final int bitIndex],1
+org.apache.commons.collections4.set,UnmodifiableSortedSet,subSet,[final E fromElement, final E toElement],1
+org.apache.commons.collections4.multimap,AbstractMultiValuedMap,wrappedCollection,[final K key],1
+org.apache.commons.collections4.map,LRUMap,removeLRU,[final LinkEntry<K, V> entry],1
+org.apache.commons.collections4.map,MultiKeyMap,removeMultiKey,[final Object key1, final Object key2, final Object key3, final Object key4, final Object key5],4
+org.apache.commons.collections4,MapUtils,predicatedMap,[final Map<K, V> map, final Predicate<? super K> keyPred, final Predicate<? super V> valuePred],1
+org.apache.commons.collections4,IterableUtils,transformedIterable,[final Iterable<I> iterable, final Transformer<? super I, ? extends O> transformer],1
+org.apache.commons.collections4.comparators,ComparableComparator,comparableComparator,[],1
+org.apache.commons.collections4.collection,CompositeCollection,getMutator,[],1
+org.apache.commons.collections4.keyvalue,MultiKey,newArray,[final T key1, final T key2, final T key3, final T key4, final T key5],1
+org.apache.commons.collections4,MapUtils,getString,[final Map<? super K, ?> map, final K key, final String defaultValue],1
+org.apache.commons.collections4,SetUtils,createIterator,[],1
+org.apache.commons.collections4,MultiSetUtils,synchronizedMultiSet,[final MultiSet<E> multiset],1
+org.apache.commons.collections4.keyvalue,AbstractMapEntryDecorator,getMapEntry,[],1
+org.apache.commons.collections4.bidimap,AbstractDualBidiMap,createBidiMap,[Map<V, K> normalMap, Map<K, V> reverseMap, BidiMap<K, V> inverseMap],1
+org.apache.commons.collections4.map,ListOrderedMap,keyList,[],1
+org.apache.commons.collections4,IteratorUtils,arrayIterator,[final Object array, final int start, final int end],1
+org.apache.commons.collections4.functors,NullPredicate,nullPredicate,[],1
+org.apache.commons.collections4.sequence,EditScript,append,[final DeleteCommand<T> command],1
+org.apache.commons.collections4,TransformerUtils,switchMapTransformer,[final Map<I, Transformer<I, O>> objectsAndTransformers],2
+org.apache.commons.collections4.list,NodeCachingLinkedList,removeAllNodes,[],2
+org.apache.commons.collections4,CollectionUtils,select,[final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate, final R outputCollection, final R rejectedCollection],5
+org.apache.commons.collections4,IterableUtils,uniqueIterable,[final Iterable<E> iterable],1
+org.apache.commons.collections4.set,UnmodifiableSortedSet,headSet,[final E toElement],1
+org.apache.commons.collections4,MultiValuedMap,containsValue,[Object value],1
+org.apache.commons.collections4.properties,SortedProperties,sortedKeys,[],1
+org.apache.commons.collections4.list,AVLNode,balance,[],9
+org.apache.commons.collections4,CardinalityHelper,freqB,[final Object obj],1
+org.apache.commons.collections4,ListUtils,longestCommonSubsequence,[final List<E> listA, final List<E> listB, final Equator<? super E> equator],1
+org.apache.commons.collections4,CardinalityHelper,freqA,[final Object obj],1
+org.apache.commons.collections4.map,ListOrderedMap,listOrderedMap,[final Map<K, V> map],1
+org.apache.commons.collections4.trie,PrefixRangeMap,getToKey,[],1
+org.apache.commons.collections4.iterators,SkippingIterator,init,[],3
+org.apache.commons.collections4.set,TransformedNavigableSet,lower,[final E e],1
+org.apache.commons.collections4.iterators,ZippingIterator,hasNext,[],4
+org.apache.commons.collections4,TransformerUtils,asTransformer,[final Factory<? extends O> factory],1
+org.apache.commons.collections4.collection,CompositeCollection,removeComposited,[final Collection<E> coll],1
+org.apache.commons.collections4.keyvalue,MultiKey,getComponentType,[final T... values],6
+org.apache.commons.collections4,Bag,uniqueSet,[],1
+org.apache.commons.collections4.iterators,EmptyListIterator,resettableEmptyListIterator,[],1
+org.apache.commons.collections4.sequence,SequencesComparator,getScript,[],1
+org.apache.commons.collections4.functors,ComparatorPredicate,evaluate,[final T target],7
+org.apache.commons.collections4.map,AbstractSortedMapDecorator,tailMap,[final K fromKey],1
+org.apache.commons.collections4,MapUtils,synchronizedSortedMap,[final SortedMap<K, V> map],1
+org.apache.commons.collections4,FluentIterable,skip,[final long elementsToSkip],1
+org.apache.commons.collections4,MapUtils,verbosePrintInternal,[final PrintStream out, final Object label, final Map<?, ?> map, final Deque<Map<?, ?>> lineage, final boolean debug],16
+org.apache.commons.collections4,SetOperationCardinalityHelper,setCardinality,[final O obj, final int count],2
+org.apache.commons.collections4.list,AbstractLinkedList,addLast,[final E o],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,getNearestEntryForKey,[final K key, final int lengthInBits],5
+org.apache.commons.collections4.bloomfilter,BitMap,numberOfBitMaps,[final int numberOfBits],1
+org.apache.commons.collections4.multimap,ArrayListValuedHashMap,trimToSize,[],2
+org.apache.commons.collections4,CardinalityHelper,max,[final Object obj],1
+org.apache.commons.collections4.iterators,CollatingIterator,anyValueSet,[final BitSet set],3
+org.apache.commons.collections4.properties,EmptyProperties,stringPropertyNames,[],1
+org.apache.commons.collections4,IterableUtils,zippingIterable,[final Iterable<? extends E> first, final Iterable<? extends E>... others],2
+org.apache.commons.collections4.list,CursorableLinkedList,broadcastNodeRemoved,[final Node<E> node],3
+org.apache.commons.collections4.properties,EmptyProperties,storeToXML,[final OutputStream os, final String comment, final String encoding],1
+org.apache.commons.collections4,MapUtils,getLong,[final Map<? super K, ?> map, final K key, final Long defaultValue],1
+org.apache.commons.collections4.bidimap,Node,getRight,[final DataElement dataElement],1
+org.apache.commons.collections4,IteratorUtils,loopingListIterator,[final List<E> list],1
+org.apache.commons.collections4,EquatorWrapper,equals,[final Object obj],3
+org.apache.commons.collections4,IteratorUtils,toListIterator,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4.bloomfilter,Shape,checkProbability,[final double probability],4
+org.apache.commons.collections4.map,AbstractReferenceMap,isKeyType,[final ReferenceStrength type],1
+org.apache.commons.collections4.list,SetUniqueList,createSetBasedOnList,[final Set<E> set, final List<E> list],3
+org.apache.commons.collections4.list,Cursor,checkModCount,[],3
+org.apache.commons.collections4.functors,ChainedClosure,chainedClosure,[final Collection<? extends Closure<? super E>> closures],3
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,selectValue,[final K key],2
+org.apache.commons.collections4.properties,EmptyProperties,rehash,[],1
+org.apache.commons.collections4.map,ReferenceEntry,nullValue,[],1
+org.apache.commons.collections4,CardinalityHelper,getFreq,[final Object obj, final Map<?, Integer> freqMap],2
+org.apache.commons.collections4,CollectionUtils,find,[final Iterable<T> collection, final Predicate<? super T> predicate],3
+org.apache.commons.collections4,FluentIterable,limit,[final long maxSize],1
+org.apache.commons.collections4,ListUtils,indexOf,[final List<E> list, final Predicate<E> predicate],5
+org.apache.commons.collections4.multiset,AbstractMultiSet,createEntrySet,[],1
+org.apache.commons.collections4.list,Cursor,nodeChanged,[final Node<E> node],1
+org.apache.commons.collections4.multiset,AbstractMultiSet,createUniqueSet,[],1
+org.apache.commons.collections4.functors,EqualPredicate,equalPredicate,[final T object, final Equator<T> equator],2
+org.apache.commons.collections4.iterators,EnumerationIterator,getEnumeration,[],1
+org.apache.commons.collections4.map,AbstractLinkedMap,entryAfter,[final LinkEntry<K, V> entry],1
+org.apache.commons.collections4.splitmap,AbstractIterableGetMapDecorator,entrySet,[],1
+org.apache.commons.collections4.bag,CollectionSortedBag,collectionSortedBag,[final SortedBag<E> bag],1
+org.apache.commons.collections4.map,AbstractHashedMap,calculateThreshold,[final int newCapacity, final float factor],1
+org.apache.commons.collections4.collection,IndexedCollection,nonUniqueIndexedCollection,[final Collection<C> coll, final Transformer<C, K> keyTransformer],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,getRightChild,[final Node<K, V> node, final DataElement dataElement],3
+org.apache.commons.collections4.functors,OnePredicate,onePredicate,[final Collection<? extends Predicate<? super T>> predicates],1
+org.apache.commons.collections4.iterators,PeekingIterator,fill,[],4
+org.apache.commons.collections4,MapUtils,applyDefaultFunction,[final Map<? super K, ?> map, final K key, final BiFunction<Map<? super K, ?>, K, R> getFunction, final Function<K, R> defaultFunction, final R defaultValue],9
+org.apache.commons.collections4.list,AVLNode,getRightSubTree,[],3
+org.apache.commons.collections4,SetUtils,newIdentityHashSet,[],1
+org.apache.commons.collections4,MultiValuedMap,entries,[],1
+org.apache.commons.collections4.bidimap,UnmodifiableOrderedBidiMap,inverseOrderedBidiMap,[],2
+org.apache.commons.collections4.bloomfilter,IndexUtils,ensureCapacityForAdd,[final int[] array, final int index],2
+org.apache.commons.collections4.sequence,SequencesComparator,buildScript,[final int start1, final int end1, final int start2, final int end2, final EditScript<T> script],13
+org.apache.commons.collections4.map,MultiValueMap,createCollection,[final int size],1
+org.apache.commons.collections4,ListUtils,defaultIfNull,[final List<T> list, final List<T> defaultList],3
+org.apache.commons.collections4.bloomfilter,BloomFilter,estimateUnion,[final BloomFilter other],1
+org.apache.commons.collections4,MultiValuedMap,keys,[],1
+org.apache.commons.collections4.iterators,UnmodifiableOrderedMapIterator,unmodifiableOrderedMapIterator,[final OrderedMapIterator<K, ? extends V> iterator],2
+org.apache.commons.collections4.functors,AllPredicate,allPredicate,[final Collection<? extends Predicate<? super T>> predicates],3
+org.apache.commons.collections4,CollectionUtils,maxSize,[final Collection<? extends Object> collection],3
+org.apache.commons.collections4.functors,ComparatorPredicate,comparatorPredicate,[final T object, final Comparator<T> comparator, final Criterion criterion],1
+org.apache.commons.collections4,CollectionUtils,getCardinalityMap,[final Iterable<? extends O> coll],3
+org.apache.commons.collections4.iterators,TransformIterator,transform,[final I source],1
+org.apache.commons.collections4,IteratorUtils,collatedIterator,[final Comparator<? super E> comparator, final Collection<Iterator<? extends E>> iterators],3
+org.apache.commons.collections4,MapUtils,putAll,[final Map<K, V> map, final Object[] array],12
+org.apache.commons.collections4,SetUtils,orderedSet,[final Set<E> set],1
+org.apache.commons.collections4,FluentIterable,of,[final Iterable<T> iterable],2
+org.apache.commons.collections4.iterators,FilterListIterator,clearPreviousObject,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,purgeBeforeRead,[],1
+org.apache.commons.collections4.functors,ConstantFactory,constantFactory,[final T constantToReturn],2
+org.apache.commons.collections4.functors,OrPredicate,orPredicate,[final Predicate<? super T> predicate1, final Predicate<? super T> predicate2],1
+org.apache.commons.collections4,CollectionUtils,disjunction,[final Iterable<? extends O> a, final Iterable<? extends O> b],2
+org.apache.commons.collections4.collection,Builder,rejectedElements,[],1
+org.apache.commons.collections4,CollectionUtils,selectRejected,[final Iterable<? extends O> inputCollection, final Predicate<? super O> predicate, final R outputCollection],6
+org.apache.commons.collections4.keyvalue,MultiKey,getKeys,[],1
+org.apache.commons.collections4.map,AbstractHashedMap,entryNext,[final HashEntry<K, V> entry],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,doRedBlackInsert,[final Node<K, V> insertedNode, final DataElement dataElement],11
+org.apache.commons.collections4.map,PassiveExpiringMap,removeIfExpired,[final Object key, final long nowMillis],2
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,lastEntry,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,createEntry,[final HashEntry<K, V> next, final int hashCode, final K key, final V value],1
+org.apache.commons.collections4.functors,NonePredicate,nonePredicate,[final Collection<? extends Predicate<? super T>> predicates],2
+org.apache.commons.collections4.list,AbstractLinkedList,getNode,[final int index, final boolean endMarkerAllowed],9
+org.apache.commons.collections4.set,TransformedSet,transformingSet,[final Set<E> set, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.map,AbstractHashedMap,checkCapacity,[],3
+org.apache.commons.collections4,MapUtils,getDoubleValue,[final Map<? super K, ?> map, final K key, final Function<K, Double> defaultFunction],1
+org.apache.commons.collections4.functors,SwitchClosure,getClosures,[],1
+org.apache.commons.collections4.bloomfilter,CountingBloomFilter,uniqueIndices,[],1
+org.apache.commons.collections4.collection,Builder,createPredicatedQueue,[final Queue<E> queue],1
+org.apache.commons.collections4.iterators,IteratorIterable,iterator,[],2
+org.apache.commons.collections4,CollectionUtils,removeAll,[final Iterable<E> collection, final Iterable<? extends E> remove, final Equator<? super E> equator],4
+org.apache.commons.collections4,MapUtils,applyDefaultValue,[final Map<? super K, ?> map, final K key, final BiFunction<Map<? super K, ?>, K, R> getFunction, final R defaultValue],6
+org.apache.commons.collections4.map,UnmodifiableOrderedMap,unmodifiableOrderedMap,[final OrderedMap<? extends K, ? extends V> map],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,lookupKey,[final Object key],1
+org.apache.commons.collections4.keyvalue,MultiKey,calculateHashCode,[final Object[] keys],3
+org.apache.commons.collections4.bloomfilter,SetOperations,orCardinality,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,forEachBitMap,[final LongPredicate consumer],10
+org.apache.commons.collections4,CollectionUtils,removeCount,[final Collection<E> input, int startIndex, int count],6
+org.apache.commons.collections4.set,UnmodifiableSortedSet,tailSet,[final E fromElement],1
+org.apache.commons.collections4.functors,NotNullPredicate,notNullPredicate,[],1
+org.apache.commons.collections4,MapUtils,getObject,[final Map<K, V> map, final K key, final V defaultValue],3
+org.apache.commons.collections4,IteratorUtils,asIterable,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4.functors,ExceptionTransformer,readResolve,[],1
+org.apache.commons.collections4,SetUtils,synchronizedSortedSet,[final SortedSet<E> set],1
+org.apache.commons.collections4,MapUtils,safeAddToMap,[final Map<? super K, Object> map, final K key, final Object value],3
+org.apache.commons.collections4,CollectionUtils,subtract,[final Iterable<? extends O> a, final Iterable<? extends O> b, final Predicate<O> p],6
+org.apache.commons.collections4.map,ReferenceEntry,onPurge,[],1
+org.apache.commons.collections4.functors,SwitchClosure,execute,[final E input],3
+org.apache.commons.collections4,CollectionUtils,extractSingleton,[final Collection<E> collection],2
+org.apache.commons.collections4.sequence,DeleteCommand,accept,[final CommandVisitor<T> visitor],1
+org.apache.commons.collections4,IteratorUtils,loopingIterator,[final Collection<? extends E> collection],1
+org.apache.commons.collections4,FluentIterable,unique,[],1
+org.apache.commons.collections4,MapUtils,verbosePrint,[final PrintStream out, final Object label, final Map<?, ?> map],1
+org.apache.commons.collections4.properties,EmptyProperties,loadFromXML,[final InputStream in],1
+org.apache.commons.collections4,MultiValuedMap,asMap,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,lookupValue,[final Object value],1
+org.apache.commons.collections4.list,CursorableLinkedList,createSubListListIterator,[final LinkedSubList<E> subList, final int fromIndex],1
+org.apache.commons.collections4,ListUtils,sum,[final List<? extends E> list1, final List<? extends E> list2],1
+org.apache.commons.collections4,IteratorUtils,nodeListIterator,[final Node node],1
+org.apache.commons.collections4,CollectionUtils,permutations,[final Collection<E> collection],2
+org.apache.commons.collections4.set,TransformedNavigableSet,pollLast,[],1
+org.apache.commons.collections4.multiset,AbstractMultiSet,createUniqueSetIterator,[],1
+org.apache.commons.collections4.map,EntrySetToMapIteratorAdapter,current,[],2
+org.apache.commons.collections4,CardinalityHelper,min,[final Object obj],1
+org.apache.commons.collections4,ListUtils,partition,[final List<T> list, final int size],2
+org.apache.commons.collections4.collection,IndexedCollection,removeFromIndex,[final C object],1
+org.apache.commons.collections4,ListUtils,synchronizedList,[final List<E> list],1
+org.apache.commons.collections4,MapUtils,getBoolean,[final Map<? super K, ?> map, final K key, final Function<K, Boolean> defaultFunction],1
+org.apache.commons.collections4.iterators,TransformIterator,setTransformer,[final Transformer<? super I, ? extends O> transformer],1
+org.apache.commons.collections4.functors,StringValueTransformer,stringValueTransformer,[],1
+org.apache.commons.collections4.bloomfilter,Shape,checkNumberOfBits,[final int numberOfBits],2
+org.apache.commons.collections4.map,AbstractHashedMap,convertKey,[final Object key],3
+org.apache.commons.collections4.properties,EmptyProperties,store,[final Writer writer, final String comments],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,selectKey,[final K key],2
+org.apache.commons.collections4,IterableUtils,chainedIterable,[final Iterable<? extends E>... iterables],2
+org.apache.commons.collections4.bidimap,Node,isBlack,[final DataElement dataElement],1
+org.apache.commons.collections4.iterators,EmptyListIterator,emptyListIterator,[],1
+org.apache.commons.collections4,MapUtils,toMap,[final ResourceBundle resourceBundle],2
+org.apache.commons.collections4.list,GrowthList,growthList,[final List<E> list],1
+org.apache.commons.collections4,IterableUtils,skippingIterable,[final Iterable<E> iterable, final long elementsToSkip],2
+org.apache.commons.collections4.iterators,PushbackIterator,pushbackIterator,[final Iterator<? extends E> iterator],2
+org.apache.commons.collections4.properties,EmptyProperties,getOrDefault,[final Object key, final Object defaultValue],1
+org.apache.commons.collections4.comparators,ComparatorChain,setForwardSort,[final int index],1
+org.apache.commons.collections4.functors,TransformerClosure,transformerClosure,[final Transformer<? super E, ?> transformer],2
+org.apache.commons.collections4,FluentIterable,allMatch,[final Predicate<? super E> predicate],1
+org.apache.commons.collections4,IterableUtils,frequency,[final Iterable<E> iterable, final T obj],5
+org.apache.commons.collections4,CollectionUtils,reverseArray,[final Object[] array],2
+org.apache.commons.collections4,FluentIterable,loop,[],1
+org.apache.commons.collections4.iterators,IteratorEnumeration,hasMoreElements,[],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,doRedBlackDeleteFixup,[final Node<K, V> replacementNode, final DataElement dataElement],12
+org.apache.commons.collections4,ListUtils,fixedSizeList,[final List<E> list],1
+org.apache.commons.collections4,FluentIterable,copyInto,[final Collection<? super E> collection],1
+org.apache.commons.collections4,IterableUtils,filteredIterable,[final Iterable<E> iterable, final Predicate<? super E> predicate],1
+org.apache.commons.collections4.bloomfilter,Shape,calculateNumberOfHashFunctions,[final int numberOfItems, final int numberOfBits],2
+org.apache.commons.collections4,BidiMap,removeValue,[Object value],1
+org.apache.commons.collections4.map,AbstractHashedMap,ensureCapacity,[final int newCapacity],5
+org.apache.commons.collections4.set,TransformedNavigableSet,higher,[final E e],1
+org.apache.commons.collections4,BagUtils,transformingBag,[final Bag<E> bag, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4,BagUtils,synchronizedSortedBag,[final SortedBag<E> bag],1
+org.apache.commons.collections4.iterators,ArrayIterator,getStartIndex,[],1
+org.apache.commons.collections4.properties,EmptyProperties,computeIfAbsent,[final Object key, final Function<? super Object, ? extends Object> mappingFunction],1
+org.apache.commons.collections4.map,ReferenceEntry,purge,[final Reference<?> ref],8
+org.apache.commons.collections4.queue,UnmodifiableQueue,unmodifiableQueue,[final Queue<? extends E> queue],2
+org.apache.commons.collections4.list,NodeCachingLinkedList,getNodeFromCache,[],2
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,removeExternalEntry,[final TrieEntry<K, V> h],8
+org.apache.commons.collections4.iterators,ArrayIterator,checkBound,[final int bound, final int len, final String type],3
+org.apache.commons.collections4,OrderedMap,lastKey,[],1
+org.apache.commons.collections4.map,AbstractReferenceMap,isValueType,[final ReferenceStrength type],1
+org.apache.commons.collections4,CollectionUtils,removeRange,[final Collection<E> input, final int startIndex, final int endIndex],3
+org.apache.commons.collections4.map,AbstractReferenceMap,doReadObject,[final ObjectInputStream in],3
+org.apache.commons.collections4.functors,TruePredicate,truePredicate,[],1
+org.apache.commons.collections4.trie.analyzer,StringKeyAnalyzer,mask,[final int bit],1
+org.apache.commons.collections4.functors,IfClosure,getFalseClosure,[],1
+org.apache.commons.collections4.iterators,PushbackIterator,pushback,[final E item],1
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,characteristics,[],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,previous,[],3
+org.apache.commons.collections4.trie,PrefixRangeMap,inToRange,[final K key, final boolean forceInclusive],1
+org.apache.commons.collections4.functors,SwitchTransformer,switchTransformer,[final Map<? extends Predicate<? super I>, ? extends Transformer<? super I, ? extends O>> map],6
+org.apache.commons.collections4,IterableUtils,boundedIterable,[final Iterable<E> iterable, final long maxSize],2
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,bitsPerElement,[],1
+org.apache.commons.collections4.collection,UnmodifiableBoundedCollection,unmodifiableBoundedCollection,[Collection<? extends E> collection],7
+org.apache.commons.collections4.bidimap,Node,isRed,[final DataElement dataElement],2
+org.apache.commons.collections4.functors,AbstractQuantifierPredicate,getPredicates,[],1
+org.apache.commons.collections4.iterators,ObjectArrayListIterator,previousIndex,[],1
+org.apache.commons.collections4.functors,FunctorUtils,coerce,[final Transformer<? super I, ? extends O> transformer],1
+org.apache.commons.collections4.queue,TransformedQueue,transformingQueue,[final Queue<E> queue, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.bloomfilter,BitMap,mod,[final long dividend, final int divisor],3
+org.apache.commons.collections4.bidimap,UnmodifiableOrderedBidiMap,unmodifiableOrderedBidiMap,[final OrderedBidiMap<? extends K, ? extends V> map],2
+org.apache.commons.collections4.list,LinkedListIterator,getLastNodeReturned,[],2
+org.apache.commons.collections4,MapUtils,getLongValue,[final Map<? super K, ?> map, final K key, final long defaultValue],1
+org.apache.commons.collections4,CollectionUtils,forAllDo,[final Iterator<T> iterator, final C closure],2
+org.apache.commons.collections4,ComparatorUtils,nullHighComparator,[Comparator<E> comparator],2
+org.apache.commons.collections4,FluentIterable,zip,[final Iterable<? extends E>... others],1
+org.apache.commons.collections4.iterators,CollatingIterator,getComparator,[],1
+org.apache.commons.collections4.list,AVLNode,insertOnLeft,[final int indexRelativeToMe, final E obj],3
+org.apache.commons.collections4.trie,KeyAnalyzer,isValidBitIndex,[final int bitIndex],1
+org.apache.commons.collections4,MapUtils,fixedSizeMap,[final Map<K, V> map],1
+org.apache.commons.collections4,CollectionUtils,containsAny,[final Collection<?> coll1, final Collection<?> coll2],6
+org.apache.commons.collections4.comparators,BooleanComparator,sortsTrueFirst,[],1
+org.apache.commons.collections4,CollectionUtils,predicatedCollection,[final Collection<C> collection, final Predicate<? super C> predicate],1
+org.apache.commons.collections4,CollectionUtils,isSubCollection,[final Collection<?> a, final Collection<?> b],3
+org.apache.commons.collections4.iterators,FilterListIterator,setNextObject,[],7
+org.apache.commons.collections4.trie,KeyAnalyzer,isEqualBitKey,[final int bitIndex],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,getLeftChild,[final Node<K, V> node, final DataElement dataElement],3
+org.apache.commons.collections4,MultiMapUtils,emptyMultiValuedMap,[],1
+org.apache.commons.collections4,ArrayStack,push,[final E item],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,selectR,[final TrieEntry<K, V> h, final int bitIndex, final K key, final int lengthInBits, final Reference<Map.Entry<K, V>> reference],8
+org.apache.commons.collections4,MapUtils,iterableSortedMap,[final SortedMap<K, V> sortedMap],3
+org.apache.commons.collections4.properties,EmptyProperties,setProperty,[final String key, final String value],1
+org.apache.commons.collections4.comparators,ComparatorChain,setReverseSort,[final int index],1
+org.apache.commons.collections4.trie,BasicEntry,setKeyValue,[final K key, final V value],1
+org.apache.commons.collections4.map,AbstractHashedMap,reuseEntry,[final HashEntry<K, V> entry, final int hashIndex, final int hashCode, final K key, final V value],1
+org.apache.commons.collections4.iterators,UnmodifiableListIterator,umodifiableListIterator,[final ListIterator<? extends E> iterator],1
+org.apache.commons.collections4.map,ReferenceBaseIterator,checkMod,[],2
+org.apache.commons.collections4.map,AbstractHashedMap,removeEntry,[final HashEntry<K, V> entry, final int hashIndex, final HashEntry<K, V> previous],2
+org.apache.commons.collections4.list,FixedSizeList,unsupportedOperationException,[],1
+org.apache.commons.collections4,PredicateUtils,instanceofPredicate,[final Class<?> type],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,nextEntryImpl,[final TrieEntry<K, V> start, final TrieEntry<K, V> previous, final TrieEntry<K, V> tree],18
+org.apache.commons.collections4.list,AVLNode,rotateLeft,[],1
+org.apache.commons.collections4.map,LRUMap,isScanUntilRemovable,[],1
+org.apache.commons.collections4,ClosureUtils,switchMapClosure,[final Map<? extends E, Closure<E>> objectsAndClosures],2
+org.apache.commons.collections4.list,NodeCachingLinkedList,setMaximumCacheSize,[final int maximumCacheSize],1
+org.apache.commons.collections4.functors,InstantiateFactory,findConstructor,[],2
+org.apache.commons.collections4.iterators,EmptyOrderedMapIterator,emptyOrderedMapIterator,[],1
+org.apache.commons.collections4,MultiSetUtils,unmodifiableMultiSet,[final MultiSet<? extends E> multiset],1
+org.apache.commons.collections4.map,AbstractHashedMap,calculateNewCapacity,[final int proposedCapacity],4
+org.apache.commons.collections4.iterators,ArrayIterator,getEndIndex,[],1
+org.apache.commons.collections4,MultiValuedMap,get,[K key],1
+org.apache.commons.collections4.map,PassiveExpiringMap,validateAndConvertToMillis,[final long timeToLive, final TimeUnit timeUnit],1
+org.apache.commons.collections4.trie,AbstractPatriciaTrie,firstEntry,[],2
+org.apache.commons.collections4.functors,FunctorUtils,copy,[final Transformer<? super I, ? extends O>... transformers],2
+org.apache.commons.collections4.list,SetUniqueList,asSet,[],1
+org.apache.commons.collections4,ClosureUtils,asClosure,[final Transformer<? super E, ?> transformer],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,getKeyAnalyzer,[],1
+org.apache.commons.collections4.trie,PrefixRangeMap,isFromInclusive,[],1
+org.apache.commons.collections4.iterators,EmptyMapIterator,emptyMapIterator,[],1
+org.apache.commons.collections4,CollectionUtils,containsAll,[final Collection<?> coll1, final Collection<?> coll2],8
+org.apache.commons.collections4.bloomfilter,CountingBloomFilter,isValid,[],1
+org.apache.commons.collections4,PredicateUtils,eitherPredicate,[final Predicate<? super T> predicate1, final Predicate<? super T> predicate2],1
+org.apache.commons.collections4.sequence,ReplacementsHandler,handleReplacement,[int skipped, List<T> from, List<T> to],1
+org.apache.commons.collections4.bidimap,TreeBidiMap,makeBlack,[final Node<?, ?> node, final DataElement dataElement],2
+org.apache.commons.collections4,MapUtils,emptyIfNull,[final Map<K, V> map],3
+org.apache.commons.collections4,SortedBidiMap,valueComparator,[],1
+org.apache.commons.collections4,CollectionUtils,filter,[final Iterable<T> collection, final Predicate<? super T> predicate],6
+org.apache.commons.collections4.collection,IndexedCollection,uniqueIndexedCollection,[final Collection<C> coll, final Transformer<C, K> keyTransformer],1
+org.apache.commons.collections4.queue,CircularFifoQueue,decrement,[int index],2
+org.apache.commons.collections4.functors,ClosureTransformer,getClosure,[],1
+org.apache.commons.collections4.properties,EmptyProperties,elements,[],1
+org.apache.commons.collections4,MapUtils,iterableMap,[final Map<K, V> map],3
+org.apache.commons.collections4.comparators,FixedOrderComparator,addAsEqual,[final T existingObj, final T newObj],2
+org.apache.commons.collections4.functors,TransformedPredicate,transformedPredicate,[final Transformer<? super T, ? extends T> transformer, final Predicate<? super T> predicate],1
+org.apache.commons.collections4,CollectionUtils,exists,[final Iterable<C> input, final Predicate<? super C> predicate],2
+org.apache.commons.collections4,CollectionUtils,isFull,[final Collection<? extends Object> collection],3
+org.apache.commons.collections4.map,PassiveExpiringMap,removeAllExpired,[final long nowMillis],3
+org.apache.commons.collections4.functors,PrototypeCloneFactory,findCloneMethod,[],2
+org.apache.commons.collections4.iterators,CollatingIterator,getIterators,[],1
+org.apache.commons.collections4,IteratorUtils,first,[final Iterator<E> iterator],1
+org.apache.commons.collections4.sequence,Snake,getStart,[],1
+org.apache.commons.collections4,BagUtils,collectionBag,[final Bag<E> bag],1
+org.apache.commons.collections4.trie,PrefixRangeMap,isToInclusive,[],1
+org.apache.commons.collections4,MapUtils,getInteger,[final Map<? super K, ?> map, final K key, final Integer defaultValue],1
+org.apache.commons.collections4.queue,AbstractQueueDecorator,poll,[],1
+org.apache.commons.collections4.properties,AbstractPropertiesFactory,toPropertyFormat,[final String fileName],3
+org.apache.commons.collections4.bloomfilter,SparseBloomFilter,asBitMapArray,[],2
+org.apache.commons.collections4,IterableUtils,checkNotNull,[final Iterable<?>... iterables],2
+org.apache.commons.collections4.iterators,EnumerationIterator,setEnumeration,[final Enumeration<? extends E> enumeration],1
+org.apache.commons.collections4.bidimap,AbstractViewIterator,navigatePrevious,[],4
+org.apache.commons.collections4.multiset,AbstractMapMultiSet,setMap,[final Map<E, MutableInteger> map],1
+org.apache.commons.collections4.functors,ExceptionFactory,create,[],1
+org.apache.commons.collections4.bloomfilter,CellProducer,from,[final IndexProducer producer],6
+org.apache.commons.collections4.list,SetUniqueList,setUniqueList,[final List<E> list],2
+org.apache.commons.collections4.iterators,IteratorChain,checkLocked,[],2
+org.apache.commons.collections4.functors,CatchAndRethrowClosure,executeAndThrow,[E input],1
+org.apache.commons.collections4.bloomfilter,EnhancedDoubleHasher,toLong,[final byte[] byteArray, final int offset, final int len],2
+org.apache.commons.collections4.splitmap,TransformedSplitMap,writeObject,[final ObjectOutputStream out],1
+org.apache.commons.collections4,IteratorUtils,asMultipleUseIterable,[final Iterator<? extends E> iterator],1
+org.apache.commons.collections4.map,MultiKeyMap,checkKey,[final MultiKey<?> key],1
+org.apache.commons.collections4,ListUtils,unmodifiableList,[final List<? extends E> list],1
+org.apache.commons.collections4.iterators,TransformIterator,getIterator,[],1
+org.apache.commons.collections4.bloomfilter,SetOperations,andCardinality,[final BitMapProducer first, final BitMapProducer second],1
+org.apache.commons.collections4.trie,AbstractBitwiseTrie,castKey,[final Object key],1
+org.apache.commons.collections4.functors,CloneTransformer,cloneTransformer,[],1
+org.apache.commons.collections4.iterators,UnmodifiableListIterator,unmodifiableListIterator,[final ListIterator<? extends E> iterator],2
+org.apache.commons.collections4.queue,SynchronizedQueue,synchronizedQueue,[final Queue<E> queue],1
+org.apache.commons.collections4.functors,IfClosure,getTrueClosure,[],1
+org.apache.commons.collections4,CollectionUtils,transformingCollection,[final Collection<E> collection, final Transformer<? super E, ? extends E> transformer],1
+org.apache.commons.collections4.functors,NullIsTruePredicate,nullIsTruePredicate,[final Predicate<? super T> predicate],1
+org.apache.commons.collections4.bloomfilter,Shape,checkNumberOfItems,[final int numberOfItems],2
+org.apache.commons.collections4,ClosureUtils,invokerClosure,[final String methodName, final Class<?>[] paramTypes, final Object[] args],1
+org.apache.commons.collections4.list,AVLNode,getOffset,[final AVLNode<E> node],2
+org.apache.commons.collections4.bidimap,Node,isLeftChild,[final DataElement dataElement],2
+org.apache.commons.collections4.iterators,ObjectGraphIterator,findNext,[final E value],2
+org.apache.commons.collections4.list,CursorableLinkedList,registerCursor,[final Cursor<E> cursor],1
+org.apache.commons.collections4.functors,PrototypeFactory,prototypeFactory,[final T prototype],5
+org.apache.commons.collections4.trie,PrefixRangeMap,inRange2,[final K key],1
+org.apache.commons.collections4.iterators,UnmodifiableIterator,unmodifiableIterator,[final Iterator<? extends E> iterator],2
+org.apache.commons.collections4,ComparatorUtils,transformedComparator,[Comparator<O> comparator, final Transformer<? super I, ? extends O> transformer],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,lookup,[final Object data, final DataElement dataElement],5
+org.apache.commons.collections4,OrderedMap,previousKey,[K key],1
+org.apache.commons.collections4.map,MapMutator,resolveCollision,[CompositeMap<K, V> composite, Map<K, V> existing, Map<K, V> added, Collection<K> intersect],1
+org.apache.commons.collections4,MapUtils,getShort,[final Map<? super K, ?> map, final K key, final Short defaultValue],1
+org.apache.commons.collections4,CollectionUtils,cardinality,[final O obj, final Iterable<? super O> collection],1
+org.apache.commons.collections4.iterators,FilterListIterator,setPreviousObject,[],7
+org.apache.commons.collections4.map,AbstractHashedMap,entryHashCode,[final HashEntry<K, V> entry],1
+org.apache.commons.collections4.functors,ExceptionTransformer,exceptionTransformer,[],1
+org.apache.commons.collections4.collection,PredicatedCollection,notNullBuilder,[],1
+org.apache.commons.collections4.map,Flat3Map,convertToMap,[],6
+org.apache.commons.collections4.map,ListOrderedMap,valueList,[],1
+org.apache.commons.collections4.functors,WhileClosure,whileClosure,[final Predicate<? super E> predicate, final Closure<? super E> closure, final boolean doLoop],1
+org.apache.commons.collections4.map,ReferenceBaseIterator,nextNull,[],2
+org.apache.commons.collections4.bidimap,TreeBidiMap,doRemoveKey,[final Object key],2

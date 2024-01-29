@@ -1,6 +1,3 @@
-# Code of your exercise
-
-```java
 package fr.istic.vv;
 
 import com.github.javaparser.JavaParser;
@@ -181,4 +178,3 @@ public class CyclomaticComplexityCalculator extends VoidVisitorAdapter<Void> {
         }
     }
 }
-```
