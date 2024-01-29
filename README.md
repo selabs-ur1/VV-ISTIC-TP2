@@ -11,6 +11,10 @@ You can access the exercises [here](sujet.md)
 
 You can realize this lab by group of 1 or 2. 
 
+Yoann Dewilde  
+Enora Danilo  
+M2 ILa - Groupe 1  
+
 ## Deliverable and evaluation
 
 We will mark this lab. You need to fork this repository and to submit a pull request with the answers written in the dedicated sections (deadline January 29th 2024, 23:59 for apprenticeship students - deadline January 15th 2024, 23:59 for non-apprenticeship students).

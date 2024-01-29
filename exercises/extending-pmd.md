@@ -1,3 +1,7 @@
+Yoann DEWILDE  
+Enora DANILO  
+M2 ILA - Groupe 1  
+
 # Extending PMD
 
 Use XPath to define a new rule for PMD to prevent complex code. The rule should detect the use of three or more nested `if` statements in Java programs so it can detect patterns like the following:
@@ -23,3 +27,46 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Règle XML :
+
+```xml
+<rule name="ThreeOrMoreNestedIfs"
+      language="java"
+      message="Three or more nested if blocks"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+	<description>
+		More than 2 if blocks are nested
+	</description>
+	<priority>3</priority>
+
+	<properties>
+		<property name="version" value="3.1"/>
+		<property name="xpath">
+         	<value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+		</value>
+      </property>
+   </properties>
+</rule>
+```
+
+### Exemple
+
+```sh
+$ pmd check ./src -R ../../code/Exercise4/MyRuleset.xml
+./src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:97:	ThreeOrMoreNestedIfs:	Three or more nested if blocks
+```
+
+**Ici une erreur sera donc détectée :**
+
+```
+if (docId != null) {
+    final EntityManager em = EntityManagerService.provideEntityManager();
+    final Document document = em.find(Document.class, Integer.parseInt(docId));
+    if (document != null) {
+        if (selectedDocument == null) {
+            selectedDocument = document;
+        }
+```
