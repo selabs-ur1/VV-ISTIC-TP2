@@ -22,7 +22,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
 // This class visits a compilation unit and
 // prints all public enum, classes or interfaces along with their public methods
-public class NoGetterWriter extends VoidVisitorWithDefaults<Void> {
+public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
     private ArrayList<VariableDeclarator> privateFields = new ArrayList<>();
     private ArrayList<MethodDeclaration> methods = new ArrayList<>();
     private Map<String, ArrayList<String>> privateFieldsReported = new HashMap<>();

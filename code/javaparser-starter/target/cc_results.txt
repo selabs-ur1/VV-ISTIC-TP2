@@ -1,0 +1,1452 @@
+List of cyclomatic complexity by method:
+
+MethodName: checkKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: checkKeyAndValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, Object value, 
+
+MethodName: checkNonNullComparable
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object obj, DataElement dataElement, 
+
+MethodName: checkValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: compare
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: T o1, T o2, 
+
+MethodName: isBlack
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<?,?> node, DataElement dataElement, 
+
+MethodName: isRed
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<?,?> node, DataElement dataElement, 
+
+MethodName: makeBlack
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<?,?> node, DataElement dataElement, 
+
+MethodName: makeRed
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<?,?> node, DataElement dataElement, 
+
+MethodName: clear
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: containsKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: containsValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: copyColor
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> from, Node<K,V> to, DataElement dataElement, 
+
+MethodName: doEquals
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 5
+Private fields: Object obj, DataElement dataElement, 
+
+MethodName: doHashCode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: DataElement dataElement, 
+
+MethodName: doPut
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: K key, V value, 
+
+MethodName: doRedBlackDelete
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> deletedNode, 
+
+MethodName: doRedBlackDeleteFixup
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> replacementNode, DataElement dataElement, 
+
+MethodName: doRedBlackInsert
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> insertedNode, DataElement dataElement, 
+
+MethodName: doRemoveKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object key, 
+
+MethodName: doRemoveValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object value, 
+
+MethodName: doToString
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: DataElement dataElement, 
+
+MethodName: entrySet
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: equals
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object obj, 
+
+MethodName: firstKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: get
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: getGrandParent
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: getKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: getLeftChild
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: getMapIterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: DataElement dataElement, 
+
+MethodName: getParent
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: getRightChild
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: greatestNode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: grow
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: hashCode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: insertValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> newNode, 
+
+MethodName: inverseBidiMap
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: isEmpty
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: keySet
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: lastKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: leastNode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: lookup
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object data, DataElement dataElement, 
+
+MethodName: lookupKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: lookupValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: mapIterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: modify
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: nextGreater
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: nextKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, 
+
+MethodName: nextSmaller
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: previousKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, 
+
+MethodName: put
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, V value, 
+
+MethodName: putAll
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends K,? extends V> map, 
+
+MethodName: readObject
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: ObjectInputStream stream, 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: rotateLeft
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: rotateRight
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: shrink
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: size
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: swapPosition
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 8
+Private fields: Node<K,V> x, Node<K,V> y, DataElement dataElement, 
+
+MethodName: toString
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: values
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: writeObject
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectOutputStream stream, 
+
+MethodName: clear
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: size
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: hasNext
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: hasPrevious
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: navigateNext
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: 
+
+MethodName: navigatePrevious
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 4
+Private fields: 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 4
+Private fields: 
+
+MethodName: toString
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: contains
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object obj, 
+
+MethodName: iterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: Object obj, 
+
+MethodName: clear
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: containsKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: containsValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: entrySet
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: equals
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object obj, 
+
+MethodName: firstKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: get
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: getKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: hashCode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseBidiMap
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: isEmpty
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: keySet
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: lastKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: mapIterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: nextKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: V key, 
+
+MethodName: previousKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: V key, 
+
+MethodName: put
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: V key, K value, 
+
+MethodName: putAll
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends V,? extends K> map, 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: size
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: toString
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: values
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: contains
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object obj, 
+
+MethodName: iterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: Object obj, 
+
+MethodName: createEntry
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, 
+
+MethodName: next
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: previous
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: getKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: getValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: next
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: previous
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: setValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K obj, 
+
+MethodName: contains
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object obj, 
+
+MethodName: iterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object o, 
+
+MethodName: copyColor
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: equals
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: Object obj, 
+
+MethodName: getData
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: DataElement dataElement, 
+
+MethodName: getKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: getLeft
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: getParent
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: getRight
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: getValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: hashCode
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: isBlack
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: isLeftChild
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: isRed
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: isRightChild
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: setBlack
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: setLeft
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: setParent
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: setRed
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: DataElement dataElement, 
+
+MethodName: setRight
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: setValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: V ignored, 
+
+MethodName: swapColors
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Node<K,V> node, DataElement dataElement, 
+
+MethodName: contains
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object obj, 
+
+MethodName: iterator
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object o, 
+
+MethodName: next
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: previous
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: getKey
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: getValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: next
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: previous
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: setValue
+ClassName: TreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: V obj, 
+
+MethodName: comparator
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: createBidiMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<V,K> normalMap, Map<K,V> reverseMap, BidiMap<K,V> inverseMap, 
+
+MethodName: firstKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: headMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K toKey, 
+
+MethodName: inverseBidiMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseOrderedBidiMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseSortedBidiMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: lastKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: nextKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 4
+Private fields: K key, 
+
+MethodName: previousKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 4
+Private fields: K key, 
+
+MethodName: readObject
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectInputStream in, 
+
+MethodName: subMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, K toKey, 
+
+MethodName: tailMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, 
+
+MethodName: valueComparator
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: writeObject
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectOutputStream out, 
+
+MethodName: getKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: getValue
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: hasNext
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: hasPrevious
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: next
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: previous
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: reset
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: setValue
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 3
+Private fields: V value, 
+
+MethodName: toString
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: clear
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: containsValue
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: decorated
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: headMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K toKey, 
+
+MethodName: nextKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, 
+
+MethodName: previousKey
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, 
+
+MethodName: subMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, K toKey, 
+
+MethodName: tailMap
+ClassName: DualTreeBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, 
+
+MethodName: unmodifiableOrderedBidiMap
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 2
+Private fields: OrderedBidiMap<? extends K,? extends V> map, 
+
+MethodName: clear
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: entrySet
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseBidiMap
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseOrderedBidiMap
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: keySet
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: put
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, V value, 
+
+MethodName: putAll
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends K,? extends V> mapToCopy, 
+
+MethodName: remove
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: values
+ClassName: UnmodifiableOrderedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: comparator
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: decorated
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: headMap
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: K toKey, 
+
+MethodName: inverseBidiMap
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: subMap
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: K fromKey, K toKey, 
+
+MethodName: tailMap
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: K fromKey, 
+
+MethodName: valueComparator
+ClassName: AbstractSortedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: createBidiMap
+ClassName: DualLinkedHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<V,K> normalMap, Map<K,V> reverseMap, BidiMap<K,V> inverseBidiMap, 
+
+MethodName: readObject
+ClassName: DualLinkedHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectInputStream in, 
+
+MethodName: writeObject
+ClassName: DualLinkedHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectOutputStream out, 
+
+MethodName: unmodifiableBidiMap
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 2
+Private fields: BidiMap<? extends K,? extends V> map, 
+
+MethodName: clear
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: entrySet
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseBidiMap
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: keySet
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: put
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, V value, 
+
+MethodName: putAll
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends K,? extends V> mapToCopy, 
+
+MethodName: remove
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: values
+ClassName: UnmodifiableBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: createBidiMap
+ClassName: DualHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<V,K> normalMap, Map<K,V> reverseMap, BidiMap<K,V> inverseBidiMap, 
+
+MethodName: readObject
+ClassName: DualHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectInputStream in, 
+
+MethodName: writeObject
+ClassName: DualHashBidiMap
+Cyclomatic Complexity: 1
+Private fields: ObjectOutputStream out, 
+
+MethodName: unmodifiableSortedBidiMap
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 2
+Private fields: SortedBidiMap<K,? extends V> map, 
+
+MethodName: clear
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: entrySet
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: headMap
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: K toKey, 
+
+MethodName: inverseBidiMap
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: keySet
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: put
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: K key, V value, 
+
+MethodName: putAll
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends K,? extends V> mapToCopy, 
+
+MethodName: remove
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: subMap
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, K toKey, 
+
+MethodName: tailMap
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: K fromKey, 
+
+MethodName: values
+ClassName: UnmodifiableSortedBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: decorated
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: getKey
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: inverseBidiMap
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: removeValue
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: values
+ClassName: AbstractBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: clear
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: containsKey
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: containsValue
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: createBidiMap
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<V,K> normalMap, Map<K,V> reverseMap, BidiMap<K,V> inverseMap, 
+
+MethodName: createEntrySetIterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Iterator<Map.Entry<K,V>> iterator, 
+
+MethodName: createKeySetIterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Iterator<K> iterator, 
+
+MethodName: createValuesIterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Iterator<V> iterator, 
+
+MethodName: entrySet
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: equals
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object obj, 
+
+MethodName: get
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: getKey
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: hashCode
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseBidiMap
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: isEmpty
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: keySet
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: mapIterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: put
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 3
+Private fields: K key, V value, 
+
+MethodName: putAll
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Map<? extends K,? extends V> map, 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object key, 
+
+MethodName: removeValue
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object value, 
+
+MethodName: size
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: toString
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: values
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: getKey
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: getValue
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: hasNext
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: next
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: reset
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: setValue
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 3
+Private fields: V value, 
+
+MethodName: toString
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: iterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 3
+Private fields: Object obj, 
+
+MethodName: next
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: contains
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object key, 
+
+MethodName: iterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object key, 
+
+MethodName: next
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: setValue
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: V value, 
+
+MethodName: contains
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object value, 
+
+MethodName: iterator
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: Object value, 
+
+MethodName: next
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: remove
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: 
+
+MethodName: clear
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: equals
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: Object object, 
+
+MethodName: hashCode
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: removeAll
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 2
+Private fields: Collection<?> coll, 
+
+MethodName: removeIf
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 3
+Private fields: Predicate<? super E> filter, 
+
+MethodName: retainAll
+ClassName: AbstractDualBidiMap
+Cyclomatic Complexity: 4
+Private fields: Collection<?> coll, 
+
+MethodName: decorated
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: firstKey
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: inverseBidiMap
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: lastKey
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: mapIterator
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: 
+
+MethodName: nextKey
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: K key, 
+
+MethodName: previousKey
+ClassName: AbstractOrderedBidiMapDecorator
+Cyclomatic Complexity: 1
+Private fields: K key, 
+

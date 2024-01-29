@@ -1,0 +1,26 @@
+List of private fields without public getter:
+
+ClassName: UnmodifiableOrderedBidiMap
+Private fields: inverse | 
+
+ClassName: AbstractDualBidiMap
+Private fields: normalMap | reverseMap | inverseBidiMap | keySet | values | entrySet | 
+
+ClassName: DualLinkedHashBidiMap
+Private fields: serialVersionUID | 
+
+ClassName: DualHashBidiMap
+Private fields: serialVersionUID | 
+
+ClassName: UnmodifiableBidiMap
+Private fields: inverse | 
+
+ClassName: UnmodifiableSortedBidiMap
+Private fields: inverse | 
+
+ClassName: DualTreeBidiMap
+Private fields: serialVersionUID | comparator | valueComparator | 
+
+ClassName: TreeBidiMap
+Private fields: serialVersionUID | rootNode | nodeCount | modifications | keySet | valuesSet | entrySet | inverse | 
+
