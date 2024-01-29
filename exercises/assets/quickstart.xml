@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="quickstart"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    <description>Quickstart configuration of PMD. Includes the rules that are most likely to apply everywhere.</description>
+
+    <rule name="ComplexCodeRule"
+          language="java"
+          message="More than two nested if statements"
+          class="net.sourceforge.pmd.lang.rule.XPathRule">
+        <description>Detects complex code with more than two nested if statements</description>
+        <priority>5</priority>
+        <properties>
+            <property name="version" value="3.1"/>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+
+</ruleset>
+

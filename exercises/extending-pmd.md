@@ -23,3 +23,8 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+
+Defining and testing an XPath rule for PMD to help prevent complex code. Three or more nested `if` statements show a warning.
+See the image below.
+
+![](assets/IMG_3_1.JPG)

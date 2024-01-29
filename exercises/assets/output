@@ -1,0 +1,40 @@
+src\main\java\fr\istic\vv\Main.java:3:	UnnecessaryImport:	Unused import 'com.github.javaparser.Problem'
+src\main\java\fr\istic\vv\Main.java:4:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.CompilationUnit'
+src\main\java\fr\istic\vv\Main.java:5:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.body.ClassOrInterfaceDeclaration'
+src\main\java\fr\istic\vv\Main.java:6:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.body.MethodDeclaration'
+src\main\java\fr\istic\vv\Main.java:7:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.visitor.VoidVisitor'
+src\main\java\fr\istic\vv\Main.java:8:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.visitor.VoidVisitorAdapter'
+src\main\java\fr\istic\vv\Main.java:13:	UnnecessaryImport:	Unused import 'java.nio.file.Path'
+src\main\java\fr\istic\vv\Main.java:14:	UnnecessaryImport:	Unused import 'java.nio.file.Paths'
+src\main\java\fr\istic\vv\Main.java:16:	ShortClassName:	Avoid short class names like Main
+src\main\java\fr\istic\vv\Main.java:16:	CommentRequired:	Class comments are required
+src\main\java\fr\istic\vv\Main.java:16:	UseUtilityClass:	This utility class has a non-private constructor
+src\main\java\fr\istic\vv\Main.java:18:	CommentRequired:	Public method and constructor comments are required
+src\main\java\fr\istic\vv\Main.java:18:	MethodArgumentCouldBeFinal:	Parameter 'args' is not assigned and could be declared final
+src\main\java\fr\istic\vv\Main.java:20:	SystemPrintln:	Usage of System.out/err
+src\main\java\fr\istic\vv\Main.java:24:	LocalVariableCouldBeFinal:	Local variable 'file' could be declared final
+src\main\java\fr\istic\vv\Main.java:26:	SystemPrintln:	Usage of System.out/err
+src\main\java\fr\istic\vv\Main.java:30:	LocalVariableCouldBeFinal:	Local variable 'root' could be declared final
+src\main\java\fr\istic\vv\Main.java:31:	LocalVariableCouldBeFinal:	Local variable 'printer' could be declared final
+src\main\java\fr\istic\vv\Main.java:34:	LawOfDemeter:	Access to field `Result` on foreign value `SourceRoot.Callback` (degree 1)
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:4:	UnnecessaryImport:	Unused import 'com.github.javaparser.ast.body.*'
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:10:	CommentRequired:	Class comments are required
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:10:	AtLeastOneConstructor:	Each class should declare at least one constructor
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:13:	MethodArgumentCouldBeFinal:	Parameter 'unit' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:14:	LocalVariableCouldBeFinal:	Local variable 'type' could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:19:	CommentRequired:	Public method and constructor comments are required
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:19:	MethodArgumentCouldBeFinal:	Parameter 'declaration' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:19:	MethodArgumentCouldBeFinal:	Parameter 'arg' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:20:	ControlStatementBraces:	This statement should have braces
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:21:	SystemPrintln:	Usage of System.out/err
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:22:	LocalVariableCouldBeFinal:	Local variable 'method' could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:26:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:28:	ControlStatementBraces:	This statement should have braces
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:33:	MethodArgumentCouldBeFinal:	Parameter 'declaration' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:33:	MethodArgumentCouldBeFinal:	Parameter 'arg' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:38:	MethodArgumentCouldBeFinal:	Parameter 'declaration' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:38:	MethodArgumentCouldBeFinal:	Parameter 'arg' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:43:	MethodArgumentCouldBeFinal:	Parameter 'declaration' is not assigned and could be declared final
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:44:	ControlStatementBraces:	This statement should have braces
+src\main\java\fr\istic\vv\PublicElementsPrinter.java:45:	SystemPrintln:	Usage of System.out/err
+LoosePackageCoupling	-	No packages or classes specified

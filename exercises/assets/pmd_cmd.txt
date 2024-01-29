@@ -1,0 +1,2 @@
+pmd check -f text --rulesets=rulesets/java.xml -d src/main/java -r output
+
