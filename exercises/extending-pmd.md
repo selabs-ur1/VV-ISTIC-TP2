@@ -23,3 +23,5 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+To check if a class contains at countains 3 nested IfStatement this
+**//IfStatement//IfStatement//IfStatement** rule is enough to detect the third IfStatement matching.

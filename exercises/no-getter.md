@@ -8,7 +8,7 @@ For example, in the following class:
 
 ```Java
 
-class Person {
+class main.java.fr.istic.vv.Person {
     private int age;
     private String name;
     
