@@ -23,3 +23,45 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Here is the rule that I used
+
+```
+<rule name="3IfStatement" language="java" message="Usage of at least 3 nested if statements" class="net.sourceforge.pmd.lang.rule.XPathRule">
+        <description>Detection of three or more nested if statements in Java code. </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+                    <![CDATA[ //IfStatement[ancestor::IfStatement[ancestor::IfStatement]] ]]> 
+                </value>
+            </property>
+        </properties>
+    </rule>
+```
+
+### Result :
+
+commons-collections\src\main\java\org\apache\commons\collections4\set\CompositeSet.java:376:    3IfStatement:   Usage of at least 3 nested if statements
+
+```
+   public synchronized void addComposited(final Set<E> set) {
+        if (set != null) {
+            for (final Set<E> existingSet : getSets()) {
+                final Collection<E> intersects = CollectionUtils.intersection(existingSet, set);
+                if (!intersects.isEmpty()) {
+                    if (this.mutator == null) {
+                        throw new UnsupportedOperationException(
+                                "Collision adding composited set with no SetMutator set");
+                    }
+                    getMutator().resolveCollision(this, existingSet, set, intersects);
+                    if (!CollectionUtils.intersection(existingSet, set).isEmpty()) {
+                        throw new IllegalArgumentException(
+                                "Attempt to add illegal entry unresolved by SetMutator.resolveCollision()");
+                    }
+                }
+            }
+            all.add(set);
+        }
+    }
+```
+
