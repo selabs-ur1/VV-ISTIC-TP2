@@ -1,0 +1,10 @@
+version: "1"
+services: 
+  serviceTest: 
+    image: jwilder/nginx-proxy
+    expose: "8080:80"
+
+  serviceNginx: 
+    image: nginx
+    environnement: 
+      - VIRTUAL_HOST=m
