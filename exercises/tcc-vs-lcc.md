@@ -6,3 +6,27 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+TCC will be equal to LCC if every method shares a variable with the others methods.
+
+```java
+public class TCCequalsLCC {
+
+  public String one;
+  public String two;
+  public String three;
+
+  public String first() {
+    return one + " " + three;
+  }
+
+  public String second() {
+    return one + " " + two;
+  }
+
+  public String third() {
+    return two + " " + three;
+  }
+}
+```
+
+LCC can't be lower than TCC since TCC calcul is based on direct relations between nodes and in LCC we also count the transitive relation, so LCC is at least  equal to TCC or greater.
