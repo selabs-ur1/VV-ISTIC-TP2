@@ -6,3 +6,13 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+### True positive
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/eecccf6a-9851-4129-aacd-86deedc2a9d9)
+
+### False positive
+The inputstream is closed in another function
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/e53f360e-588a-4e39-b6a4-b638330c47d3)
+
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/398f025b-a638-485e-8810-8c56f517e924)
+
+![image](https://github.com/TDerudder/VV-ISTIC-TP2/assets/113186590/13d9998d-660f-429c-a87d-411a5805d94a)
