@@ -21,7 +21,7 @@
             <property name="xpath">
                 <value>
                     <![CDATA[
-                    //IfStatement[descendant::IfStatement[descendant::IfStatement]]
+                    //IfStatement[descendant::Block/descendant::IfStatement[descendant::Block/descendant::IfStatement]]
                     ]]>
                 </value>
             </property>
