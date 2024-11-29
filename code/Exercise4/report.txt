@@ -1,0 +1,2 @@
+test.Person age : false
+test.Person name : true
