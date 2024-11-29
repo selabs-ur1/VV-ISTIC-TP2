@@ -23,3 +23,32 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Pour rajouter cette nouvelle règle j'ai creer le fichier "newrule.xml" et j'ai ajouter ceci dedans : 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom Rules" xmlns="http://pmd.sf.net/ruleset/2.0.0"
+xsi:schemaLocation="http://pmd.sf.net/ruleset/2.0.0 http://pmd.sf.net/ruleset_2_0_0.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <description>
+        This is a custom ruleset to detect excessive nested if-statements or high cyclomatic complexity.
+    </description>
+
+    <rule name="TooManyNestedIfs"
+          language="java"
+          message="Avoid nesting too many if statements or having high cyclomatic complexity."
+          class="net.sourceforge.pmd.lang.java.rule.design.CyclomaticComplexityRule"
+          since="6.0.0">
+
+        <description>
+            This rule detects methods with high cyclomatic complexity.
+            High complexity often correlates with deeply nested code, like excessive 'if' statements.
+        </description>
+
+    </rule>
+
+</ruleset>
+
+je l'ai ensuite tester sur le code que j'ai mis dans le dossier "code/exercice3" et voici le résultat :
+
+./src/main/java/pmdtest.java:9:	TooManyNestedIfs:	Avoid nesting too many if statements or having high cyclomatic complexity.

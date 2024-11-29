@@ -1,0 +1,36 @@
+Pour verifier que LCC et TCC sont égaux pour une classe java donnée, j'ai choisis de faire cette vérification
+sur un projet personnel de game of life présent à l'adresse suivante :
+https://github.com/Kazoie/GameOfLife/blob/main/src/main/java/GameOfLife.java
+
+et voici l'analyse que l'on peut en tirer :
+
+Analyse TCC : (relations directe)
+La métrique TCC considère les connexions directes entre deux méthodes si elles accèdent aux mêmes attributs directement ou par un appel de méthode qui le fait.
+    Les attributs principaux de la classe sont :
+        taurusSize, taurus, cellSize, et timer.
+
+    Méthodes importantes qui utilisent ces attributs :
+        initialize() : accède à taurus.
+        step() : accède à taurus.
+        randomCells() : accède à taurus.
+        choosenCell() : accède à taurus.
+        Méthodes comme placeBlinker(), placeBlock() et autres : modifient directement taurus.
+
+Ces connexions directes entre les méthodes et les attributs suffisent pour établir une cohésion importante dans la classe.
+La plupart des méthodes sont directement connectées à taurus, ce qui signifie que TCC aura une valeur significative.
+
+Analyse LCC:
+La métrique LCC inclut également les connexions indirectes.
+Par exemple, si une méthode A appelle une méthode B qui accède à un attribut partagé, alors A et B sont connectées indirectement.
+
+Dans ce code :
+
+    choosenCell() appelle des méthodes comme placeBlinker(), placeBlock(), etc., qui accèdent à taurus. Cela crée des connexions indirectes entre choosenCell() et d'autres méthodes.
+    randomCells() crée également des connexions indirectes en fonction des motifs placés aléatoirement.
+
+Étant donné que presque toutes les méthodes accèdent soit directement, soit indirectement à taurus, les connexions indirectes ne rajoutent pas de nouvelles relations significatives dans ce cas particulier.
+
+
+Conclusion :
+TCC et LCC auront la même valeur pour cette classe. Cela est dû au fait que toutes les connexions entre les méthodes et l'attribut central (taurus) sont directes, ou bien les connexions indirectes redondent avec les connexions directes.
+Il n'y a pas de méthode isolée ou de relation uniquement indirecte qui augmenterait LCC par rapport à TCC.

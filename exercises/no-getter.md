@@ -27,3 +27,14 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+## Answer
+
+le résultat de mon travail peut-être trouver dans le dossier code/Exercice4.
+
+après un maven install et une commande java -jar <nom de votre jar> <folder a tester> vous obtenez un report.txt.
+le report.txt fera un résumé de toutes les variables qu'il à trouver dans le code analysé en mettant true ou false selon la présence de getter ou non pour chaque
+variable.
+Dans le cas de la classe Person donné en exemple, name à un getter mais pas age ce qui donne le résultat suivant :
+test.Person age : false
+test.Person name : true
