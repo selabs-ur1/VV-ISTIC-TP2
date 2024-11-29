@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Custom Ruleset" xmlns="http://pmd.sourceforge.net/ruleset/1.0.0">
+    
+    <description>
+    
+    </description>
+
+    <!-- Rule to detect more than two nested if statements -->
+    <rule name="3 ifs imbriqued"
+          language="java"
+          message="Oui"
+          class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+            This rule detects more than two nested 'if' statements.
+        </description>
+        <priority>3</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+                    <![CDATA[
+                        //IfStatement[descendant::IfStatement[descendant::IfStatement]]
+                    ]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+
+</ruleset>
