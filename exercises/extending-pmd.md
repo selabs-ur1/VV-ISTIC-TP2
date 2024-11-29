@@ -40,13 +40,3 @@ public class ComplexCodeExample {
     }
 }
 ```
-
-En testant sur common-collections j'obtiens bien des remontés de PMD sur la règle
-
-```
-src/main/java/org/apache/commons/collections4/CollectionUtils.java:1858:	3 ifs imbriqued:	Oui
-src/main/java/org/apache/commons/collections4/CollectionUtils.java:1860:	3 ifs imbriqued:	Oui
-src/main/java/org/apache/commons/collections4/CollectionUtils.java:1862:	3 ifs imbriqued:	Oui
-src/main/java/org/apache/commons/collections4/CollectionUtils.java:1864:	3 ifs imbriqued:	Oui
-...
-```
