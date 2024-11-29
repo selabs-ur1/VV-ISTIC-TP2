@@ -23,3 +23,41 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Instruction pour la règle PMD
+
+```
+//IfStatement
+    [descendant::Block/IfStatement
+        [descendant::Block/IfStatement]]
+```
+
+J'utilise Bloc/IfStatement plutôt que IfStatement pour eviter la detection des else if succesifs :
+
+```java
+if(...){}
+else if(){}
+```
+
+Dans pmd Designer :
+
+![alt text](../images/pmdDesigner.png)
+
+Le rulesets est disponible [ici](../rulesets.xml).
+
+Je l'ai testé dans apache commons collections. Il a trouvé plusieurs erreurs !
+
+exemple de sortie :
+
+```bash
+src/main/java/org/apache/commons/collections4/bidimap/TreeBidiMap.java:1361:    Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/bidimap/TreeBidiMap.java:2107:    Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/bidimap/TreeBidiMap.java:2132:    Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/comparators/ComparatorChain.java:205:     Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/iterators/CollatingIterator.java:271:     Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:242:   Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/map/CompositeMap.java:194:        Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java:837:  Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java:960:  Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/map/ConcurrentReferenceHashMap.java:1024: Regles_VV_tp2:  too much nested if 
+src/main/java/org/apache/commons/collections4/map/LRUMap.java:241:      Regles_VV_tp2:  too much nested if 
+```
