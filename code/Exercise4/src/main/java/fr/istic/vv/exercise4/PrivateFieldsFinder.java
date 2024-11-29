@@ -7,7 +7,7 @@ import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
 // This class visits a compilation unit and
-// prints all private fields of public classes that have no public getter
+// reports all private fields of public classes that have no public getter
 public class PrivateFieldsFinder extends VoidVisitorWithDefaults<Void> {
 
     ReportPrinter reportPrinter = new ReportPrinter();

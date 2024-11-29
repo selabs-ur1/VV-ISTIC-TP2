@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.istic.vv.exercise4</groupId>
-    <artifactId>exercise4</artifactId>
+    <groupId>fr.istic.vv.exercise5</groupId>
+    <artifactId>exercise5</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -20,6 +20,11 @@
             <artifactId>javaparser-core</artifactId>
             <version>3.16.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -33,7 +38,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>fr.istic.vv.exercise4.Main</mainClass>
+                            <mainClass>fr.istic.vv.exercise5.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -47,7 +52,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>fr.istic.vv.exercise4.Main</mainClass>
+                            <mainClass>fr.istic.vv.exercise5.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
