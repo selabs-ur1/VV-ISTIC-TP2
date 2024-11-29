@@ -2,7 +2,7 @@
 <ruleset name="Custom Ruleset" xmlns="http://pmd.sourceforge.net/ruleset/1.0.0">
     
     <description>
-    
+
     </description>
 
     <!-- Rule to detect more than two nested if statements -->
@@ -18,7 +18,7 @@
             <property name="xpath">
                 <value>
                     <![CDATA[
-                        //IfStatement[descendant::IfStatement[descendant::IfStatement]]
+                        //IfStatement[descendant::Block/IfStatement[descendant::Block/IfStatement]]
                     ]]>
                 </value>
             </property>

@@ -24,7 +24,7 @@ Use your rule with different projects and describe you findings below. See the [
 ## Answer
 
 ```xml
-//IfStatement[descendant::IfStatement[descendant::IfStatement]]
+//IfStatement[descendant::Block/IfStatement[descendant::Block/IfStatement]]
 ```
 
 ```java
