@@ -43,7 +43,7 @@ public class PrivateFieldNoGetterPrinter extends VoidVisitorWithDefaults<Void> {
     }
 
     /**
-     * Represents a field in a class that is missing a getter
+     * Represents a field in a class
      */
     static class FieldInfo {
         String fieldName;
@@ -84,14 +84,12 @@ public class PrivateFieldNoGetterPrinter extends VoidVisitorWithDefaults<Void> {
         public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
             String className = declaration.getNameAsString();
 
-            // Collect public method names
             for (MethodDeclaration method : declaration.getMethods()) {
                 if (method.isPublic()) {
                     publicMethodNames.add(method.getNameAsString());
                 }
             }
 
-            // Collect all fields and check for missing getters
             for (FieldDeclaration field : declaration.getFields()) {
                 for (VariableDeclarator variable : field.getVariables()) {
                     String fieldName = variable.getNameAsString();
