@@ -4,3 +4,26 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
+1.	True positive
+
+	Retour PMD:
+		- Avoid using implementation types like 'Map'; use the interface instead
+		
+	
+    	Description: 
+		- Utiliser Map permet de passer n'importe quelle implémentation comme HashMap, TreeMap, ou ConcurrentHashMap sans modifier la signature de la méthode.
+
+		
+		
+		
+2.	False Positive:
+
+	Retour PMD: 
+		- This class has only private constructors and may be final (Ligne 36)
+
+    	Description: 
+		- Cette règle suggère de marquer les classes qui ont des constructeurs privés comme final.
+
+    	Non nécessaire:
+		- Cette règle peut être ignorée si on ne prévoie pas d'étendre ces classes à l'avenir et qu'elles sont conçues pour fonctionner uniquement de manière statique ou sans instanciation.
+		
