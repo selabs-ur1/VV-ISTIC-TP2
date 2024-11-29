@@ -20,7 +20,9 @@
             <artifactId>javaparser-core</artifactId>
             <version>3.16.2</version>
         </dependency>
+
     </dependencies>
+
 
     <build>
         <!-- Creates a jar and sets the main class so it can be executed directly wit java -jar .-->

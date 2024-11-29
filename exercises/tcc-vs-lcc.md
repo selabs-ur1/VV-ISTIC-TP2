@@ -8,6 +8,10 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 Les métriques Tight Class Cohesion (TCC) et Loose Class Cohesion (LCC) produisent la même valeur pour une classe Java donnée lorsque le nombre de paires de méthodes liées directement est égal au nombre de paires de méthodes liées directement et indirectement.
 
+Il y a donc deux cas possibles pour que TCC et LCC soient égaux pour une classe donnée:
+1. Aucune paire de méthodes n'est liée indirectement, c'est-à-dire que toutes les paires de méthodes liées sont liées directement.
+2. Le nombre de paires de méthodes liées indirectement est égal au nombre de paires de méthodes liées directement.
+
 Exemple de code pour un TCC et LCC différents: :
 ```java
 public class Example {
