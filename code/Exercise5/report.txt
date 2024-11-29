@@ -1,0 +1,3 @@
+test.Person getName : 1
+test.Person isAdult : 2
+test.Person exampleMethod : 5
