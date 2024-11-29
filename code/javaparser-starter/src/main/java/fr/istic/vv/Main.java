@@ -20,12 +20,15 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter publicElementsPrinter = new PublicElementsPrinter();
         PrivateFieldNoGetterPrinter privateFieldNoGetterPrinter = new PrivateFieldNoGetterPrinter();
         root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(publicElementsPrinter, null));
             result.ifSuccessful(unit -> unit.accept(privateFieldNoGetterPrinter, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        // Generate a CSV report with an understandable filename
+        String reportPath = "private_fields_no_getters.csv";
+        privateFieldNoGetterPrinter.generateReport(reportPath);
+        System.out.println("Report generated: " + reportPath);
     }
 }

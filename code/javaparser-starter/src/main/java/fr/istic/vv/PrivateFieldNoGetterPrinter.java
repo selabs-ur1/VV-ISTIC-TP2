@@ -4,59 +4,102 @@ import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-
-// This class visits a compilation unit and
-// prints all public enum, classes or interfaces along with their public methods
+/**
+ * This class visits a compilation unit and collects information about fields that are missing getters
+ */
 public class PrivateFieldNoGetterPrinter extends VoidVisitorWithDefaults<Void> {
 
-    private final Map<String, MethodDeclaration> methods = new HashMap<>();
+    public final List<FieldInfo> fields = new ArrayList<>();
+    public final List<String> publicMethodNames = new ArrayList<>();
 
     @Override
     public void visit(CompilationUnit unit, Void arg) {
+        String packageName = unit.getPackageDeclaration()
+                .map(pd -> pd.getName().toString())
+                .orElse("[Default Package]");
         for (TypeDeclaration<?> type : unit.getTypes()) {
-            type.accept(this, null);
+            type.accept(new TypeVisitor(packageName), null);
         }
     }
 
-    public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
-        System.out.println(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
-
-        for (MethodDeclaration method : declaration.getMethods()) {
-            method.accept(this, arg);
-        }
-
-        for (FieldDeclaration field : declaration.getFields()) {
-            field.accept(this, arg);
-        }
-
-        for (BodyDeclaration<?> member : declaration.getMembers()) {
-            if (member instanceof TypeDeclaration)
-                member.accept(this, arg);
+    /**
+     * Generates a CSV report with the fields that are missing getters
+     *
+     * @param outputPath - the path to the output file
+     * @throws IOException
+     */
+    public void generateReport(String outputPath) throws IOException {
+        try (FileWriter writer = new FileWriter(outputPath)) {
+            writer.write("Field Name,Declaring Class,Package Name,Getter Missing\n");
+            for (FieldInfo field : fields) {
+                writer.write(field.toString() + "\n");
+            }
         }
     }
 
-    @Override
-    public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
-        visitTypeDeclaration(declaration, arg);
+    /**
+     * Represents a field in a class that is missing a getter
+     */
+    static class FieldInfo {
+        String fieldName;
+        String declaringClass;
+        String packageName;
+        boolean getterMissing;
+
+        FieldInfo(String fieldName, String declaringClass, String packageName, boolean getterMissing) {
+            this.fieldName = fieldName;
+            this.declaringClass = declaringClass;
+            this.packageName = packageName;
+            this.getterMissing = getterMissing;
+        }
+
+        @Override
+        public String toString() {
+            return String.format("%s,%s,%s,%s", fieldName, declaringClass, packageName, getterMissing ? "Yes" : "No");
+        }
     }
 
-    @Override
-    public void visit(MethodDeclaration declaration, Void arg) {
-        if (!declaration.isPublic()) return;
-        methods.put(declaration.getNameAsString(), declaration);
-    }
+    /**
+     * Visits a type declaration and collects information about its fields
+     */
+    private class TypeVisitor extends VoidVisitorWithDefaults<Void> {
+        private final String packageName;
 
-    @Override
-    public void visit(FieldDeclaration declaration, Void arg) {
-        if (declaration.isPublic()) return;
+        TypeVisitor(String packageName) {
+            this.packageName = packageName;
+        }
 
-        String fieldName = declaration.getVariable(0).getName().asString();
-        String getterName = "get" + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);
-        if (!methods.containsKey(getterName)) {
-            System.out.println("private field " + fieldName + " has no public getter");
+        /**
+         * Visits a class or interface declaration and collects information about its fields
+         *
+         * @param declaration - the class or interface declaration
+         * @param arg         - unused
+         */
+        @Override
+        public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
+            String className = declaration.getNameAsString();
+
+            // Collect public method names
+            for (MethodDeclaration method : declaration.getMethods()) {
+                if (method.isPublic()) {
+                    publicMethodNames.add(method.getNameAsString());
+                }
+            }
+
+            // Collect all fields and check for missing getters
+            for (FieldDeclaration field : declaration.getFields()) {
+                for (VariableDeclarator variable : field.getVariables()) {
+                    String fieldName = variable.getNameAsString();
+                    String getterName = "get" + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1);
+                    boolean getterMissing = field.isPrivate() && !publicMethodNames.contains(getterName);
+                    fields.add(new FieldInfo(fieldName, className, packageName, getterMissing));
+                }
+            }
         }
     }
 }
