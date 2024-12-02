@@ -32,19 +32,12 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
-        PrivateElementWithoutGetterPrinter printer2 = new PrivateElementWithoutGetterPrinter(new ArrayList<>(),new HashMap<>());
+        PrivateElementWithoutGetterPrinter printer = new PrivateElementWithoutGetterPrinter(new ArrayList<>(),new HashMap<>());
         root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(printer2, null));
+            result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
-        Map<String, List<String>> toPrint = printer2.getFieldsWithoutGetters();
-        for (Map.Entry<String, List<String>> entry : toPrint.entrySet()) {
-            System.out.println(entry.getKey() + ": " );
-            for (String field : entry.getValue()) {
-                System.out.println("   " + field);
-            }
-        }
+        MarkdownGenerator.generateMarkdownReport(args[1], printer.getFieldsWithoutGetters());
     }
 
 
