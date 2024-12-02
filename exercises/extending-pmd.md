@@ -3,7 +3,7 @@
 Use XPath to define a new rule for PMD to prevent complex code. The rule should detect the use of three or more nested `if` statements in Java programs so it can detect patterns like the following:
 
 ```Java
-if (...) {
+if (...) { 
     ...
     if (...) {
         ...
@@ -23,3 +23,34 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+PreventComplexity rule definition:
+
+```xml
+<rule name="PreventComplexity"
+      language="java"
+      message="Do not use more than 2 'if' inside one another"
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement[ancestor::IfStatement[ancestor::IfStatement]]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
+
+I ran the rule on the projects suggested and here are my results:
+
+- [Apache Commons Collections](https://github.com/apache/commons-collections): 93 violations
+- [Apache Commons CLI](https://github.com/apache/commons-cli): 35 violations
+- [Apache Commons Math](https://github.com/apache/commons-math): 339 violations
+- [Apache Commons Lang](https://github.com/apache/commons-lang): 181 violations
+
+While verifying the results, I noticed that the rule works better than I expected. It is able to detect nested 'if' even when they are (in) an 'else if' block.
