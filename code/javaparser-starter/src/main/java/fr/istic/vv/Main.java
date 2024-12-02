@@ -33,11 +33,14 @@ public class Main {
 
         SourceRoot root = new SourceRoot(file.toPath());
         PrivateElementWithoutGetterPrinter printer = new PrivateElementWithoutGetterPrinter(new ArrayList<>(),new HashMap<>());
+        CyclomaticComplexityCalculator calculator = new CyclomaticComplexityCalculator();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
+            result.ifSuccessful(compilationUnit -> compilationUnit.accept(calculator, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
         MarkdownGenerator.generateMarkdownReport(args[1], printer.getFieldsWithoutGetters());
+
     }
 
 
