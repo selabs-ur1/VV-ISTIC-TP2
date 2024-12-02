@@ -12,6 +12,10 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -29,11 +33,18 @@ public class Main {
 
         SourceRoot root = new SourceRoot(file.toPath());
         PublicElementsPrinter printer = new PublicElementsPrinter();
-        PrivateElementWithoutGetterPrinter printer2 = new PrivateElementWithoutGetterPrinter();
+        PrivateElementWithoutGetterPrinter printer2 = new PrivateElementWithoutGetterPrinter(new ArrayList<>(),new HashMap<>());
         root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(printer, null));
+            result.ifSuccessful(unit -> unit.accept(printer2, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        Map<String, List<String>> toPrint = printer2.getFieldsWithoutGetters();
+        for (Map.Entry<String, List<String>> entry : toPrint.entrySet()) {
+            System.out.println(entry.getKey() + ": " );
+            for (String field : entry.getValue()) {
+                System.out.println("   " + field);
+            }
+        }
     }
 
 
