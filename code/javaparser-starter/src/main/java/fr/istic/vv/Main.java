@@ -2,6 +2,7 @@ package fr.istic.vv;
 
 import com.github.javaparser.utils.SourceRoot;
 import fr.istic.vv.cc.CyclomaticComplexityCalculator;
+import fr.istic.vv.cc.CyclomaticComplexityReport;
 import fr.istic.vv.fields.MarkdownGenerator;
 import fr.istic.vv.fields.PrivateElementWithoutGetterPrinter;
 
@@ -33,6 +34,7 @@ public class Main {
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
         MarkdownGenerator.generateMarkdownReport(args[1], printer.getFieldsWithoutGetters());
+        CyclomaticComplexityReport.generateReport(args[2],calculator.getMethodComplexities());
 
     }
 
