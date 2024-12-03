@@ -1,4 +1,4 @@
-package fr.istic.vv;
+package fr.istic.vv.fields;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

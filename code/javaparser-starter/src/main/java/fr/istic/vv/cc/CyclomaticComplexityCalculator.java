@@ -1,4 +1,4 @@
-package fr.istic.vv;
+package fr.istic.vv.cc;
 
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 

@@ -1,4 +1,4 @@
-package fr.istic.vv;
+package fr.istic.vv.cc;
 
 public class CyclomaticComplexityReport {
 
