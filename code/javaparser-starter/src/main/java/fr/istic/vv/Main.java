@@ -1,17 +1,15 @@
 package fr.istic.vv;
 
-import com.github.javaparser.Problem;
-import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.visitor.VoidVisitor;
-import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
+import fr.istic.vv.cc.CyclomaticComplexityCalculator;
+import fr.istic.vv.cc.CyclomaticComplexityReport;
+import fr.istic.vv.fields.MarkdownGenerator;
+import fr.istic.vv.fields.PrivateElementWithoutGetterPrinter;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
 
@@ -28,11 +26,16 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        PrivateElementWithoutGetterPrinter printer = new PrivateElementWithoutGetterPrinter(new ArrayList<>(),new HashMap<>());
+        CyclomaticComplexityCalculator calculator = new CyclomaticComplexityCalculator();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
+            result.ifSuccessful(compilationUnit -> compilationUnit.accept(calculator, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        MarkdownGenerator.generateMarkdownReport(args[1], printer.getFieldsWithoutGetters());
+        CyclomaticComplexityReport.generateReport(args[2],calculator.getMethodComplexities());
+
     }
 
 
