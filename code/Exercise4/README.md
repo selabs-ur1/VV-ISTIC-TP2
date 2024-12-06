@@ -1,3 +1,8 @@
 # Code of your exercise
 
-Put here all the code created for this exercise
+Aller voir dans le code de javaparser-starter : 
+
+- code/javaparser-starter/src/main/java/fr/istic/vv/PublicElementsPrinter.java
+
+
+- code/javaparser-starter/src/main/java/fr/istic/vv/Main.java
