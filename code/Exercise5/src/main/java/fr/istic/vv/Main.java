@@ -9,6 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -27,12 +28,24 @@ public class Main {
             System.exit(2);
         }
 
+        String reportFilePath = "cyclomatic_complexity_report.html";
+
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        CyclomaticComplexityPrinter complexityAnalyzer = new CyclomaticComplexityPrinter();
+
         root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(printer, null));
+            result.ifSuccessful(unit -> unit.accept(complexityAnalyzer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        String htmlReport = complexityAnalyzer.generateHTMLTable();
+
+        try (FileWriter writer = new FileWriter(reportFilePath)) {
+            writer.write(htmlReport);
+        }
+
+        System.out.println("Cyclomatic complexity report saved to: " + reportFilePath);
+
     }
 
 }
