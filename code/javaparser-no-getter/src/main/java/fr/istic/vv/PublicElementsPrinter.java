@@ -10,7 +10,7 @@ import java.util.List;
 // generates a Markdown string listing classes or interfaces with private fields without getters
 public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
 
-    private StringBuilder markdownBuilder = new StringBuilder();
+    private final StringBuilder markdownBuilder = new StringBuilder();
     private boolean hasGeneralTitle = false; // Ensure the general title is added only once
 
     @Override
