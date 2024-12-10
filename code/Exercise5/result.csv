@@ -1,0 +1,5 @@
+Class,Method,Parameters,Cyclomatic Complexity
+SimpleClass,simpleMethod,[],1
+MediumClass,mediumMethod,[int a, int b],4
+ComplexClass,complexMethod,[int x, int y, int z],8
+VeryComplexClass,veryComplexMethod,[int a, int b, int c],12
