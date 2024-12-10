@@ -23,3 +23,4 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+See markdown file in `exercises/extending-pmd.md` for the answer.

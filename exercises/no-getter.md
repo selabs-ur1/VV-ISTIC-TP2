@@ -30,4 +30,4 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 ## Answer
 
-Code available in directory `code/javaparser-start.`
+Code available in directory `code/javaparser-start`.

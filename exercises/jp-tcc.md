@@ -9,3 +9,7 @@ Ignore inherited members to compute TCC of a class.
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+## Answer
+
+Code available in directory `code/javaparser-start`.
