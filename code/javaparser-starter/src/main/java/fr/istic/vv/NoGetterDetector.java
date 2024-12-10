@@ -1,25 +1,3 @@
-# Code of your exercise
-
-Put here all the code created for this exercise
-
-Classe de Test : 
-```Java	
-package tests;
-
-public class TestClass {
-    
-    private int age;
-    private String name;
-    
-    public String getName() { return name; }
-
-    public boolean isAdult() {
-        return age > 17;
-    }
-}
-```
-
-```Java	
 package fr.istic.vv;
 
 import com.github.javaparser.ast.CompilationUnit;
@@ -97,4 +75,3 @@ public class NoGetterDetector extends VoidVisitorAdapter<Void> {
         System.out.println(report.toString());
     }
 }
-```

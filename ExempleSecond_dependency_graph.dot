@@ -1,0 +1,8 @@
+digraph ExempleSecond {
+    "method1" -> "a";
+    "method1" -> "b";
+    "method2" -> "b";
+    "method2" -> "c";
+    "method3" -> "a";
+    "method3" -> "c";
+}

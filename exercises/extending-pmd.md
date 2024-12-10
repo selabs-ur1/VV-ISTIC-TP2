@@ -23,3 +23,10 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Dans le projet [Apache Commons Math](https://github.com/apache/commons-math) la commande `pmd check -d src -R rulesets/java/quickstart.xml -f text` retourne les résultats suivants:
+
+```bash
+src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:92: AvoidDeeplyNestedIfStmts:       Ifs go three deep
+```	
+
+Une seule violation a été trouvée dans le projet. Le fichier `Polygon.java` contient un `if` imbriqué trois fois.
