@@ -12,4 +12,4 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 
 ## Answer
 
-Code available in directory `code/javaparser-start`.
+This exercise was not implemented.
