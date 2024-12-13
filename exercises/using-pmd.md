@@ -6,4 +6,4 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
-See markdown file in `exercises/using-pmd.md` for the answer.
+See markdown file in `code/using-pmd/README.md` for the answer.
