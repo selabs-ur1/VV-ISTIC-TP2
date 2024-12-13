@@ -8,4 +8,4 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
-See markdown file in `exercises/tcc-vs-lcc.md` for the answer.
+See markdown file in `code/tcc-vs-lcc/README.md` for the answer.
