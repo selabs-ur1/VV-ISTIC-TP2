@@ -1,39 +1,84 @@
 package fr.istic.vv;
 
-import com.github.javaparser.Problem;
-import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.visitor.VoidVisitor;
-import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        if(args.length == 0) {
-            System.err.println("Should provide the path to the source code");
+        Scanner scanner = new Scanner(System.in);
+
+        // Afficher le menu principal
+        System.out.println("=== Menu d'Analyse de Code ===");
+        System.out.println("1. Analyse des champs privés sans getters publics");
+        System.out.println("2. Analyse de la complexité cyclomatique");
+        System.out.println("3. Analyse des éléments publics");
+        System.out.println("0. Quitter");
+        System.out.print("Choisissez une option : ");
+        int choix = scanner.nextInt();
+        scanner.nextLine(); // Consommer le saut de ligne après l'entrée
+
+        // Demander le chemin du projet source
+        System.out.print("Entrez le chemin du projet source : ");
+        String cheminProjet = scanner.nextLine();
+        File projet = new File(cheminProjet);
+
+        if (!projet.exists() || !projet.isDirectory() || !projet.canRead()) {
+            System.err.println("Le chemin fourni est invalide ou non accessible.");
             System.exit(1);
         }
 
-        File file = new File(args[0]);
-        if(!file.exists() || !file.isDirectory() || !file.canRead()) {
-            System.err.println("Provide a path to an existing readable directory");
-            System.exit(2);
+        // Initialiser SourceRoot
+        SourceRoot root = new SourceRoot(projet.toPath());
+
+        // Exécuter l'analyse sélectionnée
+        switch (choix) {
+            case 1:
+                System.out.println("=== Analyse des champs privés sans getters publics ===");
+                PrivateFieldNoGetterPrinter privateFieldAnalyzer = new PrivateFieldNoGetterPrinter();
+                root.parse("", (localPath, absolutePath, result) -> {
+                    result.ifSuccessful(unit -> unit.accept(privateFieldAnalyzer, null));
+                    return SourceRoot.Callback.Result.DONT_SAVE;
+                });
+                String privateFieldsReportPath = "private_fields_no_getters.csv";
+                privateFieldAnalyzer.generateReport(privateFieldsReportPath);
+                System.out.println("Rapport généré : " + privateFieldsReportPath);
+                break;
+
+            case 2:
+                System.out.println("=== Analyse de la complexité cyclomatique ===");
+                CyclomaticComplexityCalculator ccAnalyzer = new CyclomaticComplexityCalculator();
+                root.parse("", (localPath, absolutePath, result) -> {
+                    result.ifSuccessful(ccAnalyzer::analyze);
+                    return SourceRoot.Callback.Result.DONT_SAVE;
+                });
+                String ccReportPath = "cyclomatic_complexity.csv";
+                ccAnalyzer.generateReport(ccReportPath);
+                System.out.println("Rapport généré : " + ccReportPath);
+                break;
+
+            case 3:
+                System.out.println("=== Analyse des éléments publics ===");
+                PublicElementsPrinter publicElementsAnalyzer = new PublicElementsPrinter();
+                root.parse("", (localPath, absolutePath, result) -> {
+                    result.ifSuccessful(unit -> unit.accept(publicElementsAnalyzer, null));
+                    return SourceRoot.Callback.Result.DONT_SAVE;
+                });
+                break;
+
+            case 0:
+                System.out.println("Programme terminé.");
+                System.exit(0);
+                break;
+
+            default:
+                System.err.println("Option invalide. Veuillez réessayer.");
+                break;
         }
 
-        SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
-        root.parse("", (localPath, absolutePath, result) -> {
-            result.ifSuccessful(unit -> unit.accept(printer, null));
-            return SourceRoot.Callback.Result.DONT_SAVE;
-        });
+        scanner.close();
     }
-
-
 }

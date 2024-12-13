@@ -4,3 +4,4 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
+See markdown file in `code/using-pmd/README.md` for the answer.
