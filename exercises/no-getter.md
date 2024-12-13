@@ -27,3 +27,7 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+## Answer
+
+J'ai modifié le fichier [PublicElementPrinter](../code/javaparser-starter/src/main/java/fr/istic/vv/PublicElementsPrinter.java) pour réaliser l'affichage des champs privées sans getter dans la console et dans un [fichier](../missing-getters-report.txt).

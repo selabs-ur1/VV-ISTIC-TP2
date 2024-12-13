@@ -1,3 +1,5 @@
 # Code of your exercise
 
-Put here all the code created for this exercise
+Le code créé est disponible [ici](../../rulesets.xml).
+
+Le compte rendu de la question est disponible [ici](../../exercises/extending-pmd.md).

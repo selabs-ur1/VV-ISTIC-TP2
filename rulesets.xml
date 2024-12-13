@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Regles_VV_tp2"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        Ruslset custom 
+    </description>
+
+
+    <rule name="Regles_VV_tp2"
+        language="java"
+        message="too much nested if "
+        class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        <description>
+
+   </description>
+        <priority>1</priority>
+        <properties>
+            <property name="xpath">
+                <value>
+<![CDATA[
+//IfStatement[descendant::Block/IfStatement [descendant::Block/IfStatement]]
+]]>
+         </value>
+            </property>
+        </properties>
+    </rule>
+</ruleset>
