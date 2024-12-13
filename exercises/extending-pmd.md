@@ -23,3 +23,41 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Voici la règle que nous avons écrite pour détecter si il y a 3 if ou plus qui sont imbriqués : 
+
+    <?xml version="1.0" encoding="UTF-8"?>
+            <ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
+                             http://pmd.sourceforge.net/ruleset_2_0_0.xsd"
+             name="Custom Ruleset"
+             description="Custom ruleset to detect deeply nested if statements in Java code.">
+
+        <rule name="AvoidDeeplyNestedIfs"
+              language="java"
+              message="Avoid using three or more nested if statements to keep code simple and maintainable."
+              class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+        
+            <description>
+                This rule detects deeply nested if statements (three or more levels). 
+                It is designed to promote code simplicity and readability.
+            </description>
+
+            <priority>2</priority>
+
+            <properties>
+                <property name="xpath">
+                    <value><![CDATA[
+                        //IfStatement[
+                        IfStatement[
+                            parent::IfStatement/IfStatement[
+                                parent::IfStatement
+                            ]
+                        ]
+                    ]
+                    ]]></value>
+                </property>
+            </properties>   
+
+        </rule>
+    </ruleset>
