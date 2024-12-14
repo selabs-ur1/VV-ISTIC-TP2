@@ -9,6 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 // prints all public enum, classes or interfaces along with their public methods
 public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
 
+
     @Override
     public void visit(CompilationUnit unit, Void arg) {
         for(TypeDeclaration<?> type : unit.getTypes()) {
@@ -28,7 +29,7 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
                 member.accept(this, arg);
         }
     }
-
+    
     @Override
     public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
         visitTypeDeclaration(declaration, arg);
