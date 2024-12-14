@@ -1,4 +1,4 @@
-package fr.istic.vv;
+    package fr.istic.vv;
 
 import com.github.javaparser.Problem;
 import com.github.javaparser.ast.CompilationUnit;

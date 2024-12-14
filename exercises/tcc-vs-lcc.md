@@ -6,3 +6,33 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+Il faut que toutes les méthodes utilisent les mêmes variables, il doit y avoir aucun noeud non connecté indirectement et directement.
+
+class Point {
+
+    private double x, y;
+
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() {
+        return this.x;
+    }
+
+    public double getY() {
+        return 0;
+    }
+
+    public double dot(Point p) {
+        return x*p.x + y*p.y;
+    }
+
+    public Point sub(Point p) {
+        return new Point(x - p.x, y - p.y);
+    }
+
+}
+
+LCC ne peut pas être inférieur à TCC étant donné que LCC comporte forcémment les lisaisons de TCC + les lisaisons indirectes.

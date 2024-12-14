@@ -22,4 +22,26 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
+Avec cette règle xml qui vérifie les 3 if imbriqués,
+```bash
+pmd check -f text -R /home/kenzo/Documents/M2_cours_TP/VV/VV-ISTIC-TP2/exercice3.xml -d ../commons-collections/ -r report_ex3
+```
+j'obtiens ce résultat :
 
+```
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1862:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1864:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1864:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1866:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1866:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1866:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1868:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1868:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1868:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/CollectionUtils.java:1868:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:230:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:233:	exercice3:	Triple boucle if détectée
+../commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:236:	exercice3:	Triple boucle if détectée
+```
+une partie du fichier report_ex3
+Il y a donc des triples boules if dans le fichier.
