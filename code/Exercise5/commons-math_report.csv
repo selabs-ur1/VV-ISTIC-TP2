@@ -1,0 +1,68 @@
+Package,Class,Method,Parameters,Cyclomatic Complexity
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: makeCircles, Parameters: [int samples, boolean shuffle, double noise, double factor, UniformRandomProvider rng], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: makeMoons, Parameters: [int samples, boolean shuffle, double noise, UniformRandomProvider rng], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: makeBlobs, Parameters: [int samples, int centers, double clusterStd, double min, double max, boolean shuffle, UniformRandomProvider rng], Cyclomatic Complexity: 6
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: makeRandom, Parameters: [int samples], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: generateNoiseVector, Parameters: [ContinuousDistribution.Sampler distribution], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: normalize, Parameters: [final List<Vector2D> input, double minX, double maxX, double minY, double maxY], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ClusterAlgorithmComparison, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ExampleUtils, Method: showExampleFrame, Parameters: [final ExampleFrame frame], Cyclomatic Complexity: 3
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ExampleUtils, Method: getScreenShot, Parameters: [Component component], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.ExampleUtils, Method: resizeImage, Parameters: [BufferedImage originalImage, int width, int height, int type], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: report, Parameters: [String name, long strictMathTime, long fastMathTime, long mathTime], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: assertTrue, Parameters: [boolean condition], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testLog, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testLog10, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testLog1p, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testPow, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testExp, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testSin, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testAsin, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testCos, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testAcos, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testTan, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testAtan, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testAtan2, Parameters: [], Cyclomatic Complexity: 7
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testHypot, Parameters: [], Cyclomatic Complexity: 7
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testIEEEremainder, Parameters: [], Cyclomatic Complexity: 7
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testCbrt, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testSqrt, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testCosh, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testSinh, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testTanh, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testExpm1, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testAbs, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.FastMathTestPerformance, Method: testSimpleBenchmark, Parameters: [], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.CannonballExample, Method: cannonballTest, Parameters: [Chart chart], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.CannonballExample, Method: createChart, Parameters: [String title, LegendPosition position], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.CannonballExample, Method: createComponent, Parameters: [], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.CannonballExample, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.ConstantVoltageExample, Method: constantVoltageTest, Parameters: [Chart chart1, Chart chart2], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.ConstantVoltageExample, Method: createChart, Parameters: [String title, int width, int height, LegendPosition position, boolean legendVisible], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.ConstantVoltageExample, Method: createComponent, Parameters: [], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.filter, Class: org.apache.commons.math4.userguide.filter.ConstantVoltageExample, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.HelloWorldExample, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 3
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.HelloWorldExample, Method: randomRepresentation, Parameters: [int length], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.HelloWorldExample, Method: asList, Parameters: [String str], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.HelloWorldExample, Method: getInitialPopulation, Parameters: [], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, Method: resizeImage, Parameters: [BufferedImage originalImage, int width, int height, int type], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, Method: getInitialPopulation, Parameters: [], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.Polygon, Method: randomPolygon, Parameters: [int length], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.Polygon, Method: mutate, Parameters: [float mutationRate, float mutationAmount], Cyclomatic Complexity: 5
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.Polygon, Method: draw, Parameters: [Graphics2D g, int width, int height], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: setRefImage, Parameters: [BufferedImage ref], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: setTestImage, Parameters: [BufferedImage image], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: checkValidity, Parameters: [List<Polygon> chromosomeRepresentation], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: newFixedLengthChromosome, Parameters: [List<Polygon> chromosomeRepresentation], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: getPolygonRepresentation, Parameters: [], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: fitness, Parameters: [], Cyclomatic Complexity: 4
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: draw, Parameters: [Graphics2D g, int width, int height], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: toString, Parameters: [], Cyclomatic Complexity: 1
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.PolygonChromosome, Method: randomChromosome, Parameters: [int polygonLength, int polygonCount], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide.genetics, Class: org.apache.commons.math4.userguide.genetics.RandomPolygonMutation, Method: mutate, Parameters: [Chromosome chromosome], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, Method: makeCircle, Parameters: [int samples, final RandomVectorGenerator generator], Cyclomatic Complexity: 3
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, Method: makeRandom, Parameters: [int samples, RandomVectorGenerator generator], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, Method: normalize, Parameters: [final List<Vector2D> input], Cyclomatic Complexity: 2
+Package: org.apache.commons.math4.userguide, Class: org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, Method: main, Parameters: [String[] args], Cyclomatic Complexity: 1
