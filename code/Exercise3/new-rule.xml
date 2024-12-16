@@ -1,0 +1,18 @@
+<rule name="3 ifs imbriqued"
+      language="java"
+      message="Oui"
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>1</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement[descendant::IfStatement[descendant::IfStatement]]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>

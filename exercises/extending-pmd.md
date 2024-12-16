@@ -23,3 +23,20 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```xml
+//IfStatement[descendant::Block/IfStatement[descendant::Block/IfStatement]]
+```
+
+```java
+public class ComplexCodeExample {
+    public void checkComplexity(int number) {
+        if (number > 0) {
+            if (number < 10) {
+                if (number % 2 == 0) {
+                    System.out.println("The number is positive, less than 10, and even.");
+                }
+            }
+        }
+    }
+}
+```
