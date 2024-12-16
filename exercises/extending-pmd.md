@@ -23,7 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
-La règle se trouve [dans ce repertoire](/code/Exercice3), ainsi qu'une petite class de test. En utilisant cette règle sur la librairie apache 
+La règle se trouve [dans ce repertoire](/code/Exercise3), ainsi qu'une petite class de test. En utilisant cette règle sur la librairie apache 
 common-collection nous pouvons trouver plusieurs class qui contiennent des nested if, comme la class 
 `commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java` qui contient par exemple une méthode getBoolean possèdant trois 
 niveau de if. À noter que la règle que nous utilisons détecte également les suites de else if, c'est une erreur qui vient probablement de la façon 
