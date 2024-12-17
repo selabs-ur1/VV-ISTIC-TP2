@@ -23,3 +23,26 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+
+La règle xpath:
+
+<rule name="Three nested IFs"
+      language="java"
+      message="No three nested IF's"
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+
+In the same projet as before, the rule finds it many times, even if the "if" statement is an "else if".
