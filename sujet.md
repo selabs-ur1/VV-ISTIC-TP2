@@ -30,4 +30,3 @@ Feel free to use any other project you want.
 5. [Cyclomatic Complexity with JavaParser](exercises/jp-cc.md) 
 
 6. [Class cohesion with JavaParser](exercises/jp-tcc.md) (bonus)
-
