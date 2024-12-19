@@ -23,3 +23,8 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+[code](../code/Exercise3/README.md)
+[ruleset.xml](/exercises/ruleset.xml)
+
+On peut observer que dans l'ensemble du projet de commons-collections, ce niveau d'imbrication n'est present que 4 fois, sur les lignes 1867,1869,1448,1450. On peut donc supposer que c'etait inevitable.
+
