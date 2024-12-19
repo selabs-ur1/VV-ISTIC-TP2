@@ -1,49 +1,52 @@
 package org.example;
 
 import com.github.javaparser.ast.CompilationUnit;
+import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.PackageDeclaration;
 import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
 import com.github.javaparser.ast.body.MethodDeclaration;
+import com.github.javaparser.ast.body.Parameter;
 import com.github.javaparser.ast.body.TypeDeclaration;
 import com.github.javaparser.ast.stmt.*;
 import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
-import java.util.HashMap;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Optional;
 
 public class ComplexiteCyclomatique extends VoidVisitorWithDefaults<Void> {
+
+    private StringBuilder builderContain = new StringBuilder();
+
+    public String getBuilderContain(){
+        return builderContain.toString();
+    }
+
 
     @Override
     public void visit(CompilationUnit unit, Void arg) {
         for(TypeDeclaration<?> type : unit.getTypes()) {
             type.accept(this, null);
         }
-    }
 
-    @Override
-    public void visit(PackageDeclaration packageDeclaration, Void arg) {
-        super.visit(packageDeclaration, null);
-        System.out.print("package : '" + packageDeclaration.getName()+ "'");
     }
 
     @Override
     public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
         super.visit(declaration, arg);
 
-        System.out.print("class : '" + declaration.getName()+ "'\n");
         for(MethodDeclaration method : declaration.getMethods()) {
+            builderContain.append("'" + declaration.getName()+ "',");
             method.accept(this, arg);
         }
-
     }
-
     private Integer complexiteCyclomatique;
 
     @Override
     public void visit(MethodDeclaration declaration, Void arg) {
         complexiteCyclomatique = 0;
         String methodName = String.valueOf(declaration.getName());
-        System.out.print("\tMéthodes : " +methodName );
+        builderContain.append("'" +methodName+ "'," );
         Optional<BlockStmt> opt_body = declaration.getBody();
 
         if(opt_body.isPresent()){
@@ -51,7 +54,7 @@ public class ComplexiteCyclomatique extends VoidVisitorWithDefaults<Void> {
             complexiteCyclomatique++;
             body.accept(this, null);
         }
-        System.out.println(" complexite : " + complexiteCyclomatique);
+        builderContain.append( complexiteCyclomatique + "\n");
     }
 
     @Override
