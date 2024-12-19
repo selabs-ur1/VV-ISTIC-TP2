@@ -34,6 +34,4 @@ public class Main {
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
     }
-
-
 }
